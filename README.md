@@ -1,2 +1,2 @@
 # gos-asm
-Multi-genemo gene order based assembler
+Multi-genome gene order based assembler
