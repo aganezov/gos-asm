@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
+from algo.data_structures.assemblies import AssemblyPoint
 
 from gos.tasks import BaseTask
 
@@ -25,8 +26,9 @@ class Output(BaseTask):
                             "".format(file_name=full_assembly_points_file_path,
                                       ap_cnt=len(manager.data["gos-asm"]["assembly_points"])))
         with open(full_assembly_points_file_path, "wt") as assembly_points_destination:
+            print(AssemblyPoint.assembly_file_header_string(), file=assembly_points_destination)
             for ap in manager.data["gos-asm"]["assembly_points"]:
-                print(ap.as_assembly_points_file_string(), file=assembly_points_destination)
+                print(ap.as_assembly_points_file_entry_string(), file=assembly_points_destination)
 
         if output_chains:
             manager.logger.info("Writing information about fragments in targeted for assembly genomes into file {file_name}"

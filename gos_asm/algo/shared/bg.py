@@ -39,9 +39,12 @@ def get_regular_vertex(iedge):
     return iedge.vertex1 if iedge.vertex1.is_regular_vertex else iedge.vertex2
 
 
-def get_full_irregular_multicolor(vertex, data):
+def get_full_irregular_multicolor(vertex, data, graph=None):
     result = Multicolor()
-    bg = data["gos-asm"]["bg"]
+    if graph is None:
+        bg = data["gos-asm"]["bg"]
+    else:
+        bg = graph
     for edge in bg.get_edges_by_vertex(vertex):
         if edge.is_irregular_edge:
             result += edge.multicolor
@@ -54,4 +57,14 @@ def create_k_break_from_assembly_point(assembly_point):
 
     return KBreak(start_edges=[(v1, v2), (v3, v4)],
                   result_edges=[(v1, v3), (v2, v4)],
-                  multicolor=assembly_point.target_multicolor)
+                  multicolor=assembly_point.info.target_color)
+
+
+def get_overall_repeats(bg):
+    pass
+
+
+def iter_over_all_repeats(bg, multicolor):
+    for edge in bg.edges():
+        if edge.is_repeat_edge and multicolor <= edge.multicolor:
+            yield get_repeat_info(edge)

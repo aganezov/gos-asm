@@ -1,17 +1,19 @@
 # -*- coding: utf-8 -*-
 import logging
+from teamcity import is_running_under_teamcity
 
 configuration = {
     "gos-asm": {
         "input": {
             "block_orders_file_paths": [],
             "phylogenetic_tree": "",
-            "target_organisms": []
+            "target_organisms": [],
+            "repeats_bridges_file": ""
         },
         "output": {
             "debug_log_enabled": True,
             "debug_log_file": "debug.log",
-            "console_log_enabled": True,
+            "console_log_enabled": not is_running_under_teamcity(),
             "console_log_level": logging.DEBUG,
             "assembly_points_file": "assembly_points.txt",
             "output_chains": True,

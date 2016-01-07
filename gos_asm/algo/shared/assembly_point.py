@@ -20,16 +20,14 @@ non_conflicting_evolutionary_scenarios = [
 ]
 
 
-def get_assembly_point_info(iedge1, iedge2, data):
-    regular_vertex1 = get_regular_vertex(iedge1)
-    regular_vertex2 = get_regular_vertex(iedge2)
+def get_assembly_point_info(graph, vertex1, vertex2, data, guidance_graph=None):
+    vertex1 = get_regular_vertex(iedge1)
+    vertex2 = get_regular_vertex(iedge2)
 
-    irregular_vertex1 = get_irregular_vertex(iedge1)
-    irregular_vertex2 = get_irregular_vertex(iedge2)
-
-    bg = data["gos-asm"]["bg"]
-    if has_edge_between_two_vertices(vertex1=regular_vertex1, vertex2=regular_vertex2, data=data):
-        support_edge = get_full_support_edge(regular_vertex1, regular_vertex2, data=data)
+    if guidance_graph is None:
+        guidance_graph = graph
+    if guidance_graph.has_edge(vertex1=vertex1, vertex2=vertex2):
+        support_edge = guidance_graph.get_condensed_edge(vertex1, vertex2)
     else:
         support_edge = None
 
@@ -70,47 +68,38 @@ def compute_evolutionary_score(multicolor, scenario, data):
                                        account_for_color_multiplicity_in_guidance=False))
 
 
-def get_assembly_score(iedge1, iedge2, evolutionary_scenario, data):
-    iedge1_evolutionary_scenario = evolutionary_scenario["iedge1"]
-    iedge2_evolutionary_scenario = evolutionary_scenario["iedge2"]
-    sedge_evolutionary_scenario = evolutionary_scenario["sedge"]
+def get_assembly_score(full_ie1_multicolor, full_ie2_multicolor, sedge_multicolor, target_multicolor, evolutionary_scenario, data):
+    target_multicolor = deepcopy(target_multicolor)
 
-    target_multicolor = deepcopy(data["gos-asm"]["target_multicolor"])
-
-    iedge_1_color_before = get_full_irregular_multicolor(vertex=get_irregular_vertex(iedge1), data=data)
-    iedge_2_color_before = get_full_irregular_multicolor(vertex=get_irregular_vertex(iedge2), data=data)
-    sedge_color_before = get_full_support_edge(regular_vertex1=get_regular_vertex(iedge1), regular_vertex2=get_regular_vertex(iedge2),
-                                               data=data).multicolor
-
-    iedge_1_color_after = get_full_irregular_multicolor(vertex=get_irregular_vertex(iedge1), data=data) - target_multicolor
-    iedge_2_color_after = get_full_irregular_multicolor(vertex=get_irregular_vertex(iedge2), data=data) - target_multicolor
-    sedge_color_after = get_full_support_edge(regular_vertex1=get_regular_vertex(iedge1), regular_vertex2=get_regular_vertex(iedge2),
-                                              data=data).multicolor + target_multicolor
-
-    iedge_1_score_before = compute_evolutionary_score(multicolor=deepcopy(iedge_1_color_before), scenario=iedge1_evolutionary_scenario,
+    iedge_1_score_before = compute_evolutionary_score(multicolor=deepcopy(full_ie1_multicolor), scenario=evolutionary_scenario,
                                                       data=data)
-    iedge_2_score_before = compute_evolutionary_score(multicolor=deepcopy(iedge_2_color_before), scenario=iedge2_evolutionary_scenario,
+    iedge_2_score_before = compute_evolutionary_score(multicolor=deepcopy(full_ie2_multicolor), scenario=evolutionary_scenario,
                                                       data=data)
-    sedge_score_before = compute_evolutionary_score(multicolor=deepcopy(sedge_color_before), scenario=sedge_evolutionary_scenario,
+    sedge_score_before = compute_evolutionary_score(multicolor=deepcopy(sedge_multicolor), scenario=evolutionary_scenario,
                                                     data=data)
 
-    iedge_1_score_after = compute_evolutionary_score(multicolor=deepcopy(iedge_1_color_after), scenario=iedge1_evolutionary_scenario,
+    iedge_1_color_after = full_ie1_multicolor - target_multicolor
+    iedge_1_score_after = compute_evolutionary_score(multicolor=iedge_1_color_after, scenario=evolutionary_scenario,
                                                      data=data)
-    iedge_2_score_after = compute_evolutionary_score(multicolor=deepcopy(iedge_2_color_after), scenario=iedge2_evolutionary_scenario,
+    iedge_2_color_after = full_ie2_multicolor - target_multicolor
+    iedge_2_score_after = compute_evolutionary_score(multicolor=iedge_2_color_after, scenario=evolutionary_scenario,
                                                      data=data)
-    sedge_score_after = compute_evolutionary_score(multicolor=deepcopy(sedge_color_after), scenario=sedge_evolutionary_scenario, data=data)
+    sedge_color_after = sedge_multicolor + target_multicolor
+    sedge_score_after = compute_evolutionary_score(multicolor=sedge_color_after, scenario=evolutionary_scenario,
+                                                   data=data)
+
     return {
         "before": {
             "iedge1": {
-                "color": iedge_1_color_before,
+                "color": full_ie1_multicolor,
                 "score": iedge_1_score_before
             },
             "iedge2": {
-                "color": iedge_2_color_before,
+                "color": full_ie2_multicolor,
                 "score": iedge_2_score_before
             },
             "s_edge": {
-                "color": sedge_color_before,
+                "color": sedge_multicolor,
                 "score": sedge_score_before
             }
         },

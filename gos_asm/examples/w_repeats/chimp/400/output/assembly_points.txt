@@ -1,0 +1,731 @@
+ id  |   genome   |      v1 - v2      | fragment1 - fragment2 |    repeat1 - repeat2    |  cc_id  | s_edge | repeat_guidance | MC 
+ 0   | chimpanzee |   1027h - 16747h  |     4_871 - 4_874     |    L1P1(h) - L1Pt(h)    |    1    |  True  | L1P1hou, L1P1toi, L1Pttou, L1Pthoi | chimpanzee 
+ 1   | chimpanzee |  11349h - 8788h   |    -5_938 - -5_929    |    L1P1(t) - L1PA4(h)   |   12    |  True  | L1P1tou, L1P1hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+ 2   | chimpanzee |  14824h - 31483t  |     -1_80 - 1_84      |   L1PA3(h) - L1Pt(h)    |   32    | False  | L1PA3hou, L1PA3toi, L1Pttou, L1Pthoi | chimpanzee 
+ 3   | chimpanzee |   2505h - 15631t  |     7_939 - 7_942     |    L1P1(h) - L1PA5(t)   |   35    |  True  | L1P1hou, L1P1toi, L1PA5hou, L1PA5toi | chimpanzee 
+ 4   | chimpanzee |  11834t - 16399h  |   -15_107 - -15_106   |   L1PA3(h) - L1PA3(t)   |   40    |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+ 5   | chimpanzee |  12700h - 8960t   |    X_1435 - X_1443    |   L1PA5(t) - L1PA4(t)   |   47    |  True  | L1PA5tou, L1PA5hoi, L1PA4hou, L1PA4toi | chimpanzee 
+ 6   | chimpanzee |  20850t - 22888h  |    -1_641 - -1_638    |   L1PA3(h) - L1PA3(t)   |   53    |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+ 7   | chimpanzee |  16927t - 12958h  |    -3_987 - -3_981    |   L1PA3(t) - L1PA4(h)   |   76    |  True  | L1PA3tou, L1PA3hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+ 8   | chimpanzee |  22209t - 9424h   |    -4_569 - -4_568    |   L1PA5(t) - L1PA5(h)   |   79    |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+ 9   | chimpanzee |   6961h - 7277t   |    -8_490 - -8_489    |   L1PA2(h) - L1PA2(t)   |   84    |  True  | L1PA2hou, L1PA2toi | chimpanzee 
+ 10  | chimpanzee |  30604h - 9666t   |    -5_315 - -5_312    |   L1PA4(t) - L1PA3(t)   |   91    |  True  | L1PA4tou, L1PA4hoi, L1PA3hou, L1PA3toi | chimpanzee 
+ 11  | chimpanzee |  21838h - 26581t  |    12_632 - 3_1165    |   L1PA4(t) - L1PA4(h)   |   114   | False  | L1PA4tou, L1PA4hoi | chimpanzee 
+ 12  | chimpanzee |  15741t - 12635t  |     6_624 - 6_625     |   L1PA3(h) - L1PA3(t)   |   115   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+ 13  | chimpanzee |  27795h - 8571t   |   -2B_467 - -2B_461   |   L1PA4(t) - L1PA3(t)   |   172   |  True  | L1PA4tou, L1PA4hoi, L1PA3hou, L1PA3toi | chimpanzee 
+ 14  | chimpanzee |   6123h - 33778h  |     9_263 - 9_264     |   L1PA3(h) - L1PA3(t)   |   185   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+ 15  | chimpanzee |  40428h - 25609h  |    20_204 - 20_205    |    L1Pt(t) - L1Pt(h)    |   196   | False  | L1Pttou, L1Pthoi | chimpanzee 
+ 16  | chimpanzee |  22181t - 37058h  |   -11_549 - -11_543   |    L1P1(t) - L1PA2(t)   |   208   |  True  | L1P1tou, L1P1hoi, L1PA2hou, L1PA2toi | chimpanzee 
+ 17  | chimpanzee |  16865t - 310h    |     -20_8 - -20_7     |   L1PA5(h) - L1PA5(t)   |   211   |  True  | L1PA5hou, L1PA5toi | chimpanzee 
+ 18  | chimpanzee |  46440t - 6142h   |    2A_414 - 2A_415    |    L1Pt(h) - L1Pt(t)    |   222   |  True  | L1Pthou, L1Pttoi | chimpanzee 
+ 19  | chimpanzee |  23040h - 16799h  |    -7_873 - -7_872    |   L1PA5(h) - L1PA5(t)   |   232   |  True  | L1PA5hou, L1PA5toi | chimpanzee 
+ 20  | chimpanzee |   4216h - 7442t   |   -12_315 - 12_433    |   L1PA3(h) - L1PA3(t)   |   239   | False  | L1PA3hou, L1PA3toi | chimpanzee 
+ 21  | chimpanzee |  33887h - 4874h   |      1_84 - 1_85      |   L1PA3(h) - L1PA3(t)   |   241   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+ 22  | chimpanzee |   6433h - 3754t   |   -19_132 - -19_130   |   L1PA4(t) - L1P1(h)    |   267   | False  | L1PA4tou, L1PA4hoi, L1P1tou, L1P1hoi | chimpanzee 
+ 23  | chimpanzee |  16703t - 6812h   |    2B_905 - 2B_907    |   L1PA3(t) - L1PA3(h)   |   298   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+ 24  | chimpanzee |   6856t - 22146t  |   -20_156 - -20_155   |   L1PA3(t) - L1PA3(h)   |   359   | False  | L1PA3tou, L1PA3hoi | chimpanzee 
+ 25  | chimpanzee |  15582h - 10120h  |    -9_533 - -9_530    |   L1PA5(t) - L1PA3(t)   |   364   |  True  | L1PA5tou, L1PA5hoi, L1PA3hou, L1PA3toi | chimpanzee 
+ 26  | chimpanzee |  36239t - 15443h  |    3_1023 - 3_1031    |   L1PA3(h) - L1PA4(t)   |   367   |  True  | L1PA3hou, L1PA3toi, L1PA4hou, L1PA4toi | chimpanzee 
+ 27  | chimpanzee |   5554h - 10573t  |      12_5 - 12_9      |    L1Pt(h) - L1PA2(t)   |   421   |  True  | L1Pthou, L1Pttoi, L1PA2hou, L1PA2toi | chimpanzee 
+ 28  | chimpanzee |   7903t - 30418h  |   -13_124 - -13_121   |   L1PA3(t) - L1PA3(h)   |   448   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+ 29  | chimpanzee |    191h - 25915t  |   -10_732 - -10_730   |   L1PA5(h) - L1PA3(t)   |   460   |  True  | L1PA5hou, L1PA5toi, L1PA3hou, L1PA3toi | chimpanzee 
+ 30  | chimpanzee |  30319h - 7951h   |    -8_692 - -8_669    |   L1PA5(h) - L1PA2(h)   |   461   |  True  | L1PA5hou, L1PA5toi, L1PA2tou, L1PA2hoi | chimpanzee 
+ 31  | chimpanzee |  11352h - 15958t  |     10_96 - 10_106    |   L1PA3(h) - L1PA3(h)   |   467   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+ 32  | chimpanzee |   2189h - 36630t  |    2B_664 - 2B_682    |   L1PA4(t) - L1PA4(t)   |   497   |  True  | L1PA4tou, L1PA4hoi, L1PA4hou, L1PA4toi | chimpanzee 
+ 33  | chimpanzee |   3462h - 19404h  |     6_866 - 6_867     |   L1PA3(t) - L1PA3(h)   |   501   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+ 34  | chimpanzee |  12883h - 12617h  |    2B_793 - 2B_794    |   L1PA3(t) - L1PA3(h)   |   516   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+ 35  | chimpanzee |  17870t - 17793h  |     -19_2 - -19_1     |   L1PA3(h) - L1PA3(t)   |   525   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+ 36  | chimpanzee |   5615t - 14161t  |     6_178 - 6_180     |    L1P1(h) - L1P1(h)    |   536   | False  | L1P1hou, L1P1toi, L1P1tou, L1P1hoi | chimpanzee 
+ 37  | chimpanzee |  24222h - 2929h   |    -16_76 - -16_67    |   L1PA2(h) - L1PA5(h)   |   548   |  True  | L1PA2hou, L1PA2toi, L1PA5tou, L1PA5hoi | chimpanzee 
+ 38  | chimpanzee |   9545t - 21695t  |    5_1146 - 9_456     |   L1PA2(h) - L1Pt(h)    |   586   |  True  | L1PA2hou, L1PA2toi, L1Pttou, L1Pthoi | chimpanzee 
+ 39  | chimpanzee |    669t - 3643t   |    4_1001 - 4_1005    |   L1PA3(t) - L1PA4(t)   |   592   |  True  | L1PA3tou, L1PA3hoi, L1PA4hou, L1PA4toi | chimpanzee 
+ 40  | chimpanzee |  37794h - 11861h  |     8_282 - 8_294     |    L1P1(t) - L1PA4(t)   |   605   |  True  | L1P1tou, L1P1hoi, L1PA4hou, L1PA4toi | chimpanzee 
+ 41  | chimpanzee |  18151h - 3057t   |     16_48 - -16_39    |   L1PA3(t) - L1P1(t)    |   613   |  True  | L1PA3tou, L1PA3hoi, L1P1hou, L1P1toi | chimpanzee 
+ 42  | chimpanzee |   7821h - 24384t  |     1_657 - 1_659     |   L1PA3(h) - L1P1(h)    |   652   |  True  | L1PA3hou, L1PA3toi, L1P1tou, L1P1hoi | chimpanzee 
+ 43  | chimpanzee |   2244h - 12377h  |   -6_1021 - -6_1015   |   L1PA3(t) - L1PA5(h)   |   656   |  True  | L1PA3tou, L1PA3hoi, L1PA5tou, L1PA5hoi | chimpanzee 
+ 44  | chimpanzee |  10617h - 3242t   |    20_126 - 20_134    |   L1PA6(t) - L1PA4(h)   |   666   |  True  | L1PA6tou, L1PA6hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+ 45  | chimpanzee |  11991t - 18753h  |    -5_765 - 5_122     |   L1PA2(t) - L1PA3(h)   |   679   |  True  | L1PA2tou, L1PA2hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+ 46  | chimpanzee |  17652t - 7903h   |   -13_125 - -13_124   |   L1PA3(h) - L1PA3(t)   |   689   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+ 47  | chimpanzee |  36805t - 36826t  |    -3_456 - -3_445    |   L1PA3(h) - L1PA4(t)   |   694   |  True  | L1PA3hou, L1PA3toi, L1PA4hou, L1PA4toi | chimpanzee 
+ 48  | chimpanzee |  24650h - 9740t   |     9_665 - 9_666     |   L1PA3(h) - L1PA3(t)   |   695   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+ 49  | chimpanzee |  16170t - 21227h  |   -2A_409 - -2A_381   |   L1PA3(h) - L1PA3(h)   |   705   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+ 50  | chimpanzee |  15201t - 8701t   |   -14_362 - -14_356   |   L1PA4(h) - L1PA3(h)   |   716   |  True  | L1PA4hou, L1PA4toi, L1PA3tou, L1PA3hoi | chimpanzee 
+ 51  | chimpanzee |  10617t - 9775h   |   -20_126 - -20_120   |   L1PA7(h) - L1PA3(h)   |   721   |  True  | L1PA7hou, L1PA7toi, L1PA3tou, L1PA3hoi | chimpanzee 
+ 52  | chimpanzee |  21338t - 8094h   |     1_670 - 1_671     |   L1PA5(h) - L1PA5(t)   |   722   |  True  | L1PA5hou, L1PA5toi | chimpanzee 
+ 53  | chimpanzee |   6908h - 5185t   |     5_921 - 5_928     |    L1P1(t) - L1PA2(h)   |   725   |  True  | L1P1tou, L1P1hoi, L1PA2tou, L1PA2hoi | chimpanzee 
+ 54  | chimpanzee |  10497h - 5534h   |    -17_48 - -17_47    |   L1PA5(t) - L1PA5(h)   |   734   |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+ 55  | chimpanzee |  23099t - 1725h   |     15_57 - 15_62     |   L1PA5(h) - L1PA3(h)   |   747   |  True  | L1PA5hou, L1PA5toi, L1PA3tou, L1PA3hoi | chimpanzee 
+ 56  | chimpanzee |  26017t - 18739h  |     -1_71 - -1_70     |   L1PA3(t) - L1PA3(h)   |   748   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+ 57  | chimpanzee |  17720h - 62630h  |     3_797 - 3_821     |   L1PA2(h) - L1Pt(h)    |   755   |  True  | L1PA2hou, L1PA2toi, L1Pttou, L1Pthoi | chimpanzee 
+ 58  | chimpanzee |  16170h - 494h    |    2A_409 - 2A_414    |   L1PA3(t) - L1PA2(t)   |   756   |  True  | L1PA3tou, L1PA3hoi, L1PA2hou, L1PA2toi | chimpanzee 
+ 59  | chimpanzee |  31434h - 7925t   |    -8_877 - -8_875    |   L1PA3(t) - L1PA3(h)   |   760   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+ 60  | chimpanzee |   4994t - 8017h   |     11_91 - 11_93     |   L1PA4(h) - L1PA5(h)   |   779   |  True  | L1PA4hou, L1PA4toi, L1PA5tou, L1PA5hoi | chimpanzee 
+ 61  | chimpanzee |  12574t - 16362h  |      1_23 - 1_24      |   L1PA5(h) - L1PA5(t)   |   793   |  True  | L1PA5hou, L1PA5toi | chimpanzee 
+ 62  | chimpanzee |  11433t - 3041h   |    10_726 - 10_727    |   L1PA4(t) - L1PA4(h)   |   801   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+ 63  | chimpanzee |  16908t - 128h    |    17_162 - 17_164    |    L1Pt(h) - L1P1(h)    |   805   |  True  | L1Pthou, L1Pttoi, L1P1tou, L1P1hoi | chimpanzee 
+ 64  | chimpanzee |  12866t - 563t    |     11_86 - 11_91     |   L1PA5(h) - L1PA3(h)   |   814   |  True  | L1PA5hou, L1PA5toi, L1PA3tou, L1PA3hoi | chimpanzee 
+ 65  | chimpanzee |  27650h - 2286t   |    -17_66 - -17_62    |   L1PA3(h) - L1PA5(h)   |   826   |  True  | L1PA3hou, L1PA3toi, L1PA5tou, L1PA5hoi | chimpanzee 
+ 66  | chimpanzee |  23383t - 26054t  |    -4_433 - -4_428    |   L1PA4(t) - L1PA2(h)   |   827   |  True  | L1PA4tou, L1PA4hoi, L1PA2tou, L1PA2hoi | chimpanzee 
+ 67  | chimpanzee |   2729t - 1107t   |     7_112 - 7_135     |   L1PA3(h) - L1PA3(h)   |   865   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+ 68  | chimpanzee |   4313t - 22330h  |     8_335 - 8_361     |    L1Pt(h) - L1PA4(h)   |   869   |  True  | L1Pthou, L1Pttoi, L1PA4tou, L1PA4hoi | chimpanzee 
+ 69  | chimpanzee |  20445h - 7863h   |    11_749 - 11_761    |   L1PA3(t) - L1P1(t)    |   889   |  True  | L1PA3tou, L1PA3hoi, L1P1hou, L1P1toi | chimpanzee 
+ 70  | chimpanzee |    399h - 28633t  |      1_42 - 1_43      |   L1PA3(h) - L1PA3(t)   |   901   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+ 71  | chimpanzee |  29693t - 6543t   |    12_621 - 12_623    |   L1PA5(t) - L1PA4(t)   |   909   |  True  | L1PA5tou, L1PA5hoi, L1PA4hou, L1PA4toi | chimpanzee 
+ 72  | chimpanzee |  32913t - 20339h  |    3_1261 - 3_1264    |   L1PA3(t) - L1PA2(t)   |   925   |  True  | L1PA3tou, L1PA3hoi, L1PA2hou, L1PA2toi | chimpanzee 
+ 73  | chimpanzee |   9890h - 15925h  |   -10_752 - -10_743   |   L1PA5(t) - L1PA4(h)   |   941   |  True  | L1PA5tou, L1PA5hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+ 74  | chimpanzee |  16893h - 43914h  |    -8_281 - -8_243    |   L1PA4(h) - L1PA4(h)   |   949   |  True  | L1PA4hou, L1PA4toi, L1PA4tou, L1PA4hoi | chimpanzee 
+ 75  | chimpanzee |  11615t - 34494h  |    -8_849 - -8_841    |   L1PA4(h) - L1PA4(t)   |   950   |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+ 76  | chimpanzee |    778h - 2075h   |    11_716 - 11_718    |    L1Pt(t) - L1PA3(h)   |   957   |  True  | L1Pttou, L1Pthoi, L1PA3tou, L1PA3hoi | chimpanzee 
+ 77  | chimpanzee |  20391t - 10772t  |   -3_1150 - -3_1144   |   L1PA7(t) - L1PA3(h)   |   992   |  True  | L1PA7tou, L1PA7hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+ 78  | chimpanzee |  18059t - 26250t  |   -4_1280 - -4_1279   |    L1Pt(h) - L1Pt(t)    |   998   |  True  | L1Pthou, L1Pttoi | chimpanzee 
+ 79  | chimpanzee |  15585h - 1991t   |   -3_1364 - -3_1360   |   L1PA2(h) - L1PA3(h)   |  1006   |  True  | L1PA2hou, L1PA2toi, L1PA3tou, L1PA3hoi | chimpanzee 
+ 80  | chimpanzee |  10294t - 12054t  |     5_608 - 5_611     |   L1PA5(h) - L1P1(h)    |  1031   |  True  | L1PA5hou, L1PA5toi, L1P1tou, L1P1hoi | chimpanzee 
+ 81  | chimpanzee |  24289h - 3167t   |    11_113 - 11_127    |   L1PA5(h) - L1PA4(t)   |  1048   |  True  | L1PA5hou, L1PA5toi, L1PA4hou, L1PA4toi | chimpanzee 
+ 82  | chimpanzee |  13731t - 14374h  |    10_454 - 10_456    |    L1P1(t) - L1PA3(h)   |  1054   |  True  | L1P1tou, L1P1hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+ 83  | chimpanzee |  13177h - 8000t   |   -2A_372 - -2A_357   |   L1PA3(h) - L1Pt(h)    |  1059   |  True  | L1PA3hou, L1PA3toi, L1Pttou, L1Pthoi | chimpanzee 
+ 84  | chimpanzee |   6110t - 24559t  |   -11_519 - -11_518   |   L1PA2(h) - L1PA2(t)   |  1068   |  True  | L1PA2hou, L1PA2toi | chimpanzee 
+ 85  | chimpanzee |   1077h - 7260t   |   -15_232 - -15_229   |   L1PA3(t) - L1P2(t)    |  1072   |  True  | L1PA3tou, L1PA3hoi, L1P1tou, L1P1hoi, L1P2hou, L1P2toi | chimpanzee 
+ 86  | chimpanzee |  16785t - 4943h   |    -8_903 - -8_902    |   L1PA5(h) - L1PA5(t)   |  1078   |  True  | L1PA5hou, L1PA5toi | chimpanzee 
+ 87  | chimpanzee |  26658h - 16966h  |     13_52 - 13_69     |   L1PA3(t) - L1PA3(h)   |  1097   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+ 88  | chimpanzee |  14572h - 22736h  |    11_738 - -11_740   |   L1PA5(h) - L1PA5(h)   |  1120   | False  | L1PA5hou, L1PA5toi, L1PA5tou, L1PA5hoi | chimpanzee 
+ 89  | chimpanzee |   9964h - 783h    |   -15_169 - -15_163   |   L1PA3(t) - L1PA4(h)   |  1121   |  True  | L1PA3tou, L1PA3hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+ 90  | chimpanzee |  16745h - 31932h  |     7_540 - 7_548     |    L1Pt(h) - L1Pt(t)    |  1165   |  True  | L1Pthou, L1Pttoi | chimpanzee 
+ 91  | chimpanzee |  13880t - 1389t   |     6_154 - 6_156     |   L1PA3(t) - L1PA3(t)   |  1183   |  True  | L1PA3tou, L1PA3hoi, L1PA3hou, L1PA3toi | chimpanzee 
+ 92  | chimpanzee |   8855t - 30928t  |    -1_211 - -1_187    |   L1PA4(t) - L1PA3(h)   |  1186   |  True  | L1PA4tou, L1PA4hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+ 93  | chimpanzee |  15482t - 4120h   |    3_1396 - 3_1400    |   L1PA4(t) - L1PA5(h)   |  1189   |  True  | L1PA4tou, L1PA4hoi, L1PA5tou, L1PA5hoi | chimpanzee 
+ 94  | chimpanzee |  12954t - 3253t   |     5_571 - 5_586     |    L1Pt(h) - L1PA3(h)   |  1206   |  True  | L1Pthou, L1Pttoi, L1PA3tou, L1PA3hoi | chimpanzee 
+ 95  | chimpanzee |  18406t - 13952t  |     1_731 - 1_732     |    L1P1(t) - L1P1(h)    |  1218   |  True  | L1P1tou, L1P1hoi | chimpanzee 
+ 96  | chimpanzee |  11233h - 24951h  |    2B_183 - 2B_186    |   L1PA4(t) - L1PA3(t)   |  1231   |  True  | L1PA4tou, L1PA4hoi, L1PA3hou, L1PA3toi | chimpanzee 
+ 97  | chimpanzee |  12103h - 16553h  |    -9_317 - 13_107    |   L1PA3(t) - L1PA4(h)   |  1256   |  True  | L1PA3tou, L1PA3hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+ 98  | chimpanzee |    820h - 11720h  |   -3_1022 - -3_1005   |   L1PA3(h) - L1PA3(h)   |  1260   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+ 99  | chimpanzee |   6306h - 24978t  |    -3_941 - -3_935    |   L1PA3(t) - L1PA3(h)   |  1280   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+100  | chimpanzee |  26483t - 29693h  |    12_556 - 12_621    |   L1PA3(h) - L1Pt(h)    |  1297   |  True  | L1PA3hou, L1PA3toi, L1Pttou, L1Pthoi | chimpanzee 
+101  | chimpanzee |   7207h - 9797h   |     1_325 - 1_326     |   L1PA3(h) - L1PA3(t)   |  1309   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+102  | chimpanzee |   5758t - 25845t  |    -6_909 - -6_903    |   L1PA4(t) - L1P1(h)    |  1316   |  True  | L1PA4tou, L1PA4hoi, L1P1tou, L1P1hoi | chimpanzee 
+103  | chimpanzee |  10485h - 11984t  |    2A_565 - 12_733    |   L1PA4(h) - L1Pt(h)    |  1322   |  True  | L1PA4hou, L1PA4toi, L1Pttou, L1Pthoi | chimpanzee 
+104  | chimpanzee |  17569t - 27358h  |      16_4 - 16_7      |   L1PA3(h) - L1PA7(h)   |  1340   |  True  | L1PA3hou, L1PA3toi, L1PA7tou, L1PA7hoi | chimpanzee 
+105  | chimpanzee |   6059t - 14648h  |     7_819 - 7_832     |   L1PA4(h) - L1PA2(t)   |  1342   |  True  | L1PA4hou, L1PA4toi, L1PA2hou, L1PA2toi | chimpanzee 
+106  | chimpanzee |  18094h - 42506h  |    -2B_59 - -2B_54    |   L1PA3(h) - L1PA3(t)   |  1346   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+107  | chimpanzee |  19343t - 14458h  |    2B_243 - 2B_257    |   L1PA3(h) - L1P1(h)    |  1353   |  True  | L1PA3hou, L1PA3toi, L1P1tou, L1P1hoi | chimpanzee 
+108  | chimpanzee |   7560t - 10747h  |   -12_826 - -12_814   |   L1PA5(t) - L1PA4(t)   |  1387   |  True  | L1PA5tou, L1PA5hoi, L1PA4hou, L1PA4toi | chimpanzee 
+109  | chimpanzee |   3242h - 16499h  |    20_134 - 20_141    |   L1PA3(h) - L1PA2(h)   |  1389   |  True  | L1PA3hou, L1PA3toi, L1PA2tou, L1PA2hoi | chimpanzee 
+110  | chimpanzee |   5923h - 9514t   |     19_80 - 19_82     |   L1PA4(t) - L1PA4(h)   |  1393   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+111  | chimpanzee |  10613h - 13748t  |    -17_20 - -17_19    |   L1PA3(t) - L1PA3(h)   |  1395   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+112  | chimpanzee |  11866t - 1143t   |   -2A_638 - -2A_637   |   L1PA3(t) - L1PA3(h)   |  1397   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+113  | chimpanzee |   1758h - 8803t   |   -13_305 - -13_294   |   L1PA4(t) - L1PA3(t)   |  1403   |  True  | L1PA4tou, L1PA4hoi, L1PA3hou, L1PA3toi | chimpanzee 
+114  | chimpanzee |  14488h - 23768h  |     8_362 - 8_364     |    L1Pt(h) - L1Pt(t)    |  1405   |  True  | L1Pthou, L1Pttoi | chimpanzee 
+115  | chimpanzee |  15229t - 23712t  |     1_794 - 1_798     |   L1PA3(h) - L1PA4(t)   |  1434   |  True  | L1PA3hou, L1PA3toi, L1PA4hou, L1PA4toi | chimpanzee 
+116  | chimpanzee |  25113h - 16864t  |     9_325 - 9_332     |   L1PA3(h) - L1PA4(t)   |  1437   |  True  | L1PA3hou, L1PA3toi, L1PA4hou, L1PA4toi | chimpanzee 
+117  | chimpanzee |  13554t - 40076h  |     4_596 - 4_616     |   L1PA3(t) - L1PA2(h)   |  1440   |  True  | L1PA3tou, L1PA3hoi, L1PA2tou, L1PA2hoi | chimpanzee 
+118  | chimpanzee |   3267t - 4397h   |     7_808 - 7_811     |   L1PA2(t) - L1Pt(h)    |  1460   |  True  | L1PA2tou, L1PA2hoi, L1Pttou, L1Pthoi | chimpanzee 
+119  | chimpanzee |  36671t - 21063h  |     9_645 - 9_660     |   L1PA4(h) - L1PA3(t)   |  1504   |  True  | L1PA4hou, L1PA4toi, L1PA3hou, L1PA3toi | chimpanzee 
+120  | chimpanzee |  11001t - 13554h  |     4_578 - 4_596     |   L1PA2(h) - L1PA4(t)   |  1510   |  True  | L1PA2hou, L1PA2toi, L1PA4hou, L1PA4toi | chimpanzee 
+121  | chimpanzee |   5185h - 8788t   |     5_928 - 5_929     |   L1PA3(h) - L1PA3(t)   |  1541   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+122  | chimpanzee |  29645t - 21106h  |    -5_306 - -5_303    |   L1PA2(t) - L1PA4(h)   |  1557   |  True  | L1PA2tou, L1PA2hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+123  | chimpanzee |   4959t - 26471t  |    12_320 - 4_255     |   L1PA2(h) - L1P1(h)    |  1573   |  True  | L1PA2hou, L1PA2toi, L1P1tou, L1P1hoi | chimpanzee 
+124  | chimpanzee |  21053t - 5824h   |     7_149 - 7_162     |   L1PA4(t) - L1PA3(t)   |  1589   |  True  | L1PA4tou, L1PA4hoi, L1PA3hou, L1PA3toi | chimpanzee 
+125  | chimpanzee |   3687t - 20235t  |    -X_566 - -X_512    |   L1PA5(h) - L1PA5(h)   |  1593   |  True  | L1PA5hou, L1PA5toi, L1PA5tou, L1PA5hoi | chimpanzee 
+126  | chimpanzee |  13118h - 3480h   |    15_125 - 15_154    |    L1Pt(h) - L1PA2(h)   |  1598   |  True  | L1Pthou, L1Pttoi, L1PA2tou, L1PA2hoi | chimpanzee 
+127  | chimpanzee |  16065t - 644h    |     6_505 - 6_550     |   L1PA2(t) - L1Pt(h)    |  1602   |  True  | L1PA2tou, L1PA2hoi, L1Pttou, L1Pthoi | chimpanzee 
+128  | chimpanzee |   1139h - 5948h   |     1_108 - 1_110     |    L1P1(h) - L1PA3(h)   |  1673   |  True  | L1P1hou, L1P1toi, L1PA3tou, L1PA3hoi | chimpanzee 
+129  | chimpanzee |  25260h - 4774t   |    4_1154 - 4_1160    |   L1PA3(h) - L1PA4(h)   |  1675   |  True  | L1PA3hou, L1PA3toi, L1PA4tou, L1PA4hoi | chimpanzee 
+130  | chimpanzee |  15292t - 9421h   |    14_438 - 14_441    |   L1PA2(t) - L1P1(h)    |  1676   |  True  | L1PA2tou, L1PA2hoi, L1P1tou, L1P1hoi | chimpanzee 
+131  | chimpanzee |  12991h - 19410t  |    10_622 - 10_623    |   L1PA3(t) - L1PA3(h)   |  1692   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+132  | chimpanzee |  15334h - 12857h  |    -3_884 - -3_882    |   L1PA3(h) - L1PA5(t)   |  1716   |  True  | L1PA3hou, L1PA3toi, L1PA5hou, L1PA5toi | chimpanzee 
+133  | chimpanzee |  29982h - 14244h  |    -3_103 - -3_102    |   L1PA3(h) - L1PA3(t)   |  1757   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+134  | chimpanzee |  25260t - 11086h  |   -4_1154 - -4_1142   |   L1PA4(t) - L1Pt(t)    |  1763   |  True  | L1PA4tou, L1PA4hoi, L1Pthou, L1Pttoi | chimpanzee 
+135  | chimpanzee |  22955t - 11978h  |    -8_379 - -8_364    |   L1PA3(h) - L1PA4(h)   |  1768   |  True  | L1PA3hou, L1PA3toi, L1PA4tou, L1PA4hoi | chimpanzee 
+136  | chimpanzee |   5667t - 20554t  |   -16_143 - -16_118   |   L1PA2(h) - L1PA4(t)   |  1787   |  True  | L1PA2hou, L1PA2toi, L1PA4hou, L1PA4toi | chimpanzee 
+137  | chimpanzee |  19896t - 9058h   |    -7_591 - 7_400     |    L1Pt(h) - L1PA3(h)   |  1792   |  True  | L1Pthou, L1Pttoi, L1PA3tou, L1PA3hoi | chimpanzee 
+138  | chimpanzee |   8603t - 12869t  |    -17_68 - -17_67    |   L1PA4(h) - L1PA4(t)   |  1859   |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+139  | chimpanzee |  16490h - 15634h  |     7_579 - 7_581     |   L1PA3(t) - L1PA4(h)   |  1874   |  True  | L1PA3tou, L1PA3hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+140  | chimpanzee |  20559t - 30312h  |    -9_189 - -9_185    |   L1PA2(t) - L1Pt(h)    |  1882   |  True  | L1PA2tou, L1PA2hoi, L1Pttou, L1Pthoi | chimpanzee 
+141  | chimpanzee |  38392t - 33241h  |      21_8 - 21_11     |   L1PA3(h) - L1PA8(t)   |  1904   |  True  | L1PA3hou, L1PA3toi, L1PA8hou, L1PA8toi | chimpanzee 
+142  | chimpanzee |  27704h - 14501t  |    -4_703 - 4_705     |   L1PA3(h) - L1PA4(h)   |  1920   |  True  | L1PA3hou, L1PA3toi, L1PA4tou, L1PA4hoi | chimpanzee 
+143  | chimpanzee |   4863h - 7864h   |    2A_261 - 2A_263    |   L1PA2(t) - L1PA3(h)   |  1926   |  True  | L1PA2tou, L1PA2hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+144  | chimpanzee |  10546t - 33556t  |   -11_454 - -11_453   |    L1P1(h) - L1P1(t)    |  1954   |  True  | L1P1hou, L1P1toi | chimpanzee 
+145  | chimpanzee |  18556h - 10560t  |    -5_616 - -5_614    |   L1PA4(h) - L1PA5(t)   |  1965   |  True  | L1PA4hou, L1PA4toi, L1PA5hou, L1PA5toi | chimpanzee 
+146  | chimpanzee |  26683h - 11103h  |     9_637 - 9_638     |   L1PA3(h) - L1PA3(t)   |  1966   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+147  | chimpanzee |  14750h - 25353h  |   -16_308 - -16_307   |   L1PA5(t) - L1PA5(h)   |  1989   |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+148  | chimpanzee |  11291t - 10224t  |   -17_161 - -17_155   |   L1PA4(h) - L1PA3(h)   |  1996   |  True  | L1PA4hou, L1PA4toi, L1PA3tou, L1PA3hoi | chimpanzee 
+149  | chimpanzee |  22769t - 9610t   |   -3_1384 - -3_1383   |    L1Pt(t) - L1Pt(h)    |  2000   |  True  | L1Pttou, L1Pthoi | chimpanzee 
+150  | chimpanzee |  14240t - 12623t  |    -7_516 - -7_495    |   L1PA3(h) - L1PA4(h)   |  2001   |  True  | L1PA3hou, L1PA3toi, L1PA4tou, L1PA4hoi | chimpanzee 
+151  | chimpanzee |  23034h - 33722h  |    2B_152 - 22_6      |   L1PA2(h) - L1Pt(h)    |  2020   |  True  | L1PA2hou, L1PA2toi, L1Pttou, L1Pthoi | chimpanzee 
+152  | chimpanzee |  15903h - 11767t  |    18_171 - 18_174    |    L1Pt(h) - L1P1(h)    |  2054   |  True  | L1Pthou, L1Pttoi, L1P1tou, L1P1hoi | chimpanzee 
+153  | chimpanzee |    307h - 17180t  |   -4_1448 - -4_1438   |   L1PA5(t) - L1PA4(h)   |  2056   |  True  | L1PA5tou, L1PA5hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+154  | chimpanzee |   8384h - 8205h   |    2A_372 - 2A_373    |   L1PA5(t) - L1PA5(h)   |  2060   |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+155  | chimpanzee |  11476h - 12384h  |    12_419 - 12_420    |   L1PA4(t) - L1PA4(h)   |  2063   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+156  | chimpanzee |  36182h - 1477t   |    1_1201 - 1_1205    |    L1P1(h) - L1PA4(t)   |  2111   |  True  | L1P1hou, L1P1toi, L1PA4hou, L1PA4toi | chimpanzee 
+157  | chimpanzee |   4086h - 11110h  |     7_672 - -7_676    |    L1Pt(h) - L1P1(h)    |  2115   |  True  | L1Pthou, L1Pttoi, L1P1tou, L1P1hoi | chimpanzee 
+158  | chimpanzee |  12127h - 2630t   |   -15_286 - -15_284   |   L1PA3(h) - L1PA3(t)   |  2117   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+159  | chimpanzee |  14813t - 37518t  |    -17_42 - -17_40    |   L1PA3(h) - L1PA5(h)   |  2119   |  True  | L1PA3hou, L1PA3toi, L1PA5tou, L1PA5hoi | chimpanzee 
+160  | chimpanzee |   9377t - 14387t  |    12_421 - 12_425    |   L1PA4(t) - L1PA3(h)   |  2130   |  True  | L1PA4tou, L1PA4hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+161  | chimpanzee |   2784t - 7977h   |     4_368 - 4_374     |   L1PA2(t) - L1PA2(h)   |  2154   |  True  | L1PA2tou, L1PA2hoi | chimpanzee 
+162  | chimpanzee |  11434h - 22592h  |     -22_7 - -22_6     |   L1PA4(t) - L1PA4(h)   |  2195   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+163  | chimpanzee |  13456t - 19130h  |    14_370 - 14_376    |   L1PA5(h) - L1P1(h)    |  2207   |  True  | L1PA5hou, L1PA5toi, L1P1tou, L1P1hoi | chimpanzee 
+164  | chimpanzee |  17177t - 4874t   |     -1_91 - -1_85     |   L1PA3(t) - L1PA3(t)   |  2224   |  True  | L1PA3tou, L1PA3hoi, L1PA3hou, L1PA3toi | chimpanzee 
+165  | chimpanzee |  31794h - 24575t  |    -9_273 - -9_264    |   L1PA4(h) - L1PA3(t)   |  2254   |  True  | L1PA4hou, L1PA4toi, L1PA3hou, L1PA3toi | chimpanzee 
+166  | chimpanzee |  10133t - 16443t  |    14_257 - 14_267    |   L1PA4(h) - L1PA3(t)   |  2264   |  True  | L1PA4hou, L1PA4toi, L1PA3hou, L1PA3toi | chimpanzee 
+167  | chimpanzee |   7145t - 21168h  |    2B_170 - 2B_180    |   L1PA4(h) - L1PA3(h)   |  2267   |  True  | L1PA4hou, L1PA4toi, L1PA3tou, L1PA3hoi | chimpanzee 
+168  | chimpanzee |  18454h - 5558t   |     2B_62 - 2B_70     |   L1PA4(t) - L1P1(h)    |  2299   |  True  | L1PA4tou, L1PA4hoi, L1P1tou, L1P1hoi | chimpanzee 
+169  | chimpanzee |  19044h - 117h    |     1_877 - -1_915    |   L1PA5(h) - L1PA4(h)   |  2314   |  True  | L1PA5hou, L1PA5toi, L1PA4tou, L1PA4hoi | chimpanzee 
+170  | chimpanzee |   6620t - 10120t  |     9_524 - 9_530     |   L1PA5(h) - L1PA5(t)   |  2320   |  True  | L1PA5hou, L1PA5toi | chimpanzee 
+171  | chimpanzee |   6271h - 5466h   |     9_666 - 9_668     |   L1PA4(h) - L1PA4(h)   |  2323   |  True  | L1PA4hou, L1PA4toi, L1PA4tou, L1PA4hoi | chimpanzee 
+172  | chimpanzee |   1885t - 10133h  |    14_173 - 14_257    |   L1PA5(t) - L1P1(h)    |  2331   |  True  | L1PA5tou, L1PA5hoi, L1P1tou, L1P1hoi | chimpanzee 
+173  | chimpanzee |   5597t - 36295h  |     1_112 - 1_121     |   L1PA5(t) - L1PA3(t)   |  2334   |  True  | L1PA5tou, L1PA5hoi, L1PA3hou, L1PA3toi | chimpanzee 
+174  | chimpanzee |    644t - 4531h   |     6_550 - 6_562     |   L1PA5(t) - L1Pt(h)    |  2342   |  True  | L1PA5tou, L1PA5hoi, L1Pttou, L1Pthoi | chimpanzee 
+175  | chimpanzee |  18642t - 3056h   |    3_1045 - 3_1048    |   L1PA2(h) - L1PA2(h)   |  2362   |  True  | L1PA2hou, L1PA2toi, L1PA2tou, L1PA2hoi | chimpanzee 
+176  | chimpanzee |  22455t - 5765h   |     16_77 - 16_79     |   L1PA2(t) - L1PA3(h)   |  2372   |  True  | L1PA2tou, L1PA2hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+177  | chimpanzee |   1705t - 1738h   |    2A_373 - 2A_374    |   L1PA3(t) - L1PA3(h)   |  2376   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+178  | chimpanzee |    805h - 6177t   |    17_181 - -17_182   |   L1PA5(t) - L1PA5(h)   |  2387   |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+179  | chimpanzee |  13866h - 1657h   |   -1_1123 - -1_1108   |   L1PA3(h) - L1PA3(h)   |  2395   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+180  | chimpanzee |  10063t - 815t    |    -9_498 - -9_497    |   L1PA3(t) - L1PA3(h)   |  2437   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+181  | chimpanzee |  28592h - 17726t  |    5_1213 - 5_1216    |   L1PA3(h) - L1PA4(t)   |  2457   |  True  | L1PA3hou, L1PA3toi, L1PA4hou, L1PA4toi | chimpanzee 
+182  | chimpanzee |   3111t - 1737t   |    -7_602 - -7_598    |   L1PA5(t) - L1Pt(h)    |  2458   |  True  | L1PA5tou, L1PA5hoi, L1Pttou, L1Pthoi | chimpanzee 
+183  | chimpanzee |  36814t - 17629t  |    1_1142 - 1_1146    |   L1PA4(t) - L1P1(t)    |  2461   |  True  | L1PA4tou, L1PA4hoi, L1P1hou, L1P1toi | chimpanzee 
+184  | chimpanzee |  27378h - 2340t   |    2B_695 - 2B_698    |    L1Pt(h) - L1Pt(h)    |  2502   |  True  | L1Pthou, L1Pttoi, L1Pttou, L1Pthoi | chimpanzee 
+185  | chimpanzee |   2320h - 8253h   |       4_3 - 4_4       |   L1PA4(t) - L1PA4(h)   |  2519   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+186  | chimpanzee |   5454h - 1253h   |   -15_266 - -15_264   |   L1PA4(h) - L1PA3(h)   |  2521   |  True  | L1PA4hou, L1PA4toi, L1PA3tou, L1PA3hoi | chimpanzee 
+187  | chimpanzee |  22130t - 6779t   |   -17_106 - -17_98    |   L1PA5(h) - L1PA3(t)   |  2525   |  True  | L1PA5hou, L1PA5toi, L1PA3hou, L1PA3toi | chimpanzee 
+188  | chimpanzee |  31922h - 20708t  |     7_382 - 7_390     |   L1PA5(h) - L1PA2(t)   |  2540   |  True  | L1PA5hou, L1PA5toi, L1PA2hou, L1PA2toi | chimpanzee 
+189  | chimpanzee |   4176h - 31022t  |   -X_1348 - -X_1341   |   L1PA4(h) - L1PA3(t)   |  2545   |  True  | L1PA4hou, L1PA4toi, L1PA3hou, L1PA3toi | chimpanzee 
+190  | chimpanzee |  26754h - 2102h   |    -5_963 - -17_90    |   L1PA3(h) - L1PA4(t)   |  2548   | False  | L1PA3hou, L1PA3toi, L1PA4hou, L1PA4toi | chimpanzee 
+191  | chimpanzee |  31014t - 6780t   |       1_7 - 1_13      |   L1PA3(t) - L1PA3(t)   |  2549   |  True  | L1PA3tou, L1PA3hoi, L1PA3hou, L1PA3toi | chimpanzee 
+192  | chimpanzee |   2557t - 27783h  |    -16_62 - -16_56    |    L1Pt(t) - L1PA7(t)   |  2560   |  True  | L1Pttou, L1Pthoi, L1PA7hou, L1PA7toi | chimpanzee 
+193  | chimpanzee |  29345h - 14625h  |    -4_291 - 4_320     |    L1Pt(h) - L1PA3(t)   |  2580   |  True  | L1Pthou, L1Pttoi, L1PA3hou, L1PA3toi | chimpanzee 
+194  | chimpanzee |  16991h - 17674t  |    -3_354 - -3_353    |   L1PA3(t) - L1PA3(h)   |  2608   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+195  | chimpanzee |  14102h - 52392h  |     16_34 - 16_35     |   L1PA3(t) - L1PA3(h)   |  2618   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+196  | chimpanzee |  17591h - 2531h   |    3_1088 - 3_1089    |   L1PA5(t) - L1PA5(h)   |  2631   |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+197  | chimpanzee |  19935t - 25002h  |   -2A_613 - -2A_596   |   L1PA3(h) - L1PA3(h)   |  2644   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+198  | chimpanzee |   9994h - 4663h   |     8_632 - 8_654     |   L1PA4(t) - L1PA4(h)   |  2650   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+199  | chimpanzee |   8260h - 24294t  |    10_404 - 10_407    |   L1PA4(t) - L1Pt(t)    |  2654   |  True  | L1PA4tou, L1PA4hoi, L1Pthou, L1Pttoi | chimpanzee 
+200  | chimpanzee |   7933h - 11066h  |    2B_838 - 2B_869    |   L1PA3(h) - L1PA4(h)   |  2666   |  True  | L1PA3hou, L1PA3toi, L1PA4tou, L1PA4hoi | chimpanzee 
+201  | chimpanzee |   1146t - 13630t  |     2A_24 - 2A_26     |    L1P1(t) - L1Pt(h)    |  2674   |  True  | L1P1tou, L1P1hoi, L1Pttou, L1Pthoi | chimpanzee 
+202  | chimpanzee |  16041t - 12395h  |   -14_173 - -14_146   |   L1PA4(h) - L1PA3(t)   |  2676   |  True  | L1PA4hou, L1PA4toi, L1PA3hou, L1PA3toi | chimpanzee 
+203  | chimpanzee |   1638t - 3401t   |    4_1352 - 4_1353    |    L1Pt(h) - L1Pt(t)    |  2712   |  True  | L1Pthou, L1Pttoi | chimpanzee 
+204  | chimpanzee |  35832h - 15449h  |    4_1050 - 4_1055    |   L1PA5(h) - L1PA4(t)   |  2720   |  True  | L1PA5hou, L1PA5toi, L1PA4hou, L1PA4toi | chimpanzee 
+205  | chimpanzee |  12284t - 15741h  |     6_575 - 6_624     |    L1Pt(h) - L1PA2(h)   |  2726   |  True  | L1Pthou, L1Pttoi, L1PA2tou, L1PA2hoi | chimpanzee 
+206  | chimpanzee |   6456h - 20255t  |    -9_262 - -9_256    |   L1PA5(h) - L1PA3(h)   |  2769   |  True  | L1PA5hou, L1PA5toi, L1PA3tou, L1PA3hoi | chimpanzee 
+207  | chimpanzee |    870h - 10659h  |     3_414 - 3_418     |    L1P1(t) - L1PA3(h)   |  2774   |  True  | L1P1tou, L1P1hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+208  | chimpanzee |  29134t - 5824t   |    -7_166 - -7_162    |   L1PA4(h) - L1PA4(h)   |  2809   |  True  | L1PA4hou, L1PA4toi, L1PA4tou, L1PA4hoi | chimpanzee 
+209  | chimpanzee |  22798h - 5837h   |   -2B_688 - -2B_687   |    L1Pt(h) - L1Pt(t)    |  2813   |  True  | L1Pthou, L1Pttoi | chimpanzee 
+210  | chimpanzee |   4696t - 22662t  |      3_93 - 3_94      |   L1PA3(t) - L1PA3(h)   |  2834   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+211  | chimpanzee |  42810t - 5381t   |     4_264 - 13_33     |   L1PA4(t) - L1PA3(h)   |  2848   | False  | L1PA4tou, L1PA4hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+212  | chimpanzee |  11339t - 16868t  |   -14_461 - -14_460   |   L1PA2(t) - L1PA2(h)   |  2918   |  True  | L1PA2tou, L1PA2hoi | chimpanzee 
+213  | chimpanzee |  49068h - 6873t   |     4_616 - 4_617     |   L1PA3(h) - L1PA3(t)   |  2932   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+214  | chimpanzee |  14357t - 29779t  |    -14_25 - -14_21    |    L1P1(h) - L1PA5(t)   |  2942   |  True  | L1P1hou, L1P1toi, L1PA5hou, L1PA5toi | chimpanzee 
+215  | chimpanzee |  44655h - 15534t  |   -18_297 - -18_287   |   L1PA3(h) - L1P1(t)    |  2951   |  True  | L1PA3hou, L1PA3toi, L1P1hou, L1P1toi | chimpanzee 
+216  | chimpanzee |  29134h - 9140t   |     7_166 - 7_171     |   L1PA5(h) - L1PA4(t)   |  2957   |  True  | L1PA5hou, L1PA5toi, L1PA4hou, L1PA4toi | chimpanzee 
+217  | chimpanzee |  34229h - 20180h  |     7_582 - 7_583     |   L1PA4(t) - L1PA4(h)   |  2986   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+218  | chimpanzee |  13625h - 5640h   |    -1_388 - -1_383    |   L1PA3(h) - L1PA4(t)   |  2989   |  True  | L1PA3hou, L1PA3toi, L1PA4hou, L1PA4toi | chimpanzee 
+219  | chimpanzee |  14978t - 19371h  |    21_113 - 21_115    |   L1PA4(t) - L1PA4(h)   |  3013   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+220  | chimpanzee |  35832t - 20186h  |   -4_1050 - -4_1045   |    L1P1(h) - L1P1(t)    |  3031   |  True  | L1P1hou, L1P1toi | chimpanzee 
+221  | chimpanzee |  15008t - 44924t  |     1_431 - 1_433     |    L1P1(h) - L1Pt(h)    |  3051   |  True  | L1P1hou, L1P1toi, L1Pttou, L1Pthoi | chimpanzee 
+222  | chimpanzee |  17070t - 5789h   |    21_158 - 21_161    |   L1PA2(h) - L1Pt(t)    |  3065   |  True  | L1PA2hou, L1PA2toi, L1Pthou, L1Pttoi | chimpanzee 
+223  | chimpanzee |  13038h - 12485t  |     13_45 - 13_46     |   L1PA4(h) - L1PA4(t)   |  3076   |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+224  | chimpanzee |   8745h - 27427h  |      X_68 - X_70      |   L1PA5(t) - L1P1(h)    |  3078   |  True  | L1PA5tou, L1PA5hoi, L1P1tou, L1P1hoi | chimpanzee 
+225  | chimpanzee |   8394h - 4226t   |    12_706 - 12_708    |   L1PA3(t) - L1PA4(t)   |  3094   |  True  | L1PA3tou, L1PA3hoi, L1PA4hou, L1PA4toi | chimpanzee 
+226  | chimpanzee |  24775h - 32417h  |    12_725 - 2A_573    |   L1PA4(h) - L1PA2(t)   |  3118   | False  | L1PA4hou, L1PA4toi, L1PA2hou, L1PA2toi | chimpanzee 
+227  | chimpanzee |  14711t - 4056t   |   -10_765 - -10_763   |   L1PA3(h) - L1PA3(h)   |  3128   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+228  | chimpanzee |   2909h - 22235h  |    2A_416 - 20_26     |    L1Pt(h) - L1PA4(h)   |  3143   |  True  | L1Pthou, L1Pttoi, L1PA4tou, L1PA4hoi | chimpanzee 
+229  | chimpanzee |  17597t - 3555h   |     7_251 - 7_252     |   L1PA4(t) - L1PA4(h)   |  3147   | False  | L1PA4tou, L1PA4hoi | chimpanzee 
+230  | chimpanzee |  44532t - 31148t  |    -3_366 - -19_21    |   L1PA3(h) - L1PA6(t)   |  3186   |  True  | L1PA3hou, L1PA3toi, L1PA6hou, L1PA6toi | chimpanzee 
+231  | chimpanzee |  13840h - 58302h  |    -9_393 - -9_381    |   L1PA2(h) - L1PA3(t)   |  3199   |  True  | L1PA2hou, L1PA2toi, L1PA3hou, L1PA3toi | chimpanzee 
+232  | chimpanzee |  19750h - 4532h   |    16_261 - 16_257    |   L1PA5(h) - L1PA2(h)   |  3205   |  True  | L1PA5hou, L1PA5toi, L1PA2tou, L1PA2hoi | chimpanzee 
+233  | chimpanzee |   3547t - 21199h  |   -14_586 - -14_585   |    L1P1(h) - L1P1(t)    |  3208   |  True  | L1P1hou, L1P1toi | chimpanzee 
+234  | chimpanzee |  13159h - 14884t  |    -X_330 - X_585     |   L1PA4(h) - L1P1(h)    |  3231   | False  | L1PA4hou, L1PA4toi, L1P1tou, L1P1hoi | chimpanzee 
+235  | chimpanzee |  12633t - 11610t  |     9_460 - 9_463     |   L1PA4(h) - L1PA5(h)   |  3249   |  True  | L1PA4hou, L1PA4toi, L1PA5tou, L1PA5hoi | chimpanzee 
+236  | chimpanzee |  30928h - 2971h   |    -1_187 - -1_184    |   L1PA3(h) - L1PA3(t)   |  3273   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+237  | chimpanzee |  11973h - 11610h  |    -9_467 - -9_463    |   L1PA2(h) - L1PA5(t)   |  3296   |  True  | L1PA2hou, L1PA2toi, L1PA5hou, L1PA5toi | chimpanzee 
+238  | chimpanzee |  13012h - 14620t  |    -8_478 - -8_467    |   L1PA4(t) - L1P1(t)    |  3308   |  True  | L1PA4tou, L1PA4hoi, L1P1hou, L1P1toi | chimpanzee 
+239  | chimpanzee |   7231t - 14898t  |    4_1260 - 4_1266    |   L1PA2(t) - L1PA3(h)   |  3309   |  True  | L1PA2tou, L1PA2hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+240  | chimpanzee |  14772t - 6716t   |    5_1130 - 5_1132    |   L1PA5(h) - L1PA5(h)   |  3314   |  True  | L1PA5hou, L1PA5toi, L1PA5tou, L1PA5hoi | chimpanzee 
+241  | chimpanzee |  13517h - 1991h   |    3_1359 - 3_1360    |   L1PA5(h) - L1PA5(t)   |  3320   |  True  | L1PA5hou, L1PA5toi | chimpanzee 
+242  | chimpanzee |  10546h - 1574t   |    11_454 - 11_455    |   L1PA4(h) - L1PA4(t)   |  3374   |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+243  | chimpanzee |   8754h - 13608h  |     6_798 - 6_799     |   L1PA2(t) - L1PA2(h)   |  3396   |  True  | L1PA2tou, L1PA2hoi | chimpanzee 
+244  | chimpanzee |  30817t - 23739t  |     6_392 - 6_398     |   L1PA5(h) - L1PA5(h)   |  3411   |  True  | L1PA5hou, L1PA5toi, L1PA5tou, L1PA5hoi | chimpanzee 
+245  | chimpanzee |  13431t - 8754t   |     6_795 - 6_798     |   L1PA3(h) - L1PA4(t)   |  3423   |  True  | L1PA3hou, L1PA3toi, L1PA4hou, L1PA4toi | chimpanzee 
+246  | chimpanzee |  14376h - 13012t  |    -8_484 - -8_478    |   L1PA4(h) - L1PA3(t)   |  3435   |  True  | L1PA4hou, L1PA4toi, L1PA3hou, L1PA3toi | chimpanzee 
+247  | chimpanzee |  11779h - 25317h  |     6_815 - 6_818     |    L1Pt(t) - L1PA2(h)   |  3448   |  True  | L1Pttou, L1Pthoi, L1PA2tou, L1PA2hoi | chimpanzee 
+248  | chimpanzee |  21398h - 28013t  |    12_199 - 12_200    |   L1PA4(h) - L1PA4(t)   |  3529   |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+249  | chimpanzee |  50610h - 11948t  |    -17_33 - -17_32    |   L1PA4(h) - L1PA4(t)   |  3532   |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+250  | chimpanzee |  15217h - 13361t  |    5_1385 - 5_1388    |   L1PA5(t) - L1Pt(h)    |  3561   |  True  | L1PA5tou, L1PA5hoi, L1Pttou, L1Pthoi | chimpanzee 
+251  | chimpanzee |   1368t - 11428t  |    11_467 - 11_469    |   L1PA3(h) - L1PA3(t)   |  3605   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+252  | chimpanzee |  11638h - 7375t   |     -3_93 - -3_88     |    L1Pt(h) - L1Pt(t)    |  3619   |  True  | L1Pthou, L1Pttoi | chimpanzee 
+253  | chimpanzee |  17579t - 9641t   |   -16_247 - -16_166   |    L1Pt(t) - L1PA5(h)   |  3621   |  True  | L1Pttou, L1Pthoi, L1PA5tou, L1PA5hoi | chimpanzee 
+254  | chimpanzee |    859h - 10560h  |     5_611 - 5_614     |    L1P1(t) - L1PA4(t)   |  3623   |  True  | L1P1tou, L1P1hoi, L1PA4hou, L1PA4toi | chimpanzee 
+255  | chimpanzee |  12903h - 25859t  |    2A_222 - 2A_254    |   L1PA3(h) - L1Pt(h)    |  3716   |  True  | L1PA3hou, L1PA3toi, L1Pttou, L1Pthoi | chimpanzee 
+256  | chimpanzee |  46714t - 2070h   |    -6_145 - -6_143    |    L1Pt(t) - L1Pt(h)    |  3727   |  True  | L1Pttou, L1Pthoi | chimpanzee 
+257  | chimpanzee |  16614h - 12672h  |    -22_50 - -22_49    |   L1PA4(t) - L1PA4(h)   |  3766   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+258  | chimpanzee |   2036h - 13284h  |   -14_547 - -14_543   |   L1PA5(h) - L1PA5(h)   |  3774   |  True  | L1PA5hou, L1PA5toi, L1PA5tou, L1PA5hoi | chimpanzee 
+259  | chimpanzee |  15752h - 10978h  |      6_34 - 6_36      |   L1PA4(t) - L1PA6(h)   |  3775   |  True  | L1PA4tou, L1PA4hoi, L1PA6tou, L1PA6hoi | chimpanzee 
+260  | chimpanzee |  23498t - 23607t  |    -7_847 - -7_834    |   L1PA3(h) - L1PA3(h)   |  3785   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+261  | chimpanzee |  30134t - 24559h  |    11_489 - 11_518    |   L1PA5(t) - L1PA5(h)   |  3843   |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+262  | chimpanzee |   1077t - 6216t   |    15_232 - 15_254    |   L1PA4(h) - L1PA3(h)   |  3853   |  True  | L1PA4hou, L1PA4toi, L1PA3tou, L1PA3hoi | chimpanzee 
+263  | chimpanzee |  11923h - 9768t   |    11_763 - 11_766    |   L1PA3(h) - L1PA4(t)   |  3866   |  True  | L1PA3hou, L1PA3toi, L1PA4hou, L1PA4toi | chimpanzee 
+264  | chimpanzee |    623h - 4901t   |    2B_341 - 2B_343    |   L1PA2(t) - L1PA2(h)   |  3901   |  True  | L1PA2tou, L1PA2hoi | chimpanzee 
+265  | chimpanzee |    277t - 10220t  |    -7_744 - -7_743    |   L1PA3(t) - L1PA3(h)   |  3918   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+266  | chimpanzee |  32635t - 30059h  |    12_133 - 12_195    |   L1PA3(h) - L1PA3(t)   |  3945   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+267  | chimpanzee |   5336t - 53106h  |     X_821 - X_830     |   L1PA5(t) - L1P1(h)    |  3959   |  True  | L1PA5tou, L1PA5hoi, L1P1tou, L1P1hoi | chimpanzee 
+268  | chimpanzee |  12417t - 26592h  |   -1_1056 - -1_1049   |    L1P1(h) - L1PA4(h)   |  3970   |  True  | L1P1hou, L1P1toi, L1PA4tou, L1PA4hoi | chimpanzee 
+269  | chimpanzee |  24423t - 17570h  |     7_750 - 7_764     |   L1PA2(t) - L1PA3(t)   |  3972   |  True  | L1PA2tou, L1PA2hoi, L1PA3hou, L1PA3toi | chimpanzee 
+270  | chimpanzee |    831t - 24140t  |    21_120 - 21_123    |   L1PA3(t) - L1PA4(h)   |  3980   |  True  | L1PA3tou, L1PA3hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+271  | chimpanzee |  41135t - 28281h  |    21_109 - 21_113    |    L1Pt(t) - L1PA3(h)   |  4000   |  True  | L1Pttou, L1Pthoi, L1PA3tou, L1PA3hoi | chimpanzee 
+272  | chimpanzee |  22746h - 3237h   |    -7_886 - -7_879    |    L1P1(h) - L1PA2(t)   |  4015   |  True  | L1P1hou, L1P1toi, L1PA2hou, L1PA2toi | chimpanzee 
+273  | chimpanzee |  13290t - 25317t  |    -6_825 - -6_818    |    L1Pt(h) - L1PA5(t)   |  4018   |  True  | L1Pthou, L1Pttoi, L1PA5hou, L1PA5toi | chimpanzee 
+274  | chimpanzee |  20935t - 16336t  |       6_8 - 6_11      |    L1Pt(t) - L1PA4(h)   |  4031   |  True  | L1Pttou, L1Pthoi, L1PA4tou, L1PA4hoi | chimpanzee 
+275  | chimpanzee |  26087t - 18059h  |   -4_1300 - -4_1280   |   L1PA4(h) - L1Pt(h)    |  4033   |  True  | L1PA4hou, L1PA4toi, L1Pttou, L1Pthoi | chimpanzee 
+276  | chimpanzee |  44318h - 510h    |   -11_798 - -11_797   |    L1Pt(t) - L1Pt(h)    |  4044   |  True  | L1Pttou, L1Pthoi | chimpanzee 
+277  | chimpanzee |   7958t - 19404t  |    -6_876 - -6_867    |   L1PA4(h) - L1PA4(h)   |  4045   |  True  | L1PA4hou, L1PA4toi, L1PA4tou, L1PA4hoi | chimpanzee 
+278  | chimpanzee |   5213h - 7768t   |   -10_551 - -10_546   |   L1PA5(h) - L1PA2(h)   |  4050   |  True  | L1PA5hou, L1PA5toi, L1PA2tou, L1PA2hoi | chimpanzee 
+279  | chimpanzee |  10511h - 13390h  |     7_215 - 7_218     |   L1PA6(h) - L1PA3(t)   |  4055   |  True  | L1PA6hou, L1PA6toi, L1PA3hou, L1PA3toi | chimpanzee 
+280  | chimpanzee |  23336t - 22253h  |   -4_1511 - -4_1507   |   L1PA4(t) - L1PA3(h)   |  4063   |  True  | L1PA4tou, L1PA4hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+281  | chimpanzee |  26547t - 11523h  |     9_735 - 9_664     |   L1PA3(h) - L1P1(t)    |  4066   | False  | L1PA3hou, L1PA3toi, L1P1hou, L1P1toi | chimpanzee 
+282  | chimpanzee |  14350t - 7616t   |   -1_1059 - -1_1057   |    L1Pt(t) - L1PA2(h)   |  4076   |  True  | L1Pttou, L1Pthoi, L1PA2tou, L1PA2hoi | chimpanzee 
+283  | chimpanzee |  43756t - 24978h  |     3_931 - 3_935     |   L1PA2(h) - L1P1(t)    |  4132   |  True  | L1PA2hou, L1PA2toi, L1P1hou, L1P1toi | chimpanzee 
+284  | chimpanzee |   3916h - 10812t  |   -2A_646 - -2A_645   |    L1Pt(t) - L1Pt(h)    |  4177   |  True  | L1Pttou, L1Pthoi | chimpanzee 
+285  | chimpanzee |  21690t - 6710t   |    12_789 - 12_792    |   L1PA3(h) - L1PA3(t)   |  4187   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+286  | chimpanzee |   6123t - 23515t  |    -9_263 - -9_262    |   L1PA2(t) - L1PA2(h)   |  4202   |  True  | L1PA2tou, L1PA2hoi | chimpanzee 
+287  | chimpanzee |   5468h - 6711t   |   -21_138 - -21_127   |   L1PA3(h) - L1PA7(h)   |  4238   |  True  | L1PA3hou, L1PA3toi, L1PA7tou, L1PA7hoi | chimpanzee 
+288  | chimpanzee |   3321t - 306h    |     4_249 - 4_254     |   L1PA3(t) - L1PA2(h)   |  4239   |  True  | L1PA3tou, L1PA3hoi, L1PA2tou, L1PA2hoi | chimpanzee 
+289  | chimpanzee |  18800t - 13630h  |    -2A_14 - -2A_26    |    L1P1(h) - L1PA4(h)   |  4285   |  True  | L1P1hou, L1P1toi, L1PA4tou, L1PA4hoi | chimpanzee 
+290  | chimpanzee |  23953h - 1432h   |   -12_430 - -12_425   |   L1PA3(h) - L1PA7(h)   |  4291   |  True  | L1PA3hou, L1PA3toi, L1PA7tou, L1PA7hoi | chimpanzee 
+291  | chimpanzee |  10225t - 29992t  |      X_93 - X_100     |   L1PA5(h) - L1PA3(h)   |  4295   |  True  | L1PA5hou, L1PA5toi, L1PA3tou, L1PA3hoi | chimpanzee 
+292  | chimpanzee |  22181h - 7648t   |    11_549 - -2B_685   |   L1PA3(h) - L1P1(t)    |  4321   | False  | L1PA3hou, L1PA3toi, L1P1hou, L1P1toi | chimpanzee 
+293  | chimpanzee |  22955h - 7930h   |     8_379 - 8_397     |   L1PA3(h) - L1PA4(t)   |  4356   |  True  | L1PA3hou, L1PA3toi, L1PA4hou, L1PA4toi | chimpanzee 
+294  | chimpanzee |   5207h - 11444h  |     8_200 - 8_201     |    L1Pt(h) - L1Pt(t)    |  4378   |  True  | L1Pthou, L1Pttoi | chimpanzee 
+295  | chimpanzee |  17435t - 4516t   |      5_44 - 5_65      |   L1PA3(h) - L1PA2(h)   |  4422   |  True  | L1PA3hou, L1PA3toi, L1PA2tou, L1PA2hoi | chimpanzee 
+296  | chimpanzee |   1354t - 8405t   |   -17_111 - -17_106   |   L1PA4(t) - L1PA4(t)   |  4456   |  True  | L1PA4tou, L1PA4hoi, L1PA4hou, L1PA4toi | chimpanzee 
+297  | chimpanzee |  22406h - 23959h  |    13_496 - 13_522    |   L1PA3(t) - L1Pt(h)    |  4466   |  True  | L1PA3tou, L1PA3hoi, L1Pttou, L1Pthoi | chimpanzee 
+298  | chimpanzee |   5758h - 14609h  |     6_909 - 6_914     |   L1PA3(h) - L1PA4(h)   |  4473   |  True  | L1PA3hou, L1PA3toi, L1PA4tou, L1PA4hoi | chimpanzee 
+299  | chimpanzee |  19276h - 13831h  |    -7_226 - -7_223    |    L1Pt(h) - L1PA5(h)   |  4489   |  True  | L1Pthou, L1Pttoi, L1PA5tou, L1PA5hoi | chimpanzee 
+300  | chimpanzee |   7547h - 8632h   |     20_46 - 20_53     |   L1PA4(h) - L1PA3(t)   |  4495   |  True  | L1PA4hou, L1PA4toi, L1PA3hou, L1PA3toi | chimpanzee 
+301  | chimpanzee |  14830h - 15229h  |     1_793 - 1_794     |   L1PA5(t) - L1PA5(h)   |  4497   |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+302  | chimpanzee |  11852t - 36848h  |     6_933 - 6_950     |    L1Pt(t) - L1PA4(h)   |  4503   |  True  | L1Pttou, L1Pthoi, L1PA4tou, L1PA4hoi | chimpanzee 
+303  | chimpanzee |  14543t - 33101t  |    -3_409 - -3_387    |   L1PA3(h) - L1PA3(h)   |  4509   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+304  | chimpanzee |  24705t - 7996t   |   -11_292 - -11_291   |   L1PA3(h) - L1PA3(t)   |  4514   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+305  | chimpanzee |   1780h - 42506t  |   -4_1138 - 2B_54     |   L1PA5(t) - L1PA2(h)   |  4522   | False  | L1PA5tou, L1PA5hoi, L1PA2tou, L1PA2hoi | chimpanzee 
+306  | chimpanzee |  17595t - 12893t  |     5_963 - 5_966     |   L1PA5(h) - L1PA3(t)   |  4569   |  True  | L1PA5hou, L1PA5toi, L1PA3hou, L1PA3toi | chimpanzee 
+307  | chimpanzee |  19433t - 2952h   |   -2B_304 - -2B_276   |   L1PA2(h) - L1PA3(t)   |  4592   |  True  | L1PA2hou, L1PA2toi, L1PA3hou, L1PA3toi | chimpanzee 
+308  | chimpanzee |  11093t - 22931t  |   -3_1195 - -3_1186   |   L1PA3(t) - L1PA3(h)   |  4625   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+309  | chimpanzee |  27427t - 8087h   |      X_70 - X_89      |   L1PA2(h) - L1PA3(h)   |  4628   |  True  | L1PA2hou, L1PA2toi, L1PA3tou, L1PA3hoi | chimpanzee 
+310  | chimpanzee |  11185t - 21188t  |    10_266 - 10_272    |   L1PA3(h) - L1P3(h)    |  4637   |  True  | L1PA3hou, L1PA3toi, L1P3tou, L1P3hoi | chimpanzee 
+311  | chimpanzee |  23779t - 12889h  |    -5_599 - -5_586    |   L1PA4(t) - L1PA3(h)   |  4641   |  True  | L1PA4tou, L1PA4hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+312  | chimpanzee |   6461t - 4127h   |    -5_860 - -5_831    |   L1PA4(t) - L1PA2(h)   |  4642   |  True  | L1PA4tou, L1PA4hoi, L1PA2tou, L1PA2hoi | chimpanzee 
+313  | chimpanzee |   3591t - 11339h  |   -14_462 - -14_461   |   L1PA5(h) - L1PA5(t)   |  4660   |  True  | L1PA5hou, L1PA5toi | chimpanzee 
+314  | chimpanzee |  32398h - 11523t  |    -9_665 - -9_664    |   L1PA3(h) - L1PA3(t)   |  4685   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+315  | chimpanzee |   7735t - 7067t   |    2B_186 - 2B_206    |   L1PA4(h) - L1PA5(h)   |  4687   |  True  | L1PA4hou, L1PA4toi, L1PA5tou, L1PA5hoi | chimpanzee 
+316  | chimpanzee |    130h - 27482h  |   -2A_538 - -2A_537   |   L1PA3(t) - L1PA3(h)   |  4697   | False  | L1PA3tou, L1PA3hoi | chimpanzee 
+317  | chimpanzee |   6162t - 1244h   |   -5_1133 - -5_1132   |   L1PA5(h) - L1PA5(t)   |  4703   |  True  | L1PA5hou, L1PA5toi | chimpanzee 
+318  | chimpanzee |  20930h - 20036h  |     16_80 - -5_1124   |    L1Pt(h) - L1PA2(h)   |  4745   |  True  | L1Pthou, L1Pttoi, L1PA2tou, L1PA2hoi | chimpanzee 
+319  | chimpanzee |  34422t - 8885h   |   -13_294 - -13_293   |   L1PA2(h) - L1PA2(t)   |  4747   |  True  | L1PA2hou, L1PA2toi | chimpanzee 
+320  | chimpanzee |  29549h - 9580h   |    -6_807 - -6_800    |   L1PA3(t) - L1PA4(t)   |  4840   |  True  | L1PA3tou, L1PA3hoi, L1PA4hou, L1PA4toi | chimpanzee 
+321  | chimpanzee |   8467h - 12064h  |   -11_467 - -11_464   |   L1PA4(t) - L1PA2(h)   |  4873   |  True  | L1PA4tou, L1PA4hoi, L1PA2tou, L1PA2hoi | chimpanzee 
+322  | chimpanzee |  11779t - 18805t  |    -6_815 - -6_814    |   L1PA5(h) - L1PA5(t)   |  4889   |  True  | L1PA5hou, L1PA5toi | chimpanzee 
+323  | chimpanzee |  11662h - 15878t  |    2A_175 - 2A_208    |   L1PA2(h) - L1PA4(h)   |  4917   |  True  | L1PA2hou, L1PA2toi, L1PA4tou, L1PA4hoi | chimpanzee 
+324  | chimpanzee |   4161t - 6594h   |     6_169 - 6_176     |   L1PA3(h) - L1PA5(h)   |  4928   |  True  | L1PA3hou, L1PA3toi, L1PA5tou, L1PA5hoi | chimpanzee 
+325  | chimpanzee |  16490t - 11061h  |    -7_579 - -7_574    |   L1PA3(h) - L1PA3(h)   |  4939   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+326  | chimpanzee |   7331h - 16398t  |     7_637 - 7_638     |   L1PA4(t) - L1PA4(h)   |  4969   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+327  | chimpanzee |   2193t - 733t    |   -15_361 - -15_359   |   L1PA5(t) - L1P1(t)    |  4972   |  True  | L1PA5tou, L1PA5hoi, L1P1hou, L1P1toi | chimpanzee 
+328  | chimpanzee |  37794t - 16893t  |    -8_282 - -8_281    |   L1PA3(t) - L1PA3(h)   |  4979   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+329  | chimpanzee |  11110t - 22399h  |    -7_676 - 7_680     |   L1PA3(h) - L1PA3(h)   |  4980   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+330  | chimpanzee |  16827h - 7068h   |     1_907 - 1_915     |   L1PA2(h) - L1PA4(h)   |  5001   |  True  | L1PA2hou, L1PA2toi, L1PA4tou, L1PA4hoi | chimpanzee 
+331  | chimpanzee |   7140h - 2715h   |    5_1047 - 5_1058    |   L1PA3(h) - L1PA4(t)   |  5003   |  True  | L1PA3hou, L1PA3toi, L1PA4hou, L1PA4toi | chimpanzee 
+332  | chimpanzee |  28212t - 21558t  |       8_3 - 8_5       |    L1Pt(h) - L1PA4(t)   |  5028   |  True  | L1Pthou, L1Pttoi, L1PA4hou, L1PA4toi | chimpanzee 
+333  | chimpanzee |   1661h - 4093t   |    14_412 - 14_413    |   L1PA5(h) - L1PA5(t)   |  5056   |  True  | L1PA5hou, L1PA5toi | chimpanzee 
+334  | chimpanzee |  19695h - 7179t   |    6_1044 - 6_1054    |   L1PA3(h) - L1PA2(t)   |  5074   |  True  | L1PA3hou, L1PA3toi, L1PA2hou, L1PA2toi | chimpanzee 
+335  | chimpanzee |   9219h - 32970t  |    10_621 - 10_622    |   L1PA5(h) - L1PA5(t)   |  5085   |  True  | L1PA5hou, L1PA5toi | chimpanzee 
+336  | chimpanzee |   9001h - 11283h  |    -7_947 - -7_942    |   L1PA3(h) - L1PA3(t)   |  5110   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+337  | chimpanzee |  24825h - 16955t  |    -3_794 - -3_790    |    L1Pt(h) - L1PA4(h)   |  5114   |  True  | L1Pthou, L1Pttoi, L1PA4tou, L1PA4hoi | chimpanzee 
+338  | chimpanzee |    610h - 7442h   |   -12_434 - -12_433   |   L1PA4(h) - L1PA4(t)   |  5148   |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+339  | chimpanzee |   6874h - 16564h  |    -4_821 - -4_815    |   L1PA4(h) - L1PA5(t)   |  5154   |  True  | L1PA4hou, L1PA4toi, L1PA5hou, L1PA5toi | chimpanzee 
+340  | chimpanzee |   4181h - 4774h   |   -4_1210 - -4_1160   |   L1PA5(t) - L1P1(t)    |  5188   |  True  | L1PA5tou, L1PA5hoi, L1P1hou, L1P1toi | chimpanzee 
+341  | chimpanzee |   5265h - 17489h  |     -6_24 - -6_14     |   L1PA3(t) - L1PA2(h)   |  5190   |  True  | L1PA3tou, L1PA3hoi, L1PA2tou, L1PA2hoi | chimpanzee 
+342  | chimpanzee |  10555h - 24191h  |   -10_190 - 10_189    |   L1PA4(t) - L1PA5(t)   |  5237   |  True  | L1PA4tou, L1PA4hoi, L1PA5hou, L1PA5toi | chimpanzee 
+343  | chimpanzee |   6233t - 15441h  |     5_253 - 5_259     |   L1PA3(t) - L1PA5(h)   |  5254   |  True  | L1PA3tou, L1PA3hoi, L1PA5tou, L1PA5hoi | chimpanzee 
+344  | chimpanzee |  13803t - 16892h  |       4_8 - 4_16      |   L1PA3(h) - L1PA3(h)   |  5304   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+345  | chimpanzee |  15756h - 22798t  |   -2B_693 - -2B_688   |   L1PA6(h) - L1PA2(t)   |  5306   |  True  | L1PA6hou, L1PA6toi, L1PA2hou, L1PA2toi | chimpanzee 
+346  | chimpanzee |   2440h - 2784h   |     4_356 - 4_368     |   L1PA3(t) - L1PA5(h)   |  5312   |  True  | L1PA3tou, L1PA3hoi, L1PA5tou, L1PA5hoi | chimpanzee 
+347  | chimpanzee |   7124h - 12146t  |    -3_367 - -3_366    |    L1Pt(h) - L1Pt(t)    |  5368   |  True  | L1Pthou, L1Pttoi | chimpanzee 
+348  | chimpanzee |  17037h - 10979t  |    -6_714 - -6_695    |   L1PA4(h) - L1PA3(h)   |  5375   |  True  | L1PA4hou, L1PA4toi, L1PA3tou, L1PA3hoi | chimpanzee 
+349  | chimpanzee |  24920h - 5884t   |    14_540 - 14_541    |    L1Pt(h) - L1Pt(t)    |  5386   |  True  | L1Pthou, L1Pttoi | chimpanzee 
+350  | chimpanzee |  26987t - 553t    |    12_420 - 12_423    |    L1P1(t) - L1PA4(h)   |  5391   |  True  | L1P1tou, L1P1hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+351  | chimpanzee |  13098t - 6127h   |    -4_707 - -4_705    |   L1PA3(h) - L1PA2(t)   |  5402   |  True  | L1PA3hou, L1PA3toi, L1PA2hou, L1PA2toi | chimpanzee 
+352  | chimpanzee |   9058t - 37203h  |     7_400 - 7_401     |   L1PA4(h) - L1PA4(t)   |  5403   |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+353  | chimpanzee |   7614t - 7732h   |   -1_1171 - -1_1168   |   L1PA5(t) - L1PA5(h)   |  5423   |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+354  | chimpanzee |  19520h - 38712h  |    3_1400 - 3_1401    |    L1P2(t) - L1P2(h)    |  5479   |  True  | L1P2tou, L1P2hoi | chimpanzee 
+355  | chimpanzee |   1701h - 22709h  |      6_11 - 6_13      |   L1PA3(h) - L1Pt(t)    |  5480   |  True  | L1PA3hou, L1PA3toi, L1Pthou, L1Pttoi | chimpanzee 
+356  | chimpanzee |  12773t - 22362t  |   -12_736 - -12_736   |   L1PA3(h) - L1PA2(h)   |  5482   |  True  | L1PA3hou, L1PA3toi, L1PA2tou, L1PA2hoi | chimpanzee 
+357  | chimpanzee |  10772h - 26562h  |   -3_1144 - -3_1141   |   L1PA2(t) - L1PA2(h)   |  5485   |  True  | L1PA2tou, L1PA2hoi | chimpanzee 
+358  | chimpanzee |   8260t - 19930h  |   -10_404 - -10_397   |   L1PA3(h) - L1PA5(h)   |  5487   |  True  | L1PA3hou, L1PA3toi, L1PA5tou, L1PA5hoi | chimpanzee 
+359  | chimpanzee |   4166h - 18397h  |    20_158 - 20_159    |   L1PA4(t) - L1PA4(h)   |  5493   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+360  | chimpanzee |  17147t - 3105h   |    5_1288 - 5_1294    |   L1PA3(t) - L1PA4(h)   |  5500   |  True  | L1PA3tou, L1PA3hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+361  | chimpanzee |  10489t - 51299t  |    2B_561 - 2B_587    |   L1PA3(h) - L1PA4(h)   |  5507   |  True  | L1PA3hou, L1PA3toi, L1PA4tou, L1PA4hoi | chimpanzee 
+362  | chimpanzee |  20942t - 17674h  |     3_345 - 3_353     |    L1Pt(t) - L1PA7(h)   |  5510   |  True  | L1Pttou, L1Pthoi, L1PA7tou, L1PA7hoi | chimpanzee 
+363  | chimpanzee |  22323t - 15372t  |    -3_414 - -3_413    |   L1PA4(t) - L1PA4(h)   |  5514   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+364  | chimpanzee |   6253t - 13536t  |   -12_461 - -12_460   |   L1PA4(t) - L1PA4(h)   |  5557   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+365  | chimpanzee |   7648h - 36630h  |   -2B_685 - -2B_682   |   L1PA4(t) - L1PA3(t)   |  5571   |  True  | L1PA4tou, L1PA4hoi, L1PA3hou, L1PA3toi | chimpanzee 
+366  | chimpanzee |   4783t - 12915h  |     22_34 - 22_35     |   L1PA5(t) - L1PA5(h)   |  5614   |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+367  | chimpanzee |  13442t - 22231h  |    -1_612 - -1_596    |   L1PA5(t) - L1PA3(t)   |  5625   |  True  | L1PA5tou, L1PA5hoi, L1PA3hou, L1PA3toi | chimpanzee 
+368  | chimpanzee |  12138t - 15752t  |      6_24 - 6_34      |   L1PA5(h) - L1PA3(h)   |  5645   |  True  | L1PA5hou, L1PA5toi, L1PA3tou, L1PA3hoi | chimpanzee 
+369  | chimpanzee |   2139h - 15441t  |    -5_267 - -5_259    |   L1PA3(t) - L1PA2(h)   |  5652   |  True  | L1PA3tou, L1PA3hoi, L1PA2tou, L1PA2hoi | chimpanzee 
+370  | chimpanzee |  16775h - 28582t  |    -18_52 - -18_51    |   L1PA3(t) - L1PA3(h)   |  5661   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+371  | chimpanzee |   9720t - 12204h  |    -6_147 - -6_146    |   L1PA3(t) - L1PA3(h)   |  5695   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+372  | chimpanzee |  20861t - 15651t  |     14_31 - 14_32     |   L1PA5(t) - L1PA5(h)   |  5699   |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+373  | chimpanzee |   4153t - 18015t  |    -8_963 - -8_961    |    L1Pt(t) - L1Pt(h)    |  5732   |  True  | L1Pttou, L1Pthoi | chimpanzee 
+374  | chimpanzee |   1373h - 28690h  |    15_257 - 15_260    |    L1P2(h) - L1PA4(t)   |  5763   |  True  | L1P2hou, L1P2toi, L1PA4hou, L1PA4toi | chimpanzee 
+375  | chimpanzee |   8892t - 16049h  |   -16_166 - -16_165   |   L1PA2(h) - L1PA2(t)   |  5798   |  True  | L1PA2hou, L1PA2toi | chimpanzee 
+376  | chimpanzee |   9732h - 28674t  |     18_52 - 18_76     |   L1PA3(h) - L1PA3(h)   |  5897   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+377  | chimpanzee |  23465h - 35938h  |    5_1224 - 5_1225    |   L1PA5(h) - L1PA5(t)   |  5941   |  True  | L1PA5hou, L1PA5toi | chimpanzee 
+378  | chimpanzee |  14418t - 4293t   |    10_753 - 10_761    |    L1P1(t) - L1P1(h)    |  5945   |  True  | L1P1tou, L1P1hoi | chimpanzee 
+379  | chimpanzee |   8641h - 29259h  |    -4_935 - -4_931    |   L1PA3(h) - L1PA3(h)   |  5975   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+380  | chimpanzee |   1738t - 960h    |    2A_374 - 2A_380    |    L1P1(h) - L1Pt(h)    |  5992   |  True  | L1P1hou, L1P1toi, L1Pttou, L1Pthoi | chimpanzee 
+381  | chimpanzee |   7696t - 14686t  |      1_25 - 1_27      |   L1PA3(h) - L1PA3(h)   |  5995   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+382  | chimpanzee |   3267h - 17570t  |    -7_808 - -7_764    |   L1PA4(h) - L1PA3(h)   |  6000   |  True  | L1PA4hou, L1PA4toi, L1PA3tou, L1PA3hoi | chimpanzee 
+383  | chimpanzee |   3985t - 5404h   |     3_838 - 3_840     |   L1PA3(h) - L1PA3(h)   |  6010   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+384  | chimpanzee |   4867h - 12411h  |    -6_163 - -6_160    |   L1PA4(t) - L1PA4(h)   |  6019   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+385  | chimpanzee |   4166t - 26349t  |   -20_158 - -20_157   |    L1P1(h) - L1P1(t)    |  6035   |  True  | L1P1hou, L1P1toi | chimpanzee 
+386  | chimpanzee |  10427h - 1237t   |   -2B_664 - -2B_660   |   L1PA4(t) - L1PA2(t)   |  6041   |  True  | L1PA4tou, L1PA4hoi, L1PA2hou, L1PA2toi | chimpanzee 
+387  | chimpanzee |  23532h - 1549t   |    5_1080 - -5_959    |    L1P1(h) - L1PA2(t)   |  6049   |  True  | L1P1hou, L1P1toi, L1PA2hou, L1PA2toi | chimpanzee 
+388  | chimpanzee |  10204h - 21872h  |    2B_807 - 2B_814    |   L1PA4(t) - L1PA2(t)   |  6062   |  True  | L1PA4tou, L1PA4hoi, L1PA2hou, L1PA2toi | chimpanzee 
+389  | chimpanzee |  14958h - 4737h   |     3_371 - 3_375     |   L1PA3(h) - L1Pt(h)    |  6081   |  True  | L1PA3hou, L1PA3toi, L1Pttou, L1Pthoi | chimpanzee 
+390  | chimpanzee |   4824h - 15983h  |    1_1124 - 1_1127    |   L1PA7(t) - L1PA4(t)   |  6129   |  True  | L1PA7tou, L1PA7hoi, L1PA4hou, L1PA4toi | chimpanzee 
+391  | chimpanzee |   7616h - 13488t  |   -1_1057 - -1_1056   |    L1P1(t) - L1P1(h)    |  6142   |  True  | L1P1tou, L1P1hoi | chimpanzee 
+392  | chimpanzee |  11615h - 17743h  |     8_849 - 8_875     |   L1PA4(t) - L1PA3(t)   |  6158   |  True  | L1PA4tou, L1PA4hoi, L1PA3hou, L1PA3toi | chimpanzee 
+393  | chimpanzee |    257h - 7961t   |     6_280 - 15_171    |   L1PA3(h) - L1Pt(t)    |  6160   |  True  | L1PA3hou, L1PA3toi, L1Pthou, L1Pttoi | chimpanzee 
+394  | chimpanzee |   1431h - 18424h  |     1_977 - 1_1020    |   L1PA4(h) - L1Pt(h)    |  6184   |  True  | L1PA4hou, L1PA4toi, L1Pttou, L1Pthoi | chimpanzee 
+395  | chimpanzee |  12153t - 2487h   |     4_835 - 4_871     |   L1PA3(h) - L1PA4(h)   |  6212   |  True  | L1PA3hou, L1PA3toi, L1PA4tou, L1PA4hoi | chimpanzee 
+396  | chimpanzee |   8302t - 2584t   |   -10_116 - -10_110   |   L1PA3(h) - L1PA5(t)   |  6249   |  True  | L1PA3hou, L1PA3toi, L1PA5hou, L1PA5toi | chimpanzee 
+397  | chimpanzee |   8821h - 31689h  |   -10_447 - -10_444   |   L1PA5(h) - L1PA6(t)   |  6254   |  True  | L1PA5hou, L1PA5toi, L1PA6hou, L1PA6toi | chimpanzee 
+398  | chimpanzee |  15149h - 7078h   |    -8_525 - -8_524    |    L1Pt(t) - L1Pt(h)    |  6297   |  True  | L1Pttou, L1Pthoi | chimpanzee 
+399  | chimpanzee |  16564t - 19606t  |    -4_815 - -4_813    |   L1PA3(t) - L1PA3(h)   |  6338   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+400  | chimpanzee |   5129t - 6382t   |   -12_419 - -12_414   |   L1PA3(h) - L1PA4(t)   |  6340   |  True  | L1PA3hou, L1PA3toi, L1PA4hou, L1PA4toi | chimpanzee 
+401  | chimpanzee |   2534h - 7525h   |   -12_377 - -12_373   |   L1PA2(h) - L1PA3(t)   |  6348   |  True  | L1PA2hou, L1PA2toi, L1PA3hou, L1PA3toi | chimpanzee 
+402  | chimpanzee |  13948t - 32956t  |     11_68 - 11_77     |   L1PA2(t) - L1Pt(t)    |  6362   |  True  | L1PA2tou, L1PA2hoi, L1Pthou, L1Pttoi | chimpanzee 
+403  | chimpanzee |   2943h - 6266t   |    11_741 - 11_742    |   L1PA5(t) - L1PA5(h)   |  6388   |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+404  | chimpanzee |  20857t - 21633t  |   -14_394 - -14_389   |   L1PA4(t) - L1P1(t)    |  6391   |  True  | L1PA4tou, L1PA4hoi, L1P1hou, L1P1toi | chimpanzee 
+405  | chimpanzee |  10277h - 4970t   |    -6_256 - -6_232    |    L1P1(t) - L1PA5(t)   |  6399   |  True  | L1P1tou, L1P1hoi, L1PA5hou, L1PA5toi | chimpanzee 
+406  | chimpanzee |  24147h - 3838t   |     22_53 - 22_54     |   L1PA5(t) - L1PA5(h)   |  6410   |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+407  | chimpanzee |  19085h - 3167h   |   -11_130 - -11_127   |   L1PA3(h) - L1PA7(h)   |  6433   |  True  | L1PA3hou, L1PA3toi, L1PA7tou, L1PA7hoi | chimpanzee 
+408  | chimpanzee |   8000h - 153t    |   -2A_357 - -2A_331   |   L1PA5(t) - L1PA4(h)   |  6441   |  True  | L1PA5tou, L1PA5hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+409  | chimpanzee |   7277h - 14376t  |    -8_489 - -8_484    |   L1PA3(h) - L1PA5(h)   |  6443   |  True  | L1PA3hou, L1PA3toi, L1PA5tou, L1PA5hoi | chimpanzee 
+410  | chimpanzee |  25433h - 19429h  |     7_636 - 7_637     |   L1PA4(t) - L1PA4(h)   |  6455   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+411  | chimpanzee |   4879h - 19550h  |    11_273 - 11_274    |    L1P2(h) - L1P2(t)    |  6464   |  True  | L1P2hou, L1P2toi | chimpanzee 
+412  | chimpanzee |  19953h - 17909t  |    6_1056 - 6_1060    |   L1PA5(h) - L1PA7(h)   |  6514   |  True  | L1PA5hou, L1PA5toi, L1PA7tou, L1PA7hoi | chimpanzee 
+413  | chimpanzee |   6915h - 9514h   |    -19_83 - -19_82    |   L1PA4(h) - L1PA4(t)   |  6567   |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+414  | chimpanzee |  19171t - 14762t  |    -10_90 - -10_89    |   L1PA4(h) - L1PA4(t)   |  6607   |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+415  | chimpanzee |   9465t - 19823t  |      1_55 - 1_56      |   L1PA3(t) - L1PA3(h)   |  6620   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+416  | chimpanzee |   5153h - 9871h   |     5_358 - 5_364     |   L1PA3(h) - L1PA3(h)   |  6625   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+417  | chimpanzee |   2420h - 39005t  |    -4_177 - -4_176    |   L1PA4(h) - L1PA4(t)   |  6650   |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+418  | chimpanzee |  34556t - 30668t  |     -7_91 - -7_89     |   L1PA3(t) - L1PA2(h)   |  6653   |  True  | L1PA3tou, L1PA3hoi, L1PA2tou, L1PA2hoi | chimpanzee 
+419  | chimpanzee |  10216h - 6163h   |   -5_1195 - -5_1158   |   L1PA5(t) - L1PA3(h)   |  6688   |  True  | L1PA5tou, L1PA5hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+420  | chimpanzee |  17746h - 7732t   |    1_1164 - 1_1168    |   L1PA3(h) - L1PA2(h)   |  6747   |  True  | L1PA3hou, L1PA3toi, L1PA2tou, L1PA2hoi | chimpanzee 
+421  | chimpanzee |  11546t - 26054h  |     4_427 - 4_428     |    L1Pt(t) - L1Pt(h)    |  6748   |  True  | L1Pttou, L1Pthoi | chimpanzee 
+422  | chimpanzee |  14652h - 3359t   |     1_484 - 1_485     |   L1PA4(t) - L1PA4(h)   |  6763   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+423  | chimpanzee |   4879t - 26718t  |   -11_273 - -11_268   |   L1PA4(t) - L1PA3(t)   |  6764   |  True  | L1PA4tou, L1PA4hoi, L1PA3hou, L1PA3toi | chimpanzee 
+424  | chimpanzee |   7731t - 20079h  |    -4_571 - -4_569    |   L1PA4(t) - L1PA4(h)   |  6766   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+425  | chimpanzee |   8024h - 7265h   |    -1_242 - -1_238    |   L1PA3(h) - L1P1(h)    |  6769   |  True  | L1PA3hou, L1PA3toi, L1P1tou, L1P1hoi | chimpanzee 
+426  | chimpanzee |   7140t - 25607h  |   -5_1047 - -5_1027   |   L1PA2(t) - L1P1(t)    |  6780   |  True  | L1PA2tou, L1PA2hoi, L1P1hou, L1P1toi | chimpanzee 
+427  | chimpanzee |  10804t - 29726t  |   -10_688 - -10_687   |   L1PA2(t) - L1PA2(h)   |  6791   |  True  | L1PA2tou, L1PA2hoi | chimpanzee 
+428  | chimpanzee |  16399t - 26588t  |   -15_106 - -15_104   |    L1P1(t) - L1PA3(t)   |  6870   |  True  | L1P1tou, L1P1hoi, L1PA3hou, L1PA3toi | chimpanzee 
+429  | chimpanzee |   7517h - 15927h  |      5_29 - 5_32      |    L1Pt(t) - L1PA3(h)   |  6883   |  True  | L1Pttou, L1Pthoi, L1PA3tou, L1PA3hoi | chimpanzee 
+430  | chimpanzee |   8396h - 6576h   |   -11_285 - -11_283   |    L1P1(t) - L1PA2(h)   |  6890   |  True  | L1P1tou, L1P1hoi, L1PA2tou, L1PA2hoi | chimpanzee 
+431  | chimpanzee |   4506t - 2193h   |   -15_362 - -15_361   |    L1Pt(h) - L1Pt(t)    |  6898   |  True  | L1Pthou, L1Pttoi | chimpanzee 
+432  | chimpanzee |   8638h - 25926t  |     1_899 - 1_902     |   L1PA4(h) - L1P1(t)    |  6939   |  True  | L1PA4hou, L1PA4toi, L1P1hou, L1P1toi | chimpanzee 
+433  | chimpanzee |  35131h - 2316t   |    3_1328 - 3_1348    |   L1PA4(h) - L1PA4(h)   |  6965   |  True  | L1PA4hou, L1PA4toi, L1PA4tou, L1PA4hoi | chimpanzee 
+434  | chimpanzee |  17555h - 10216t  |   -5_1197 - -5_1195   |   L1PA4(h) - L1PA4(h)   |  6967   |  True  | L1PA4hou, L1PA4toi, L1PA4tou, L1PA4hoi | chimpanzee 
+435  | chimpanzee |  12633h - 16565t  |    -9_460 - -9_458    |    L1P1(t) - L1PA3(h)   |  6976   |  True  | L1P1tou, L1P1hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+436  | chimpanzee |  25002t - 23116h  |   -2A_596 - -2A_587   |    L1P1(h) - L1PA6(t)   |  7015   |  True  | L1P1hou, L1P1toi, L1PA6hou, L1PA6toi | chimpanzee 
+437  | chimpanzee |  21731h - 15610h  |    2A_540 - 2A_541    |   L1PA4(h) - L1PA4(t)   |  7027   |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+438  | chimpanzee |  20960h - 25203h  |     6_257 - 6_260     |    L1Pt(h) - L1Pt(h)    |  7057   |  True  | L1Pthou, L1Pttoi, L1Pttou, L1Pthoi | chimpanzee 
+439  | chimpanzee |  18574t - 11834h  |   -15_109 - -15_107   |   L1PA4(t) - L1PA5(t)   |  7064   |  True  | L1PA4tou, L1PA4hoi, L1PA5hou, L1PA5toi | chimpanzee 
+440  | chimpanzee |  24675t - 14921h  |      17_4 - 17_5      |   L1PA2(h) - L1PA2(t)   |  7079   |  True  | L1PA2hou, L1PA2toi | chimpanzee 
+441  | chimpanzee |  23167h - 14984t  |     8_657 - 8_668     |   L1PA4(h) - L1PA3(t)   |  7082   |  True  | L1PA4hou, L1PA4toi, L1PA3hou, L1PA3toi | chimpanzee 
+442  | chimpanzee |  22145t - 20738h  |   -10_588 - -10_587   |   L1PA4(h) - L1PA4(t)   |  7097   |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+443  | chimpanzee |  23698h - 25651h  |   -5_1153 - -5_1149   |    L1P1(t) - L1PA4(h)   |  7117   |  True  | L1P1tou, L1P1hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+444  | chimpanzee |   9875t - 23840h  |    -19_98 - -19_94    |   L1PA3(h) - L1PA3(h)   |  7144   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+445  | chimpanzee |  16672t - 11695h  |    11_484 - 11_487    |   L1PA4(h) - L1PA4(h)   |  7148   |  True  | L1PA4hou, L1PA4toi, L1PA4tou, L1PA4hoi | chimpanzee 
+446  | chimpanzee |   8017t - 18982h  |     11_93 - 11_99     |   L1PA4(h) - L1PA4(t)   |  7195   |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+447  | chimpanzee |  21729t - 4809t   |    -3_843 - -3_841    |   L1PA5(t) - L1PA4(t)   |  7306   |  True  | L1PA5tou, L1PA5hoi, L1PA4hou, L1PA4toi | chimpanzee 
+448  | chimpanzee |    180t - 20508t  |    -17_97 - -17_95    |   L1PA5(h) - L1PA4(h)   |  7315   |  True  | L1PA5hou, L1PA5toi, L1PA4tou, L1PA4hoi | chimpanzee 
+449  | chimpanzee |  25889h - 11301t  |     1_569 - -1_641    |   L1PA5(t) - L1P1(h)    |  7321   |  True  | L1PA5tou, L1PA5hoi, L1P1tou, L1P1hoi | chimpanzee 
+450  | chimpanzee |   9672t - 28480h  |    3_1128 - 3_1141    |   L1PA3(t) - L1Pt(h)    |  7326   |  True  | L1PA3tou, L1PA3hoi, L1Pttou, L1Pthoi | chimpanzee 
+451  | chimpanzee |   1439h - 40586t  |   -10_619 - -10_601   |   L1PA4(h) - L1PA3(t)   |  7379   |  True  | L1PA4hou, L1PA4toi, L1PA3hou, L1PA3toi | chimpanzee 
+452  | chimpanzee |  15896t - 34470h  |   -12_475 - -12_470   |    L1Pt(h) - L1PA3(h)   |  7403   |  True  | L1Pthou, L1Pttoi, L1PA3tou, L1PA3hoi | chimpanzee 
+453  | chimpanzee |   8599h - 9078t   |    11_302 - 11_374    |    L1P1(h) - L1PA3(t)   |  7410   |  True  | L1P1hou, L1P1toi, L1PA3hou, L1PA3toi | chimpanzee 
+454  | chimpanzee |  13294h - 11984h  |   -12_735 - -12_733   |   L1PA5(t) - L1PA3(t)   |  7412   |  True  | L1PA5tou, L1PA5hoi, L1PA3hou, L1PA3toi | chimpanzee 
+455  | chimpanzee |  31800h - 6229h   |    -13_43 - -13_33    |   L1PA3(h) - L1PA4(h)   |  7422   |  True  | L1PA3hou, L1PA3toi, L1PA4tou, L1PA4hoi | chimpanzee 
+456  | chimpanzee |  25076t - 16720h  |     17_53 - 17_54     |   L1PA3(t) - L1PA3(h)   |  7425   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+457  | chimpanzee |  16866t - 39442t  |   -20_153 - -20_149   |   L1PA2(h) - L1P1(t)    |  7448   |  True  | L1PA2hou, L1PA2toi, L1P1hou, L1P1toi | chimpanzee 
+458  | chimpanzee |  17720t - 24825t  |    -3_797 - -3_794    |   L1PA4(h) - L1Pt(t)    |  7462   |  True  | L1PA4hou, L1PA4toi, L1Pthou, L1Pttoi | chimpanzee 
+459  | chimpanzee |  23306t - 20691h  |   -17_149 - -17_112   |    L1P1(h) - L1PA7(h)   |  7481   |  True  | L1P1hou, L1P1toi, L1PA7tou, L1PA7hoi | chimpanzee 
+460  | chimpanzee |  17435h - 16879t  |     -5_44 - -5_32     |   L1PA2(t) - L1Pt(h)    |  7488   |  True  | L1PA2tou, L1PA2hoi, L1Pttou, L1Pthoi | chimpanzee 
+461  | chimpanzee |  22566h - 4938h   |   -12_448 - -12_445   |   L1PA5(t) - L1PA4(h)   |  7491   |  True  | L1PA5tou, L1PA5hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+462  | chimpanzee |  10894t - 17925t  |   -X_1065 - -X_1057   |   L1PA3(h) - L1PA3(t)   |  7515   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+463  | chimpanzee |  10114h - 15365t  |   -1_1082 - -1_1081   |   L1PA4(h) - L1PA4(t)   |  7555   |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+464  | chimpanzee |  21398t - 21290t  |   -12_199 - -12_196   |   L1PA4(h) - L1PA5(h)   |  7556   |  True  | L1PA4hou, L1PA4toi, L1PA5tou, L1PA5hoi | chimpanzee 
+465  | chimpanzee |   4507t - 5037h   |    6_1134 - 6_1151    |   L1PA4(h) - L1P1(t)    |  7568   |  True  | L1PA4hou, L1PA4toi, L1P1hou, L1P1toi | chimpanzee 
+466  | chimpanzee |   4391h - 6070t   |    -3_831 - -3_826    |   L1PA4(t) - L1PA3(h)   |  7608   |  True  | L1PA4tou, L1PA4hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+467  | chimpanzee |  10235t - 720t    |     12_45 - 12_53     |    L1P1(t) - L1P1(t)    |  7615   |  True  | L1P1tou, L1P1hoi, L1P1hou, L1P1toi | chimpanzee 
+468  | chimpanzee |  45739h - 31403t  |      1_32 - 1_37      |   L1PA8(h) - L1PA3(t)   |  7641   |  True  | L1PA8hou, L1PA8toi, L1PA3hou, L1PA3toi | chimpanzee 
+469  | chimpanzee |   3377t - 19556h  |    10_407 - 10_444    |   L1PA4(t) - L1PA4(h)   |  7646   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+470  | chimpanzee |  18667h - 4749t   |     7_958 - 7_962     |   L1PA3(h) - L1PA3(t)   |  7695   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+471  | chimpanzee |  10223t - 27639h  |    X_1443 - X_1455    |    L1P1(h) - L1PA3(h)   |  7758   |  True  | L1P1hou, L1P1toi, L1PA3tou, L1PA3hoi | chimpanzee 
+472  | chimpanzee |   3892h - 11433h  |    10_724 - 10_726    |   L1PA4(t) - L1PA4(h)   |  7762   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+473  | chimpanzee |   6371h - 98t     |    -4_992 - -4_976    |    L1Pt(h) - L1PA4(h)   |  7774   |  True  | L1Pthou, L1Pttoi, L1PA4tou, L1PA4hoi | chimpanzee 
+474  | chimpanzee |  23829h - 34878h  |   -11_222 - -11_215   |   L1PA4(t) - L1PA4(h)   |  7775   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+475  | chimpanzee |   1946h - 6259t   |    -3_989 - -3_987    |   L1PA3(h) - L1PA3(h)   |  7796   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+476  | chimpanzee |    778t - 30573t  |   -11_716 - -11_714   |   L1PA2(h) - L1PA2(t)   |  7813   |  True  | L1PA2hou, L1PA2toi | chimpanzee 
+477  | chimpanzee |  14167t - 26654h  |    11_379 - 11_381    |   L1PA2(h) - L1PA3(h)   |  7830   |  True  | L1PA2hou, L1PA2toi, L1PA3tou, L1PA3hoi | chimpanzee 
+478  | chimpanzee |  21348t - 2557h   |    -16_65 - -16_62    |   L1PA5(h) - L1PA2(h)   |  7848   |  True  | L1PA5hou, L1PA5toi, L1PA2tou, L1PA2hoi | chimpanzee 
+479  | chimpanzee |  21168t - 19496t  |    2B_180 - 2B_183    |   L1PA3(h) - L1PA2(h)   |  7854   |  True  | L1PA3hou, L1PA3toi, L1PA2tou, L1PA2hoi | chimpanzee 
+480  | chimpanzee |  29872h - 3940h   |   -11_540 - -11_519   |   L1PA3(t) - L1PA2(h)   |  7855   |  True  | L1PA3tou, L1PA3hoi, L1PA2tou, L1PA2hoi | chimpanzee 
+481  | chimpanzee |   7678t - 18913t  |    2A_326 - 2A_327    |    L1Pt(h) - L1Pt(t)    |  7881   |  True  | L1Pthou, L1Pttoi | chimpanzee 
+482  | chimpanzee |   6164t - 20283h  |    4_1405 - 4_1407    |   L1PA3(h) - L1PA3(h)   |  7883   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+483  | chimpanzee |   5233h - 26864t  |    5_1074 - -5_291    |   L1PA2(h) - L1P1(t)    |  7968   |  True  | L1PA2hou, L1PA2toi, L1P1hou, L1P1toi | chimpanzee 
+484  | chimpanzee |  25522t - 6306t   |    -3_960 - -3_941    |   L1PA4(h) - L1PA5(t)   |  8008   |  True  | L1PA4hou, L1PA4toi, L1PA5hou, L1PA5toi | chimpanzee 
+485  | chimpanzee |  58302t - 16361t  |    -9_381 - -9_379    |    L1Pt(h) - L1P1(h)    |  8024   |  True  | L1Pthou, L1Pttoi, L1P1tou, L1P1hoi | chimpanzee 
+486  | chimpanzee |   5346h - 16033t  |   -12_254 - -12_240   |   L1PA3(t) - L1PA3(h)   |  8056   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+487  | chimpanzee |  12386h - 52391h  |   -14_379 - -14_376   |   L1PA4(h) - L1PA2(h)   |  8079   |  True  | L1PA4hou, L1PA4toi, L1PA2tou, L1PA2hoi | chimpanzee 
+488  | chimpanzee |   6742t - 30915h  |      1_91 - 1_94      |    L1P1(h) - L1P1(h)    |  8150   |  True  | L1P1hou, L1P1toi, L1P1tou, L1P1hoi | chimpanzee 
+489  | chimpanzee |  36024t - 14984h  |    -8_669 - -8_668    |   L1PA3(h) - L1PA3(t)   |  8173   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+490  | chimpanzee |  24760h - 12609t  |    -8_599 - -8_597    |    L1P1(t) - L1PA3(h)   |  8202   |  True  | L1P1tou, L1P1hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+491  | chimpanzee |   2936h - 25650h  |    5_1153 - 5_1154    |    L1Pt(t) - L1Pt(h)    |  8216   |  True  | L1Pttou, L1Pthoi | chimpanzee 
+492  | chimpanzee |    233t - 2317t   |    12_117 - 12_118    |   L1PA3(t) - L1PA3(h)   |  8223   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+493  | chimpanzee |  16298t - 23115t  |    -8_466 - -8_448    |   L1PA2(h) - L1PA3(t)   |  8229   |  True  | L1PA2hou, L1PA2toi, L1PA3hou, L1PA3toi | chimpanzee 
+494  | chimpanzee |   3540h - 16039h  |    4_1304 - 4_1305    |   L1PA4(t) - L1PA4(h)   |  8242   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+495  | chimpanzee |  20570h - 26685h  |   -16_248 - -16_247   |   L1PA5(t) - L1PA5(h)   |  8256   |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+496  | chimpanzee |  30394h - 20065h  |     7_813 - 7_814     |   L1PA3(t) - L1PA3(h)   |  8277   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+497  | chimpanzee |   6543h - 21838t  |    12_623 - 12_632    |    L1P1(h) - L1Pt(t)    |  8293   |  True  | L1P1hou, L1P1toi, L1Pthou, L1Pttoi | chimpanzee 
+498  | chimpanzee |  16892t - 22494t  |      4_16 - 4_17      |   L1PA2(h) - L1PA2(t)   |  8297   |  True  | L1PA2hou, L1PA2toi | chimpanzee 
+499  | chimpanzee |  17713t - 7890h   |   -11_479 - -11_475   |   L1PA5(t) - L1PA3(h)   |  8311   |  True  | L1PA5tou, L1PA5hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+500  | chimpanzee |  11725t - 12728t  |    -6_575 - -6_562    |   L1PA2(t) - L1PA3(t)   |  8359   |  True  | L1PA2tou, L1PA2hoi, L1PA3hou, L1PA3toi | chimpanzee 
+501  | chimpanzee |   4069h - 7252h   |   -2B_710 - -2B_698   |   L1PA4(h) - L1P1(h)    |  8369   |  True  | L1PA4hou, L1PA4toi, L1P1tou, L1P1hoi | chimpanzee 
+502  | chimpanzee |  11747h - 2500h   |   -14_438 - -14_437   |   L1PA5(t) - L1PA5(h)   |  8413   |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+503  | chimpanzee |   8259t - 14431h  |   -11_779 - -11_769   |   L1PA6(t) - L1PA3(h)   |  8488   |  True  | L1PA6tou, L1PA6hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+504  | chimpanzee |  12634t - 15793t  |      3_95 - 3_96      |   L1PA5(h) - L1PA5(t)   |  8572   |  True  | L1PA5hou, L1PA5toi | chimpanzee 
+505  | chimpanzee |   8989h - 19696h  |   -11_680 - -11_679   |   L1PA3(h) - L1PA3(t)   |  8634   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+506  | chimpanzee |  11828h - 4359h   |   -1_1133 - -1_1129   |    L1P1(h) - L1PA3(h)   |  8652   |  True  | L1P1hou, L1P1toi, L1PA3tou, L1PA3hoi | chimpanzee 
+507  | chimpanzee |  12485h - 6211t   |     13_46 - 13_48     |   L1PA2(t) - L1PA2(h)   |  8656   |  True  | L1PA2tou, L1PA2hoi | chimpanzee 
+508  | chimpanzee |   9361h - 21633h  |    14_388 - 14_389    |   L1PA3(t) - L1PA3(h)   |  8686   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+509  | chimpanzee |  27939h - 31957h  |    2A_539 - 2A_540    |   L1PA4(t) - L1PA4(h)   |  8806   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+510  | chimpanzee |  19935h - 17000t  |    2A_613 - 2A_614    |   L1PA5(t) - L1PA5(h)   |  8924   |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+511  | chimpanzee |  17278t - 4931h   |     5_536 - 5_554     |   L1PA3(h) - L1PA2(h)   |  8925   |  True  | L1PA3hou, L1PA3toi, L1PA2tou, L1PA2hoi | chimpanzee 
+512  | chimpanzee |   6366h - 10845h  |    1_1161 - 1_1164    |   L1PA4(h) - L1PA3(h)   |  8949   |  True  | L1PA4hou, L1PA4toi, L1PA3tou, L1PA3hoi | chimpanzee 
+513  | chimpanzee |  11258t - 9545h   |    5_1138 - 5_1146    |   L1PA2(h) - L1PA5(h)   |  8950   |  True  | L1PA2hou, L1PA2toi, L1PA5tou, L1PA5hoi | chimpanzee 
+514  | chimpanzee |   5165h - 25032t  |    14_562 - 14_579    |   L1PA7(h) - L1PA5(t)   |  9007   |  True  | L1PA7hou, L1PA7toi, L1PA5hou, L1PA5toi | chimpanzee 
+515  | chimpanzee |     68h - 14203h  |     22_23 - 22_26     |   L1PA5(h) - L1PA4(h)   |  9016   |  True  | L1PA5hou, L1PA5toi, L1PA4tou, L1PA4hoi | chimpanzee 
+516  | chimpanzee |  24423h - 277h    |    -7_750 - -7_744    |   L1PA5(t) - L1Pt(t)    |  9045   |  True  | L1PA5tou, L1PA5hoi, L1Pthou, L1Pttoi | chimpanzee 
+517  | chimpanzee |  10670h - 8855h   |    -1_212 - -1_211    |   L1PA3(h) - L1PA3(t)   |  9079   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+518  | chimpanzee |   5617h - 15569h  |     4_650 - -4_277    |    L1P1(h) - L1PA4(t)   |  9082   |  True  | L1P1hou, L1P1toi, L1PA4hou, L1PA4toi | chimpanzee 
+519  | chimpanzee |  13923t - 11058t  |    2A_144 - 2A_145    |   L1PA5(t) - L1PA5(h)   |  9093   |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+520  | chimpanzee |   6235h - 23660h  |     1_671 - 1_672     |   L1PA4(t) - L1PA4(h)   |  9108   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+521  | chimpanzee |  53106t - 6346h   |     X_830 - X_837     |    L1Pt(h) - L1PA7(h)   |  9124   |  True  | L1Pthou, L1Pttoi, L1PA7tou, L1PA7hoi | chimpanzee 
+522  | chimpanzee |   8120h - 21071t  |     3_442 - 3_445     |    L1Pt(t) - L1PA4(t)   |  9202   |  True  | L1Pttou, L1Pthoi, L1PA4hou, L1PA4toi | chimpanzee 
+523  | chimpanzee |   9775t - 5461h   |   -20_120 - -20_105   |    L1Pt(t) - L1PA2(h)   |  9252   |  True  | L1Pttou, L1Pthoi, L1PA2tou, L1PA2hoi | chimpanzee 
+524  | chimpanzee |   4257h - 8019t   |    14_554 - 14_555    |   L1PA4(t) - L1PA4(h)   |  9254   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+525  | chimpanzee |  24571h - 23589h  |    15_121 - 15_125    |   L1PA3(h) - L1PA3(h)   |  9286   |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+526  | chimpanzee |  20738t - 3289h   |   -10_587 - -10_584   |   L1PA4(h) - L1Pt(t)    |  9290   |  True  | L1PA4hou, L1PA4toi, L1Pthou, L1Pttoi | chimpanzee 
+527  | chimpanzee |  12153h - 6874t   |    -4_835 - -4_821    |   L1PA2(h) - L1PA4(t)   |  9299   |  True  | L1PA2hou, L1PA2toi, L1PA4hou, L1PA4toi | chimpanzee 
+528  | chimpanzee |  21312h - 4473t   |     3_726 - 3_740     |   L1PA3(t) - L1PA4(h)   |  9315   |  True  | L1PA3tou, L1PA3hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+529  | chimpanzee |  22257t - 5461t   |    20_104 - 20_105    |   L1PA3(t) - L1PA3(h)   |  9332   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+530  | chimpanzee |   4649t - 12725t  |     5_319 - 5_332     |   L1PA2(t) - L1PA2(t)   |  9336   |  True  | L1PA2tou, L1PA2hoi, L1PA2hou, L1PA2toi | chimpanzee 
+531  | chimpanzee |  25186h - 11253t  |    15_301 - -15_34    |   L1PA4(t) - L1PA3(t)   |  9342   | False  | L1PA4tou, L1PA4hoi, L1PA3hou, L1PA3toi | chimpanzee 
+532  | chimpanzee |   6535h - 16132h  |    -1_493 - -1_487    |   L1PA5(t) - L1PA3(h)   |  9375   |  True  | L1PA5tou, L1PA5hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+533  | chimpanzee |  15105t - 24657h  |    12_449 - 12_450    |   L1PA4(t) - L1PA4(h)   |  9377   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+534  | chimpanzee |   8570h - 38980t  |     9_372 - 9_379     |   L1PA3(t) - L1PA3(h)   |  9387   |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+535  | chimpanzee |  23829t - 6225t   |    11_222 - 11_228    |   L1PA5(t) - L1P1(t)    |  9418   |  True  | L1PA5tou, L1PA5hoi, L1P1hou, L1P1toi | chimpanzee 
+536  | chimpanzee |  11720t - 2076t   |   -3_1005 - -3_1001   |    L1P1(h) - L1PA3(t)   |  9511   |  True  | L1P1hou, L1P1toi, L1PA3hou, L1PA3toi | chimpanzee 
+537  | chimpanzee |   6347h - 35342h  |     16_19 - 16_34     |   L1PA4(h) - L1PA3(t)   |  9559   |  True  | L1PA4hou, L1PA4toi, L1PA3hou, L1PA3toi | chimpanzee 
+538  | chimpanzee |   6265t - 1046h   |     -1_95 - -1_94     |   L1PA3(h) - L1PA3(t)   |  9565   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+539  | chimpanzee |  12244h - 5926t   |    -5_444 - -5_425    |   L1PA7(t) - L1PA5(h)   |  9600   |  True  | L1PA7tou, L1PA7hoi, L1PA5tou, L1PA5hoi | chimpanzee 
+540  | chimpanzee |  20816h - 14457t  |    17_215 - 17_216    |   L1PA3(h) - L1PA3(t)   |  9662   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+541  | chimpanzee |  25893h - 27317h  |    2A_538 - 2A_539    |   L1PA2(t) - L1PA2(h)   |  9681   |  True  | L1PA2tou, L1PA2hoi | chimpanzee 
+542  | chimpanzee |   6191t - 2834t   |    20_101 - 20_102    |    L1Pt(h) - L1Pt(t)    |  9694   |  True  | L1Pthou, L1Pttoi | chimpanzee 
+543  | chimpanzee |   6867h - 8263t   |    11_474 - 11_475    |    L1P1(t) - L1P1(h)    |  9744   |  True  | L1P1tou, L1P1hoi | chimpanzee 
+544  | chimpanzee |   6029t - 18091h  |     16_65 - 16_67     |   L1PA3(h) - L1PA7(h)   |  9756   | False  | L1PA3hou, L1PA3toi, L1PA7tou, L1PA7hoi | chimpanzee 
+545  | chimpanzee |   8480t - 24289t  |    11_106 - 11_113    |    L1P2(t) - L1P1(h)    |  9784   |  True  | L1P2tou, L1P2hoi, L1P1tou, L1P1hoi | chimpanzee 
+546  | chimpanzee |  21527t - 36671h  |     9_638 - 9_645     |   L1PA4(t) - L1PA4(t)   |  9822   |  True  | L1PA4tou, L1PA4hoi, L1PA4hou, L1PA4toi | chimpanzee 
+547  | chimpanzee |   1657t - 20655h  |   -1_1108 - -1_1107   |   L1PA3(h) - L1PA3(t)   |  9825   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+548  | chimpanzee |  31657t - 9761t   |     8_133 - 8_149     |   L1PA3(h) - L1PA3(t)   |  9852   |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+549  | chimpanzee |   6572h - 24730t  |    16_164 - 16_165    |   L1PA4(t) - L1PA4(h)   |  9868   |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+550  | chimpanzee |  10850t - 11407t  |    -11_84 - -11_77    |   L1PA3(h) - L1P1(h)    |  9895   |  True  | L1PA3hou, L1PA3toi, L1P1tou, L1P1hoi | chimpanzee 
+551  | chimpanzee |   1677h - 9140h   |    -7_174 - -7_171    |   L1PA2(t) - L1PA2(h)   |  9935   |  True  | L1PA2tou, L1PA2hoi | chimpanzee 
+552  | chimpanzee |    407h - 31794t  |    -9_275 - -9_273    |   L1PA3(h) - L1PA3(h)   |  10014  |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+553  | chimpanzee |  11614t - 11291h  |   -17_162 - -17_161   |   L1PA3(h) - L1PA3(t)   |  10066  |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+554  | chimpanzee |   6116t - 17652h  |    13_126 - -13_125   |   L1PA3(t) - L1P1(t)    |  10083  |  True  | L1PA3tou, L1PA3hoi, L1P1hou, L1P1toi | chimpanzee 
+555  | chimpanzee |   5541t - 9777t   |    -19_79 - -19_67    |   L1PA3(t) - L1PA5(h)   |  10201  |  True  | L1PA3tou, L1PA3hoi, L1PA5tou, L1PA5hoi | chimpanzee 
+556  | chimpanzee |  18263t - 17814h  |   -2B_324 - -5_1344   |   L1PA2(h) - L1PA4(h)   |  10221  |  True  | L1PA2hou, L1PA2toi, L1PA4tou, L1PA4hoi | chimpanzee 
+557  | chimpanzee |  39117t - 3474t   |    12_764 - 12_773    |   L1PA3(t) - L1PA5(h)   |  10267  |  True  | L1PA3tou, L1PA3hoi, L1PA5tou, L1PA5hoi | chimpanzee 
+558  | chimpanzee |  15225h - 4488h   |   -2B_837 - -2B_835   |   L1PA3(t) - L1PA3(t)   |  10325  |  True  | L1PA3tou, L1PA3hoi, L1PA3hou, L1PA3toi | chimpanzee 
+559  | chimpanzee |  21599h - 815h    |     9_496 - 9_497     |   L1PA3(h) - L1PA3(t)   |  10367  |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+560  | chimpanzee |  36170t - 1311h   |    -18_89 - -18_87    |   L1PA5(h) - L1PA4(h)   |  10383  |  True  | L1PA5hou, L1PA5toi, L1PA4tou, L1PA4hoi | chimpanzee 
+561  | chimpanzee |   2570t - 22888t  |     1_634 - 1_638     |   L1PA3(h) - L1PA3(h)   |  10424  |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+562  | chimpanzee |  15793h - 17978h  |      3_96 - 3_98      |   L1PA2(h) - L1PA3(h)   |  10430  |  True  | L1PA2hou, L1PA2toi, L1PA3tou, L1PA3hoi | chimpanzee 
+563  | chimpanzee |  28553t - 4649h   |     5_318 - 5_319     |    L1Pt(t) - L1Pt(h)    |  10494  |  True  | L1Pttou, L1Pthoi | chimpanzee 
+564  | chimpanzee |  12619t - 5407t   |     6_922 - 6_924     |   L1PA5(t) - L1Pt(h)    |  10533  |  True  | L1PA5tou, L1PA5hoi, L1Pttou, L1Pthoi | chimpanzee 
+565  | chimpanzee |  17567t - 2798h   |   -2A_446 - -2A_428   |   L1PA5(h) - L1PA4(t)   |  10593  |  True  | L1PA5hou, L1PA5toi, L1PA4hou, L1PA4toi | chimpanzee 
+566  | chimpanzee |  18600t - 15908t  |   -16_157 - -16_156   |   L1PA4(h) - L1PA4(t)   |  10658  |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+567  | chimpanzee |   4710h - 31415h  |    -6_177 - -6_176    |   L1PA3(t) - L1PA3(h)   |  10699  |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+568  | chimpanzee |   8370h - 8198t   |   -2B_322 - -2B_313   |    L1P1(h) - L1PA2(t)   |  10770  |  True  | L1P1hou, L1P1toi, L1PA2hou, L1PA2toi | chimpanzee 
+569  | chimpanzee |   5368t - 15697t  |     1_781 - 1_788     |   L1PA4(h) - L1P1(t)    |  10777  |  True  | L1PA4hou, L1PA4toi, L1P1hou, L1P1toi | chimpanzee 
+570  | chimpanzee |  13977h - 4868h   |   -11_472 - -11_470   |   L1PA2(t) - L1PA2(h)   |  10815  |  True  | L1PA2tou, L1PA2hoi | chimpanzee 
+571  | chimpanzee |  14609t - 3966t   |     6_914 - 6_922     |   L1PA3(t) - L1P1(h)    |  10865  |  True  | L1PA3tou, L1PA3hoi, L1P1tou, L1P1hoi | chimpanzee 
+572  | chimpanzee |   1143h - 10299h  |   -2A_637 - 2A_553    |   L1PA4(h) - L1P1(t)    |  10872  |  True  | L1PA4hou, L1PA4toi, L1P1hou, L1P1toi | chimpanzee 
+573  | chimpanzee |  12101h - 24319h  |    -22_31 - -22_26    |   L1PA5(h) - L1PA4(t)   |  10899  |  True  | L1PA5hou, L1PA5toi, L1PA4hou, L1PA4toi | chimpanzee 
+574  | chimpanzee |  13866t - 4824t   |    1_1123 - 1_1124    |   L1PA3(h) - L1PA3(t)   |  10922  |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+575  | chimpanzee |   1104t - 40783t  |     3_884 - 3_896     |   L1PA4(t) - L1PA3(t)   |  10924  |  True  | L1PA4tou, L1PA4hoi, L1PA3hou, L1PA3toi | chimpanzee 
+576  | chimpanzee |  19896h - 1737h   |     7_591 - 7_598     |   L1PA4(h) - L1Pt(h)    |  10928  |  True  | L1PA4hou, L1PA4toi, L1Pttou, L1Pthoi | chimpanzee 
+577  | chimpanzee |  10601t - 14330h  |      1_71 - 1_76      |   L1PA4(h) - L1PA3(h)   |  10930  |  True  | L1PA4hou, L1PA4toi, L1PA3tou, L1PA3hoi | chimpanzee 
+578  | chimpanzee |  21974h - 26666t  |    3_1175 - 3_1185    |   L1PA4(h) - L1PA3(h)   |  10985  |  True  | L1PA4hou, L1PA4toi, L1PA3tou, L1PA3hoi | chimpanzee 
+579  | chimpanzee |  24033t - 1045t   |     7_548 - 7_554     |   L1PA2(h) - L1PA4(t)   |  10998  |  True  | L1PA2hou, L1PA2toi, L1PA4hou, L1PA4toi | chimpanzee 
+580  | chimpanzee |  25926h - 16827t  |     1_902 - 1_907     |   L1PA3(h) - L1PA4(h)   |  11026  |  True  | L1PA3hou, L1PA3toi, L1PA4tou, L1PA4hoi | chimpanzee 
+581  | chimpanzee |   4516h - 21244t  |      5_65 - 5_71      |   L1PA4(t) - L1PA2(h)   |  11055  |  True  | L1PA4tou, L1PA4hoi, L1PA2tou, L1PA2hoi | chimpanzee 
+582  | chimpanzee |   5987t - 15608h  |    4_1212 - 4_1218    |   L1PA3(h) - L1PA3(h)   |  11076  |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+583  | chimpanzee |  17265t - 7159h   |   -15_312 - -15_308   |   L1PA4(t) - L1PA4(h)   |  11102  |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+584  | chimpanzee |  30787h - 10659t  |    -3_425 - -3_418    |   L1PA5(h) - L1PA4(h)   |  11182  |  True  | L1PA5hou, L1PA5toi, L1PA4tou, L1PA4hoi | chimpanzee 
+585  | chimpanzee |   6513t - 27205h  |   -2B_713 - -2B_710   |   L1PA3(t) - L1PA3(t)   |  11223  |  True  | L1PA3tou, L1PA3hoi, L1PA3hou, L1PA3toi | chimpanzee 
+586  | chimpanzee |  15901h - 18750t  |    -1_793 - -1_788    |   L1PA4(h) - L1Pt(h)    |  11255  |  True  | L1PA4hou, L1PA4toi, L1Pttou, L1Pthoi | chimpanzee 
+587  | chimpanzee |  14240h - 28800t  |     7_516 - 7_517     |   L1PA2(h) - L1PA2(t)   |  11283  |  True  | L1PA2hou, L1PA2toi | chimpanzee 
+588  | chimpanzee |  20095t - 34878t  |    11_214 - 11_215    |    L1Pt(t) - L1Pt(h)    |  11304  |  True  | L1Pttou, L1Pthoi | chimpanzee 
+589  | chimpanzee |  11050h - 19536h  |    -10_63 - -10_52    |   L1PA4(h) - L1PA3(h)   |  11312  |  True  | L1PA4hou, L1PA4toi, L1PA3tou, L1PA3hoi | chimpanzee 
+590  | chimpanzee |  20893t - 9602h   |    14_132 - 14_143    |    L1P1(t) - L1Pt(h)    |  11323  |  True  | L1P1tou, L1P1hoi, L1Pttou, L1Pthoi | chimpanzee 
+591  | chimpanzee |   5964h - 23769t  |    18_297 - 18_301    |    L1P1(h) - L1PA2(t)   |  11377  |  True  | L1P1hou, L1P1toi, L1PA2hou, L1PA2toi | chimpanzee 
+592  | chimpanzee |  23306h - 10224h  |    17_149 - 17_155    |    L1P1(h) - L1PA4(h)   |  11392  |  True  | L1P1hou, L1P1toi, L1PA4tou, L1PA4hoi | chimpanzee 
+593  | chimpanzee |   2331h - 32603t  |     -1_70 - -1_69     |   L1PA3(h) - L1PA3(t)   |  11431  |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+594  | chimpanzee |  48173h - 13009t  |    2A_209 - 2A_222    |    L1Pt(h) - L1PA5(t)   |  11438  |  True  | L1Pthou, L1Pttoi, L1PA5hou, L1PA5toi | chimpanzee 
+595  | chimpanzee |  15449t - 4043t   |    4_1055 - 4_1058    |   L1PA3(t) - L1PA3(h)   |  11451  |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+596  | chimpanzee |  18358h - 1484h   |   -2B_660 - -2B_659   |    L1P1(t) - L1P1(h)    |  11489  |  True  | L1P1tou, L1P1hoi | chimpanzee 
+597  | chimpanzee |  33454t - 16946t  |    15_279 - 15_282    |   L1PA3(h) - L1PA4(t)   |  11504  |  True  | L1PA3hou, L1PA3toi, L1PA4hou, L1PA4toi | chimpanzee 
+598  | chimpanzee |  28674h - 12318h  |     18_76 - 18_80     |   L1PA3(t) - L1PA2(h)   |  11506  |  True  | L1PA3tou, L1PA3hoi, L1PA2tou, L1PA2hoi | chimpanzee 
+599  | chimpanzee |  10856t - 486h    |      20_8 - 20_10     |    L1P1(h) - L1PA4(t)   |  11579  |  True  | L1P1hou, L1P1toi, L1PA4hou, L1PA4toi | chimpanzee 
+600  | chimpanzee |  30668h - 17837t  |     -7_89 - -7_86     |   L1PA2(h) - L1PA2(t)   |  11589  |  True  | L1PA2hou, L1PA2toi | chimpanzee 
+601  | chimpanzee |   2076h - 1946t   |   -3_1001 - -3_989    |   L1PA7(t) - L1PA3(h)   |  11614  |  True  | L1PA7tou, L1PA7hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+602  | chimpanzee |  16472t - 16667t  |    12_780 - 12_781    |   L1PA3(h) - L1PA3(t)   |  11619  |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+603  | chimpanzee |  16946h - 29585h  |    15_282 - 15_284    |   L1PA2(h) - L1Pt(h)    |  11644  |  True  | L1PA2hou, L1PA2toi, L1Pttou, L1Pthoi | chimpanzee 
+604  | chimpanzee |   8062t - 3026t   |     8_907 - 8_909     |   L1PA4(t) - L1Pt(t)    |  11766  |  True  | L1PA4tou, L1PA4hoi, L1Pthou, L1Pttoi | chimpanzee 
+605  | chimpanzee |    482h - 12781t  |    2A_573 - 2A_578    |    L1P1(t) - L1PA4(h)   |  11771  |  True  | L1P1tou, L1P1hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+606  | chimpanzee |  27045h - 11442h  |    -13_72 - -13_71    |   L1PA4(h) - L1PA4(t)   |  11784  |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+607  | chimpanzee |   7547t - 19842h  |    -20_46 - -20_26    |   L1PA3(t) - L1PA3(t)   |  11823  |  True  | L1PA3tou, L1PA3hoi, L1PA3hou, L1PA3toi | chimpanzee 
+608  | chimpanzee |   5911h - 36239h  |    3_1022 - 3_1023    |   L1PA4(t) - L1PA4(h)   |  11986  |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+609  | chimpanzee |   3537t - 19781h  |   -X_1124 - -X_1115   |   L1PA3(t) - L1PA2(h)   |  11995  |  True  | L1PA3tou, L1PA3hoi, L1PA2tou, L1PA2hoi | chimpanzee 
+610  | chimpanzee |  12064t - 5958h   |   -11_464 - -11_461   |   L1PA6(h) - L1PA2(t)   |  12000  |  True  | L1PA6hou, L1PA6toi, L1PA2hou, L1PA2toi | chimpanzee 
+611  | chimpanzee |  30590h - 9871t   |    -5_368 - -5_364    |   L1PA4(t) - L1PA3(h)   |  12038  |  True  | L1PA4tou, L1PA4hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+612  | chimpanzee |  29185h - 13238t  |   -11_832 - -11_808   |   L1PA4(h) - L1PA3(h)   |  12054  |  True  | L1PA4hou, L1PA4toi, L1PA3tou, L1PA3hoi | chimpanzee 
+613  | chimpanzee |   5492h - 22934t  |   -10_538 - -10_537   |   L1PA3(t) - L1PA3(h)   |  12153  |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+614  | chimpanzee |   7529h - 10662h  |    6_1151 - 6_1154    |    L1P1(t) - L1PA2(h)   |  12198  |  True  | L1P1tou, L1P1hoi, L1PA2tou, L1PA2hoi | chimpanzee 
+615  | chimpanzee |  32306t - 11887t  |     12_62 - 12_71     |   L1PA2(h) - L1PA3(h)   |  12412  |  True  | L1PA2hou, L1PA2toi, L1PA3tou, L1PA3hoi | chimpanzee 
+616  | chimpanzee |  12893h - 25607t  |     5_966 - 5_1027    |   L1PA3(h) - L1PA4(t)   |  12453  |  True  | L1PA3hou, L1PA3toi, L1PA4hou, L1PA4toi | chimpanzee 
+617  | chimpanzee |  11739h - 10979h  |     6_693 - 6_695     |   L1PA5(t) - L1PA4(t)   |  12538  |  True  | L1PA5tou, L1PA5hoi, L1PA4hou, L1PA4toi | chimpanzee 
+618  | chimpanzee |  30565h - 13045h  |     8_625 - 8_632     |   L1PA4(h) - L1PA3(h)   |  12549  |  True  | L1PA4hou, L1PA4toi, L1PA3tou, L1PA3hoi | chimpanzee 
+619  | chimpanzee |  35650t - 4904h   |     1_669 - 1_670     |    L1P1(t) - L1P1(h)    |  12600  |  True  | L1P1tou, L1P1hoi | chimpanzee 
+620  | chimpanzee |  35443t - 18424t  |   -1_1029 - -1_1020   |    L1P1(h) - L1PA2(t)   |  12623  |  True  | L1P1hou, L1P1toi, L1PA2hou, L1PA2toi | chimpanzee 
+621  | chimpanzee |  36498t - 31373h  |    -7_142 - -7_138    |    L1Pt(h) - L1PA3(t)   |  12640  |  True  | L1Pthou, L1Pttoi, L1PA3hou, L1PA3toi | chimpanzee 
+622  | chimpanzee |   2316h - 6706h   |    3_1348 - 3_1349    |   L1PA4(h) - L1PA4(t)   |  12728  |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+623  | chimpanzee |    553h - 9377h   |    12_423 - 12_421    |   L1PA5(t) - L1P1(h)    |  12758  |  True  | L1PA5tou, L1PA5hoi, L1P1tou, L1P1hoi | chimpanzee 
+624  | chimpanzee |   3438t - 26113t  |   -12_225 - -12_222   |   L1PA3(h) - L1P1(t)    |  12784  |  True  | L1PA3hou, L1PA3toi, L1P1hou, L1P1toi | chimpanzee 
+625  | chimpanzee |  44152h - 10912h  |    2A_149 - 2A_150    |   L1PA5(h) - L1PA5(t)   |  12911  |  True  | L1PA5hou, L1PA5toi | chimpanzee 
+626  | chimpanzee |  26658t - 38880t  |    -13_52 - -13_48    |   L1PA3(t) - L1Pt(h)    |  12961  |  True  | L1PA3tou, L1PA3hoi, L1Pttou, L1Pthoi | chimpanzee 
+627  | chimpanzee |  18556t - 6077h   |     5_616 - 5_626     |   L1PA3(t) - L1PA5(h)   |  12965  |  True  | L1PA3tou, L1PA3hoi, L1PA5tou, L1PA5hoi | chimpanzee 
+628  | chimpanzee |  44792h - 31087t  |   -2B_128 - -2B_127   |   L1PA4(h) - L1PA4(t)   |  12980  |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+629  | chimpanzee |  38392h - 20910h  |     -21_8 - 3_551     |   L1PA4(h) - L1PA3(t)   |  13034  |  True  | L1PA4hou, L1PA4toi, L1PA3hou, L1PA3toi | chimpanzee 
+630  | chimpanzee |   8876t - 10299t  |   -2A_562 - -2A_553   |    L1Pt(h) - L1Pt(h)    |  13125  |  True  | L1Pthou, L1Pttoi, L1Pttou, L1Pthoi | chimpanzee 
+631  | chimpanzee |  23110h - 16497t  |   -18_246 - -18_245   |   L1PA4(h) - L1PA4(t)   |  13140  |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+632  | chimpanzee |   8160h - 21312t  |     3_724 - 3_726     |   L1PA3(h) - L1PA3(h)   |  13142  |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+633  | chimpanzee |  48761h - 18637h  |    10_769 - 10_772    |   L1PA3(t) - L1PA6(t)   |  13154  |  True  | L1PA3tou, L1PA3hoi, L1PA6hou, L1PA6toi | chimpanzee 
+634  | chimpanzee |   5079h - 4189t   |    -1_431 - -1_428    |   L1PA3(t) - L1PA3(t)   |  13181  |  True  | L1PA3tou, L1PA3hoi, L1PA3hou, L1PA3toi | chimpanzee 
+635  | chimpanzee |    818h - 8120t   |     3_436 - 3_442     |   L1PA3(t) - L1PA4(h)   |  13192  |  True  | L1PA3tou, L1PA3hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+636  | chimpanzee |  21662h - 29645h  |    -5_310 - -5_306    |    L1Pt(h) - L1PA3(h)   |  13209  |  True  | L1Pthou, L1Pttoi, L1PA3tou, L1PA3hoi | chimpanzee 
+637  | chimpanzee |  19157h - 2214h   |    -9_241 - -9_202    |   L1PA3(h) - L1PA4(h)   |  13267  |  True  | L1PA3hou, L1PA3toi, L1PA4tou, L1PA4hoi | chimpanzee 
+638  | chimpanzee |  11971h - 22494h  |     -4_19 - -4_17     |   L1PA3(t) - L1PA3(h)   |  13373  |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+639  | chimpanzee |  18512t - 22439t  |    -8_904 - -8_903    |   L1PA5(h) - L1PA5(t)   |  13395  |  True  | L1PA5hou, L1PA5toi | chimpanzee 
+640  | chimpanzee |  20228t - 26189t  |    2B_592 - 2B_593    |    L1Pt(t) - L1Pt(h)    |  13409  |  True  | L1Pttou, L1Pthoi | chimpanzee 
+641  | chimpanzee |  15548h - 11503t  |    15_116 - 15_121    |    L1P1(t) - L1PA3(h)   |  13445  |  True  | L1P1tou, L1P1hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+642  | chimpanzee |  14676t - 23286t  |     -9_42 - -9_38     |   L1PA5(t) - L1PA4(h)   |  13609  |  True  | L1PA5tou, L1PA5hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+643  | chimpanzee |  19142h - 23973t  |   -6_1029 - -6_1021   |   L1PA3(t) - L1PA2(t)   |  13649  |  True  | L1PA3tou, L1PA3hoi, L1PA2hou, L1PA2toi | chimpanzee 
+644  | chimpanzee |  28220h - 5787h   |   -13_475 - -13_474   |   L1PA5(t) - L1PA5(h)   |  14001  |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+645  | chimpanzee |   9549h - 10022t  |    -4_422 - -4_421    |   L1PA5(t) - L1PA5(h)   |  14046  |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+646  | chimpanzee |  15505h - 257t    |     6_264 - 6_280     |    L1Pt(h) - L1Pt(h)    |  14052  |  True  | L1Pthou, L1Pttoi, L1Pttou, L1Pthoi | chimpanzee 
+647  | chimpanzee |  26087h - 16222h  |    4_1300 - 4_1304    |   L1PA3(h) - L1PA4(t)   |  14082  |  True  | L1PA3hou, L1PA3toi, L1PA4hou, L1PA4toi | chimpanzee 
+648  | chimpanzee |  21695h - 16565h  |     9_456 - 9_458     |    L1Pt(h) - L1Pt(h)    |  14128  |  True  | L1Pthou, L1Pttoi, L1Pttou, L1Pthoi | chimpanzee 
+649  | chimpanzee |   5655t - 8449h   |   -12_798 - -12_796   |    L1P1(t) - L1PA3(t)   |  14134  |  True  | L1P1tou, L1P1hoi, L1PA3hou, L1PA3toi | chimpanzee 
+650  | chimpanzee |  16443h - 19081t  |    14_267 - 14_268    |   L1PA2(t) - L1PA2(h)   |  14200  |  True  | L1PA2tou, L1PA2hoi | chimpanzee 
+651  | chimpanzee |   9072h - 7463h   |    -1_883 - -1_1082   |   L1PA3(t) - L1Pt(t)    |  14217  |  True  | L1PA3tou, L1PA3hoi, L1Pthou, L1Pttoi | chimpanzee 
+652  | chimpanzee |  29549t - 30434t  |     6_807 - 6_810     |   L1PA5(h) - L1Pt(t)    |  14307  |  True  | L1PA5hou, L1PA5toi, L1Pthou, L1Pttoi | chimpanzee 
+653  | chimpanzee |    540h - 28693h  |    -1_108 - -1_106    |   L1PA3(t) - L1PA5(h)   |  14315  |  True  | L1PA3tou, L1PA3hoi, L1PA5tou, L1PA5hoi | chimpanzee 
+654  | chimpanzee |   2079t - 15651h  |    -14_33 - -14_32    |   L1PA3(t) - L1PA3(h)   |  14335  |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+655  | chimpanzee |   8521t - 17771t  |    -3_300 - -3_299    |   L1PA4(t) - L1PA4(h)   |  14343  |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+656  | chimpanzee |   1084h - 10745h  |      X_89 - X_92      |    L1P1(t) - L1PA4(h)   |  14344  |  True  | L1P1tou, L1P1hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+657  | chimpanzee |   3124t - 2070t   |     6_139 - 6_143     |   L1PA4(t) - L1PA3(h)   |  14405  |  True  | L1PA4tou, L1PA4hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+658  | chimpanzee |  31458h - 36498h  |    -7_149 - -7_142    |   L1PA5(t) - L1PA4(h)   |  14461  |  True  | L1PA5tou, L1PA5hoi, L1PA4tou, L1PA4hoi | chimpanzee 
+659  | chimpanzee |  18569t - 19930t  |    10_396 - 10_397    |   L1PA7(h) - L1PA7(t)   |  14554  |  True  | L1PA7hou, L1PA7toi | chimpanzee 
+660  | chimpanzee |  18015h - 3026h   |    -8_961 - -8_909    |    L1P1(h) - L1PA6(h)   |  14746  |  True  | L1P1hou, L1P1toi, L1PA6tou, L1PA6hoi | chimpanzee 
+661  | chimpanzee |   4508t - 5120t   |   -1_1049 - -1_1048   |   L1PA4(h) - L1PA4(t)   |  14926  |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+662  | chimpanzee |   4571t - 26967t  |     5_122 - 5_123     |   L1PA5(t) - L1PA5(h)   |  15000  |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+663  | chimpanzee |  17441t - 8256h   |    4_1513 - 4_1514    |    L1Pt(t) - L1Pt(h)    |  15159  |  True  | L1Pttou, L1Pthoi | chimpanzee 
+664  | chimpanzee |   2090h - 11896t  |    6_1054 - 6_1056    |   L1PA3(t) - L1PA7(h)   |  15210  |  True  | L1PA3tou, L1PA3hoi, L1PA7tou, L1PA7hoi | chimpanzee 
+665  | chimpanzee |   3111h - 15720h  |     7_602 - 7_607     |   L1PA4(h) - L1PA5(h)   |  15268  |  True  | L1PA4hou, L1PA4toi, L1PA5tou, L1PA5hoi | chimpanzee 
+666  | chimpanzee |  11047h - 5472t   |    20_249 - 20_252    |   L1PA3(h) - L1PA4(h)   |  15287  |  True  | L1PA3hou, L1PA3toi, L1PA4tou, L1PA4hoi | chimpanzee 
+667  | chimpanzee |  10277t - 20960t  |     6_256 - 6_257     |   L1PA3(t) - L1PA3(h)   |  15353  |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+668  | chimpanzee |  10225h - 19318t  |     -X_93 - -X_92     |   L1PA4(h) - L1PA4(t)   |  15890  |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+669  | chimpanzee |   3316h - 1816t   |     9_332 - 9_334     |   L1PA3(h) - L1PA3(h)   |  15903  |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+670  | chimpanzee |  24657t - 8162h   |    12_450 - 12_454    |   L1PA2(h) - L1PA3(t)   |  16094  |  True  | L1PA2hou, L1PA2toi, L1PA3hou, L1PA3toi | chimpanzee 
+671  | chimpanzee |  35470h - 6371t   |    -4_993 - -4_992    |   L1PA3(t) - L1PA3(h)   |  16160  |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+672  | chimpanzee |  19433h - 8198h   |    2B_304 - 2B_313    |   L1PA3(h) - L1PA5(h)   |  16193  |  True  | L1PA3hou, L1PA3toi, L1PA5tou, L1PA5hoi | chimpanzee 
+673  | chimpanzee |  20867t - 8638t   |     1_897 - 1_899     |   L1PA4(h) - L1PA3(h)   |  16219  |  True  | L1PA4hou, L1PA4toi, L1PA3tou, L1PA3hoi | chimpanzee 
+674  | chimpanzee |   9196t - 37162t  |     8_129 - 8_131     |   L1PA3(t) - L1Pt(h)    |  16236  |  True  | L1PA3tou, L1PA3hoi, L1Pttou, L1Pthoi | chimpanzee 
+675  | chimpanzee |   6366t - 12227t  |   -1_1161 - -1_1160   |   L1PA5(h) - L1PA5(t)   |  16276  |  True  | L1PA5hou, L1PA5toi | chimpanzee 
+676  | chimpanzee |  40411h - 8571h   |    2B_458 - 2B_461    |   L1PA3(h) - L1PA3(h)   |  16310  |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+677  | chimpanzee |   8810h - 21231h  |     9_512 - 9_516     |   L1PA2(h) - L1PA2(t)   |  16327  |  True  | L1PA2hou, L1PA2toi | chimpanzee 
+678  | chimpanzee |  12734h - 10573h  |    -12_12 - -12_9     |   L1PA2(h) - L1PA3(t)   |  16436  |  True  | L1PA2hou, L1PA2toi, L1PA3hou, L1PA3toi | chimpanzee 
+679  | chimpanzee |   7613t - 22764t  |     -6_74 - -6_72     |    L1P1(h) - L1PA5(h)   |  16602  |  True  | L1P1hou, L1P1toi, L1PA5tou, L1PA5hoi | chimpanzee 
+680  | chimpanzee |  19996t - 32726h  |    -1_100 - -1_99     |    L1P2(h) - L1P2(t)    |  16611  |  True  | L1P2hou, L1P2toi | chimpanzee 
+681  | chimpanzee |   9669t - 6620h   |     9_516 - 9_524     |   L1PA3(t) - L1PA2(h)   |  16755  |  True  | L1PA3tou, L1PA3hoi, L1PA2tou, L1PA2hoi | chimpanzee 
+682  | chimpanzee |   7575t - 11748t  |   -2A_144 - -2A_143   |   L1PA4(t) - L1PA4(h)   |  16969  |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+683  | chimpanzee |  11976h - 9329h   |    18_302 - 18_303    |   L1PA3(h) - L1PA3(t)   |  16980  |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+684  | chimpanzee |  14404h - 21572t  |    1_1140 - 1_1142    |   L1PA3(t) - L1PA3(t)   |  17024  |  True  | L1PA3tou, L1PA3hoi, L1PA3hou, L1PA3toi | chimpanzee 
+685  | chimpanzee |  19343h - 15256h  |   -2B_243 - -2B_240   |   L1PA2(h) - L1PA5(t)   |  17049  |  True  | L1PA2hou, L1PA2toi, L1PA5hou, L1PA5toi | chimpanzee 
+686  | chimpanzee |   4654h - 13015t  |     22_38 - 22_49     |   L1PA5(t) - L1PA7(h)   |  17059  |  True  | L1PA5tou, L1PA5hoi, L1PA7tou, L1PA7hoi | chimpanzee 
+687  | chimpanzee |   9373h - 15720t  |    -7_612 - -7_607    |   L1PA3(h) - L1PA2(t)   |  17074  |  True  | L1PA3hou, L1PA3toi, L1PA2hou, L1PA2toi | chimpanzee 
+688  | chimpanzee |  17726h - 3997t   |    5_1216 - 5_1224    |    L1Pt(t) - L1PA5(h)   |  17080  |  True  | L1Pttou, L1Pthoi, L1PA5tou, L1PA5hoi | chimpanzee 
+689  | chimpanzee |  12734t - 1995t   |     12_12 - 12_13     |   L1PA5(t) - L1PA5(h)   |  17243  |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+690  | chimpanzee |   7346h - 30555t  |    -14_21 - -14_20    |   L1PA3(h) - L1PA3(t)   |  17293  |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+691  | chimpanzee |  24222t - 8306t   |     16_76 - 16_77     |   L1PA3(t) - L1PA3(h)   |  17448  |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+692  | chimpanzee |  19416t - 12634h  |      3_94 - 3_95      |   L1PA3(h) - L1PA3(t)   |  17456  |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+693  | chimpanzee |    396t - 27639t  |   -X_1462 - -X_1455   |   L1PA3(t) - L1PA2(t)   |  17546  |  True  | L1PA3tou, L1PA3hoi, L1PA2hou, L1PA2toi | chimpanzee 
+694  | chimpanzee |  13381t - 18961h  |    -4_247 - -4_235    |   L1PA3(h) - L1PA4(t)   |  17571  |  True  | L1PA3hou, L1PA3toi, L1PA4hou, L1PA4toi | chimpanzee 
+695  | chimpanzee |   8226h - 5884h   |   -14_543 - -14_541   |   L1PA5(h) - L1PA5(t)   |  17696  |  True  | L1PA5hou, L1PA5toi | chimpanzee 
+696  | chimpanzee |  31299h - 23959t  |   -13_535 - -13_522   |   L1PA3(t) - L1PA3(h)   |  17703  |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+697  | chimpanzee |   7958h - 9020t   |     6_876 - 6_884     |   L1PA5(h) - L1P1(h)    |  17707  |  True  | L1PA5hou, L1PA5toi, L1P1tou, L1P1hoi | chimpanzee 
+698  | chimpanzee |   3845t - 9580t   |     6_799 - 6_800     |   L1PA2(h) - L1PA2(t)   |  17915  |  True  | L1PA2hou, L1PA2toi | chimpanzee 
+699  | chimpanzee |  15925t - 22106h  |   -10_743 - -10_732   |   L1PA4(t) - L1Pt(t)    |  17990  |  True  | L1PA4tou, L1PA4hoi, L1Pthou, L1Pttoi | chimpanzee 
+700  | chimpanzee |  28088t - 1875t   |     X_497 - X_512     |   L1PA3(h) - L1PA3(h)   |  18109  |  True  | L1PA3hou, L1PA3toi, L1PA3tou, L1PA3hoi | chimpanzee 
+701  | chimpanzee |  17428t - 16017h  |    10_448 - 10_449    |   L1PA6(t) - L1PA6(h)   |  18286  |  True  | L1PA6tou, L1PA6hoi | chimpanzee 
+702  | chimpanzee |  29650t - 4161h   |     6_167 - 6_169     |   L1PA3(t) - L1PA5(h)   |  18364  |  True  | L1PA3tou, L1PA3hoi, L1PA5tou, L1PA5hoi | chimpanzee 
+703  | chimpanzee |  51299h - 25963t  |    2B_587 - 2B_588    |   L1PA4(t) - L1PA4(h)   |  18401  |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+704  | chimpanzee |   6570h - 4959h   |     4_254 - 12_320    |    L1P1(t) - L1PA3(h)   |  18450  |  True  | L1P1tou, L1P1hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+705  | chimpanzee |  19822t - 1764h   |   -14_459 - -14_458   |    L1P1(t) - L1P1(h)    |  18604  |  True  | L1P1tou, L1P1hoi | chimpanzee 
+706  | chimpanzee |    153h - 10930t  |   -2A_331 - -2A_329   |   L1PA4(t) - L1PA3(h)   |  18621  |  True  | L1PA4tou, L1PA4hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+707  | chimpanzee |  21351t - 31910h  |    2A_123 - 2A_127    |    L1P1(t) - L1PA5(h)   |  18746  |  True  | L1P1tou, L1P1hoi, L1PA5tou, L1PA5hoi | chimpanzee 
+708  | chimpanzee |   6461h - 1569t   |     5_860 - 5_864     |    L1Pt(t) - L1Pt(t)    |  18892  |  True  | L1Pttou, L1Pthoi, L1Pthou, L1Pttoi | chimpanzee 
+709  | chimpanzee |   6710h - 8449t   |    12_792 - 12_796    |   L1PA4(t) - L1PA3(t)   |  18910  |  True  | L1PA4tou, L1PA4hoi, L1PA3hou, L1PA3toi | chimpanzee 
+710  | chimpanzee |  11124h - 12137t  |   -16_261 - -16_260   |    L1Pt(t) - L1Pt(h)    |  19012  |  True  | L1Pttou, L1Pthoi | chimpanzee 
+711  | chimpanzee |   1067h - 48005h  |    20_154 - 20_155    |   L1PA5(t) - L1PA5(h)   |  19090  |  True  | L1PA5tou, L1PA5hoi | chimpanzee 
+712  | chimpanzee |   4688h - 3472h   |   -2B_408 - -2B_405   |   L1PA4(h) - L1P1(t)    |  19253  |  True  | L1PA4hou, L1PA4toi, L1P1hou, L1P1toi | chimpanzee 
+713  | chimpanzee |  14066h - 78h     |     21_99 - 21_104    |   L1PA2(h) - L1Pt(t)    |  19525  |  True  | L1PA2hou, L1PA2toi, L1Pthou, L1Pttoi | chimpanzee 
+714  | chimpanzee |   3546t - 18279h  |    -4_764 - -10_520   |    L1P1(h) - L1PA4(t)   |  20286  | False  | L1P1hou, L1P1toi, L1PA4hou, L1PA4toi | chimpanzee 
+715  | chimpanzee |  24216t - 3733h   |    -3_364 - -3_363    |   L1PA3(h) - L1PA3(t)   |  20509  |  True  | L1PA3hou, L1PA3toi | chimpanzee 
+716  | chimpanzee |  13137t - 21872t  |   -2B_815 - -2B_814   |   L1PA4(h) - L1PA4(t)   |  20622  |  True  | L1PA4hou, L1PA4toi | chimpanzee 
+717  | chimpanzee |    519t - 5757h   |   -14_370 - -14_368   |   L1PA3(t) - L1PA3(h)   |  21085  |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+718  | chimpanzee |  30134h - 5957t   |   -11_489 - -11_487   |   L1PA5(h) - L1PA3(h)   |  21277  |  True  | L1PA5hou, L1PA5toi, L1PA3tou, L1PA3hoi | chimpanzee 
+719  | chimpanzee |   2584h - 15958h  |   -10_110 - -10_106   |   L1PA4(h) - L1PA3(h)   |  21453  |  True  | L1PA4hou, L1PA4toi, L1PA3tou, L1PA3hoi | chimpanzee 
+720  | chimpanzee |   8472h - 4616t   |   -2A_581 - -2A_578   |   L1PA3(h) - L1PA4(h)   |  21512  |  True  | L1PA3hou, L1PA3toi, L1PA4tou, L1PA4hoi | chimpanzee 
+721  | chimpanzee |  18094t - 5281h   |     2B_59 - 2B_62     |    L1Pt(h) - L1PA4(t)   |  22479  |  True  | L1Pthou, L1Pttoi, L1PA4hou, L1PA4toi | chimpanzee 
+722  | chimpanzee |  26055t - 1984t   |     1_832 - 1_833     |   L1PA6(t) - L1PA6(h)   |  23207  |  True  | L1PA6tou, L1PA6hoi | chimpanzee 
+723  | chimpanzee |  19983h - 13113h  |    -1_424 - -1_423    |   L1PA3(t) - L1PA3(h)   |  23353  |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+724  | chimpanzee |   3527t - 24705h  |   -11_295 - -11_292   |   L1PA3(h) - L1PA4(h)   |  24088  |  True  | L1PA3hou, L1PA3toi, L1PA4tou, L1PA4hoi | chimpanzee 
+725  | chimpanzee |   3868h - 13115h  |   -15_222 - -15_221   |   L1PA3(t) - L1PA3(h)   |  24177  |  True  | L1PA3tou, L1PA3hoi | chimpanzee 
+726  | chimpanzee |   4397t - 23060h  |     7_811 - 7_813     |   L1PA4(h) - L1PA5(h)   |  24805  |  True  | L1PA4hou, L1PA4toi, L1PA5tou, L1PA5hoi | chimpanzee 
+727  | chimpanzee |  14327t - 19148t  |   -11_302 - -11_298   |   L1PA4(t) - L1PA3(h)   |  25333  |  True  | L1PA4tou, L1PA4hoi, L1PA3tou, L1PA3hoi | chimpanzee 
+728  | chimpanzee |  36170h - 17605t  |     18_89 - 18_90     |   L1PA4(t) - L1PA4(h)   |  25706  |  True  | L1PA4tou, L1PA4hoi | chimpanzee 
+729  | chimpanzee |  15836t - 4077h   |     6_159 - 6_160     |   L1PA6(h) - L1PA6(t)   |  26408  |  True  | L1PA6hou, L1PA6toi | chimpanzee 
