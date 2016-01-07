@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+import sys
+
+import os
 
 from gos_asm.evaluation.gos_asm_html import EvaluationExperiment, get_overall_html_report
 
@@ -27,6 +30,8 @@ experiments_to_evaluate = [
 ]
 
 if __name__ == "__main__":
+    print(os.getcwd())
+    print(sys.executable)
     for config_path in configs_for_experiments_to_run:
         os.system("{python_path} {gos_asm_path} {config_path}".format(
                 python_path=sys.executable,
