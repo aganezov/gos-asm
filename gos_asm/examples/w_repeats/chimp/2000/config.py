@@ -27,21 +27,26 @@ configuration = {
     "algorithm": {
         "executable_containers": [
             {
-                "reference": "stages"
+                "reference": "ec"
             }
         ],
-        "stages": [
+        "ec": [
             {
-                "name": "stage1",
+                "name": "ec_assembling",
                 "entries_names": [
-                "task_CCA"
+                    "task_CCA",
                 ]
-            }
+            },
+            # {
+            #     "name": "stage_MGRA",
+            #     "entries_names": [
+            #         "task_GG_MGRA",
+            #     ]
+            # }
         ],
 
         "pipeline": {
-            "entries_names": ["task_input", "stage1", "task_output"],
-            "self_loop": True
+            "entries_names": ["task_input", "wrapper_tMC_iterator", "task_output"]
         }
     }
 }

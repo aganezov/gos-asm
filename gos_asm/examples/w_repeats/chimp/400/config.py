@@ -6,7 +6,7 @@ exp_dir = os.path.dirname(__file__)
 configuration = {
     "experiment_name": "Chimp 400",
     "experiment_info": """
-        6 genomes are taken as input: Chimpanzee, Mouse, Rat, Dog, Opossum.
+        6 genomes are taken as input: Chimpanzee, Mouse, Rat, Dog, Cat, Opossum.
         Chimpanzee genome is fragment with repeats of length >= 400 bp
         All duplicated genes are filtered out.
         (((chimpanzee,(mouse, rat)),(cat,dog)),opossum); is utilized for observed genome set.
@@ -26,22 +26,23 @@ configuration = {
     },
     "algorithm": {
         "executable_containers": [
-            {
-                "reference": "stages"
-            }
+            #     {
+            #         "reference": "stages"
+            #     }
         ],
-        "stages": [
-            {
-                "name": "stage1",
-                "entries_names": [
-                "task_CCA"
-                ]
-            }
-        ],
+        # "stages": [
+        #     {
+        #         "name": "stage1",
+        #         "entries_names": [
+        #             "task_CCA"
+        #         ]
+        #     }
+        # ],
 
         "pipeline": {
-            "entries_names": ["task_input", "stage1", "task_output"],
-            "self_loop": True
+
+            "entries_names": ["task_input", "tmc_wrapper", "task_output"]
+
         }
     }
 }

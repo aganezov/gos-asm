@@ -60,4 +60,4 @@ target/
 .idea/
 tmp_utils/
 
-/*/output*/
+**/output*/
