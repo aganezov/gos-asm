@@ -30,6 +30,7 @@ if __name__ == "__main__":
         module = importlib.import_module(module_name)
         config = module.configuration
     except Exception as exc:
+        print(exc)
         print("Error importing configurations")
         exit(1)
     manager_config = recursive_dict_update(default_configuration.configuration, config)

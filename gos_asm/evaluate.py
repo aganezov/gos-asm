@@ -44,8 +44,8 @@ configs_for_experiments_to_run = [
 ]
 
 experiments_to_evaluate = [
-    # EvaluationExperiment(config_file_path=chimp400wr,
-    #                      evaluation_dir_path=os.path.join(current_dir, "examples", "w_repeats", "chimp", "400", "evaluation")),
+    EvaluationExperiment(config_file_path=chimp400wr,
+                         evaluation_dir_path=os.path.join(current_dir, "examples", "w_repeats", "chimp", "400", "evaluation")),
     EvaluationExperiment(config_file_path=chimp400wrMGRA,
                          evaluation_dir_path=os.path.join(current_dir, "examples", "w_repeats", "chimp", "400", "evaluation")),
     # EvaluationExperiment(config_file_path=chimp800wr,
@@ -66,14 +66,14 @@ experiments_to_evaluate = [
     #                      evaluation_dir_path=os.path.join(current_dir, "examples", "n_repeats", "chimp", "1600", "evaluation")),
     # EvaluationExperiment(config_file_path=chimp2000nr,
     #                      evaluation_dir_path=os.path.join(current_dir, "examples", "n_repeats", "chimp", "2000", "evaluation")),
-    # EvaluationExperiment(config_file_path=catDog2000wr,
-    #                      evaluation_dir_path=os.path.join(current_dir, "examples", "w_repeats", "cat_dog", "2000", "evaluation")),
-    # EvaluationExperiment(config_file_path=catDog2000wrMGRA,
-    #                      evaluation_dir_path=os.path.join(current_dir, "examples", "w_repeats", "cat_dog", "2000", "evaluation")),
-    # EvaluationExperiment(config_file_path=all_fragmented_Chimp400wr,
-    #                      evaluation_dir_path=os.path.join(current_dir, "examples", "w_repeats", "allChimp", "400", "evaluation")),
-    # EvaluationExperiment(config_file_path=all_fragmented_Chimp400wrMGRA,
-    #                      evaluation_dir_path=os.path.join(current_dir, "examples", "w_repeats", "allChimp", "400", "evaluation")),
+    EvaluationExperiment(config_file_path=catDog2000wr,
+                         evaluation_dir_path=os.path.join(current_dir, "examples", "w_repeats", "cat_dog", "2000", "evaluation")),
+    EvaluationExperiment(config_file_path=catDog2000wrMGRA,
+                         evaluation_dir_path=os.path.join(current_dir, "examples", "w_repeats", "cat_dog", "2000", "evaluation")),
+    EvaluationExperiment(config_file_path=all_fragmented_Chimp400wr,
+                         evaluation_dir_path=os.path.join(current_dir, "examples", "w_repeats", "allChimp", "400", "evaluation")),
+    EvaluationExperiment(config_file_path=all_fragmented_Chimp400wrMGRA,
+                         evaluation_dir_path=os.path.join(current_dir, "examples", "w_repeats", "allChimp", "400", "evaluation")),
 ]
 
 if __name__ == "__main__":
