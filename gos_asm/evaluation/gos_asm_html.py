@@ -97,7 +97,6 @@ def add_collapse_footer(result):
     result.append("</div>")
     result.append("</div>")
     result.append("</div>")
-    # result.append("</div>")
     result.append("</div>")
 
 
@@ -240,10 +239,10 @@ def get_html_report_experiment_entry(experiment):
         add_ap_table(genome_ap, result)
         add_collapse_footer(result=result)
         result.append("</div>")
-        result.append("<p>SCJ distance between produced assembly and a reference one: {scj_distance}</p>".format(scj_distance=scjs[genome]))
+        result.append("<p>SCJ distance between produced assembly and a reference one: <b>{scj_distance}</b></p>".format(scj_distance=scjs[genome]))
 
         result.append("<ul>")
-        total_cnt = len(assembly_point_evaluation)
+        total_cnt = len(genome_ap)
         result.append("<li><p>Total # of identified assembly points: <b>{ap_cnt}</b></p></li>".format(ap_cnt=total_cnt))
         hc_cnt = len([ap for ap in genome_ap if ap.HC])
 
@@ -291,7 +290,7 @@ def get_html_report_experiment_entry(experiment):
     add_ap_table(assembly_point_evaluation, result)
     add_collapse_footer(result=result)
 
-    result.append("<div class='row'>")
+    # result.append("<div class='row'>")
     result.append("<ul>")
     total_cnt = len(assembly_point_evaluation)
     result.append("<li><p>Total # of identified assembly points: <b>{ap_cnt}</b></p></li>".format(ap_cnt=total_cnt))
@@ -319,7 +318,7 @@ def get_html_report_experiment_entry(experiment):
         result.append("</div>")
     result.append("</div>")
 
-    overall_cnt = sum(genomes_fragmentation_total.values())
+    overall_cnt = sum([value for key, value in genomes_fragmentation_total.items() if key in target_genomes])
     result.append("<h5>Absolute portions of identified assembly points</h5>")
     result.append("<div class='progress'>")
 

@@ -5,6 +5,8 @@ from algo.data_structures.assemblies import AssemblyPoint
 from gos.tasks import BaseTask
 
 
+
+
 class Output(BaseTask):
     name = "task_output"
 

@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import itertools
+
 import os
 
 from algo.shared.bg import iter_over_all_repeats
@@ -6,6 +8,7 @@ from algo.shared.logging import log_bg_stats
 from bg import BreakpointGraph, Multicolor, BGGenome
 from bg.bg_io import GRIMMReader
 from bg.tree import NewickReader
+from copy import deepcopy
 from gos.tasks import BaseTask
 from networkx import Graph, DiGraph
 
@@ -64,15 +67,51 @@ class Input(BaseTask):
         bg = BreakpointGraph()
         for file_path in file_paths:
             with open(file_path, "rt") as source:
-                bg.update(breakpoint_graph=GRIMMReader.get_breakpoint_graph(stream=source), merge_edges=True)
+                bg.update(breakpoint_graph=GRIMMReader.get_breakpoint_graph(stream=source, merge_edges=False), merge_edges=False)
         manager.data["gos-asm"]["bg"] = bg
 
         manager.logger.info("Reading phylogenetic tree information")
         tree = NewickReader.from_string(data_string=manager.configuration["gos-asm"]["input"]["phylogenetic_tree"])
         manager.data["gos-asm"]["phylogenetic_tree"] = tree
 
-        manager.data["gos-asm"]["target_multicolor"] = Multicolor(*[BGGenome(genome_name) for genome_name in manager.configuration["gos-asm"]["input"]["target_organisms"]])
-        log_bg_stats(bg=bg, logger=manager.logger)
+        full_tmc = Multicolor(*[BGGenome(genome_name) for genome_name in manager.configuration["gos-asm"]["input"]["target_organisms"]])
+        manager.data["gos-asm"]["target_multicolor"] = full_tmc
+        tree_consistent_target_multicolors = Multicolor.split_colors(full_tmc,
+                                                                     guidance=tree.consistent_multicolors,
+                                                                     account_for_color_multiplicity_in_guidance=False)
+
+        for target_multicolor in tree_consistent_target_multicolors[:]:
+            for tree_c_multicolor in deepcopy(tree.consistent_multicolors):
+                if tree_c_multicolor <= target_multicolor \
+                        and tree_c_multicolor not in tree_consistent_target_multicolors \
+                        and len(tree_c_multicolor.colors) > 0:
+                    tree_consistent_target_multicolors.append(tree_c_multicolor)
+
+        tree_consistent_target_multicolors = sorted(tree_consistent_target_multicolors,
+                                                    key=lambda mc: len(mc.hashable_representation),
+                                                    reverse=True)
+
+        all_target_multicolors = tree_consistent_target_multicolors[:]
+        for i in range(2, len(tree_consistent_target_multicolors) + 1):
+            for comb in itertools.combinations(tree_consistent_target_multicolors[:], i):
+                comb = list(comb)
+                for mc1, mc2 in itertools.combinations(comb, 2):
+                    if len(mc1.intersect(mc2).colors) > 0:
+                        break
+                else:
+                    new_mc = Multicolor()
+                    for mc in comb:
+                        new_mc += mc
+                    all_target_multicolors.append(new_mc)
+        hashed_vertex_tree_consistent_multicolors = {mc.hashable_representation for mc in all_target_multicolors}
+        all_target_multicolors = [Multicolor(*hashed_multicolor) for hashed_multicolor in
+                                  hashed_vertex_tree_consistent_multicolors]
+        all_target_multicolors = sorted(all_target_multicolors,
+                                        key=lambda mc: len(mc.hashable_representation),
+                                        reverse=True)
+        manager.data["gos-asm"]["target_multicolors"] = all_target_multicolors
+        # log_bg_stats(bg=bg, logger=manager.logger)
 
         manager.logger.info("Reading repeats-bridges information")
-        manager.data["gos-asm"]["repeats_guidance"] = get_repeats_bridges_guidance(file_name=manager.configuration["gos-asm"]["input"]["repeats_bridges_file"], data=manager.data)
+        manager.data["gos-asm"]["repeats_guidance"] = get_repeats_bridges_guidance(
+            file_name=manager.configuration["gos-asm"]["input"]["repeats_bridges_file"], data=manager.data)

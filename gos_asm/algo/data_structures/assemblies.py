@@ -41,7 +41,7 @@ class AssemblyPoint(object):
         self.fragment1_sign = None if fr1_fo is None else ("+" if vertex1 == fr1_fo[0] else "-")
         fr2_fo = None if additional_information is None else get_from_dict_with_path(additional_information.iedge2.data,
                                                                                      key="forward_orientation", path=["fragment"])
-        self.fragment2_sign = None if fr1_fo is None else ("+" if vertex2 == fr2_fo[1] else "-")
+        self.fragment2_sign = None if fr2_fo is None else ("+" if vertex2 == fr2_fo[1] else "-")
         self.id = AssemblyPoint.id_cnt
         self.cc_id = cc_id
         AssemblyPoint.id_cnt += 1
@@ -53,37 +53,49 @@ class AssemblyPoint(object):
             return [self.fragment2, self.fragment2_sign, self.fragment1, self.fragment1_sign, self.vertex2, self.vertex1, self.info]
 
     def __str__(self):
+        repeat1 = str(self.info.repeat_info["repeat_name_1"]) + ("" if self.info.repeat_info[
+                                                   "repeat_dir_1"] is None else ("(" + str(self.info.repeat_info[
+                                                   "repeat_dir_1"]) + ")"))
+        repeat2 = str(self.info.repeat_info["repeat_name_2"]) + ("" if self.info.repeat_info[
+                                                   "repeat_dir_2"] is None else ("(" + str(self.info.repeat_info[
+                                                   "repeat_dir_2"]) + ")"))
         return self.logger_entry_string.format(vertex1=self.vertex1.name, vertex2=self.vertex2.name,
-                                               repeat1=self.info.repeat_info["repeat_name_1"] + "(" + self.info.repeat_info[
-                                                   "repeat_dir_1"] + ")",
-                                               repeat2=self.info.repeat_info["repeat_name_2"] + "(" + self.info.repeat_info[
-                                                   "repeat_dir_2"] + ")",
+                                               repeat1=repeat1,
+                                               repeat2=repeat2,
                                                s_edge_existed=str(self.info.support_edge is not None)
                                                )
 
     def as_logger_entry(self):
+        repeat1 = str(self.info.repeat_info["repeat_name_1"]) + ("" if self.info.repeat_info[
+                                                   "repeat_dir_1"] is None else ("(" + str(self.info.repeat_info[
+                                                   "repeat_dir_1"]) + ")"))
+        repeat2 = str(self.info.repeat_info["repeat_name_2"]) + ("" if self.info.repeat_info[
+                                                   "repeat_dir_2"] is None else ("(" + str(self.info.repeat_info[
+                                                   "repeat_dir_2"]) + ")"))
         return self.logger_entry_string.format(vertex1=self.vertex1.name, vertex2=self.vertex2.name,
                                                fragment1=("" if self.fragment1_sign == "+" else "-") + self.fragment1,
                                                fragment2=("" if self.fragment2_sign == "+" else "-") + self.fragment2,
                                                cc_id=self.cc_id,
-                                               repeat1=self.info.repeat_info["repeat_name_1"] + "(" + self.info.repeat_info[
-                                                   "repeat_dir_1"] + ")",
-                                               repeat2=self.info.repeat_info["repeat_name_2"] + "(" + self.info.repeat_info[
-                                                   "repeat_dir_2"] + ")",
+                                               repeat1=repeat1,
+                                               repeat2=repeat2,
                                                s_edge_existed=str(self.info.support_edge is not None),
                                                ap_id=self.id,
                                                repeat_guidance=str(self.info.repeat_info["repeat_guidance"]),
                                                genome=self.info.target_color.colors.pop().name)
 
     def as_assembly_points_file_entry_string(self):
+        repeat1 = str(self.info.repeat_info["repeat_name_1"]) + ("" if self.info.repeat_info[
+                                                   "repeat_dir_1"] is None else ("(" + str(self.info.repeat_info[
+                                                   "repeat_dir_1"]) + ")"))
+        repeat2 = str(self.info.repeat_info["repeat_name_2"]) + ("" if self.info.repeat_info[
+                                                   "repeat_dir_2"] is None else ("(" + str(self.info.repeat_info[
+                                                   "repeat_dir_2"]) + ")"))
         return self.assembly_point_file_entry.format(vertex1=self.vertex1.name, vertex2=self.vertex2.name,
                                                      fragment1=("" if self.fragment1_sign == "+" else "-") + self.fragment1,
                                                      fragment2=("" if self.fragment2_sign == "+" else "-") + self.fragment2,
                                                      cc_id=self.cc_id,
-                                                     repeat1=self.info.repeat_info["repeat_name_1"] + "(" + self.info.repeat_info[
-                                                         "repeat_dir_1"] + ")",
-                                                     repeat2=self.info.repeat_info["repeat_name_2"] + "(" + self.info.repeat_info[
-                                                         "repeat_dir_2"] + ")",
+                                                     repeat1=repeat1,
+                                                     repeat2=repeat2,
                                                      s_edge_existed=str(self.info.support_edge is not None),
                                                      ap_id=self.id,
                                                      repeat_guidance=", ".join(self.info.repeat_info["repeat_guidance"]),

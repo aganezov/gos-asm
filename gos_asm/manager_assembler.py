@@ -58,8 +58,12 @@ class AssemblyManager(Manager):
             os.path.join(current_file_name, "algo", "tasks", "asm"),
             os.path.join(current_file_name, "algo", "tasks", "io"),
             os.path.join(current_file_name, "algo", "tasks", "mgra")]
+        gos_asm_predefined_ec = [
+            os.path.join(current_file_name, "algo", "executable_containers", "wrappers.py"),
+        ]
         paths_list = self.configuration["algorithm"]["tasks"]["paths"]
         for gos_asm_predefined_task in gos_asm_predefined_tasks:
             if gos_asm_predefined_task not in paths_list:
                 paths_list.append(gos_asm_predefined_task)
+        self.configuration["algorithm"]["executable_containers"].append({"paths": gos_asm_predefined_ec})
         super().initiate_tasks()

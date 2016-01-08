@@ -13,7 +13,7 @@ configuration = {
         "output": {
             "debug_log_enabled": True,
             "debug_log_file": "debug.log",
-            "console_log_enabled": not is_running_under_teamcity(),
+            "console_log_enabled": True,
             "console_log_level": logging.DEBUG,
             "assembly_points_file": "assembly_points.txt",
             "output_chains": True,
@@ -27,16 +27,16 @@ configuration = {
             "paths": []
         },
         "executable_containers": [
-            {
-                "reference": "stages"
-            },
+            # {
+            #     "reference": "stages"
+            # },
         ],
-        "stages": [
-            {
-                "name": "stage1",
-                "entries_names": ["task_input", "task_CCA"]
-            }
-        ],
+        # "stages": [
+        #     {
+        #         "name": "stage1",
+        #         "entries_names": ["task_input", "task_CCA"]
+        #     }
+        # ],
 
         "pipeline": {
             "entries_names": ["stage1"],
