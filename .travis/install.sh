@@ -3,6 +3,7 @@
 if [ "$TRAVIS_OS_NAME" = 'osx' ]; then
     brew update
     brew install wget
+    brew install --with-clang llvm
     if [[ "$PYTHON" == "2.7" ]]; then
       wget https://repo.continuum.io/miniconda/Miniconda2-latest-MacOSX-x86_64.sh -O miniconda.sh;
     else
@@ -17,7 +18,6 @@ if [ "$TRAVIS_OS_NAME" = 'osx' ]; then
     conda info -a
     conda create -n test-environment python=$PYTHON
     source activate test-environment
-    conda install clang
 fi
 
 if [ "$TRAVIS_OS_NAME" = 'linux' ]; then
@@ -35,10 +35,8 @@ if [ "$TRAVIS_OS_NAME" = 'linux' ]; then
     conda info -a
     conda create -n test-environment python=$TRAVIS_PYTHON_VERSION
     source activate test-environment
-    conda install gcc
 fi
 
-conda install libgcc
 conda install make
 conda install cmake
 conda install git
