@@ -2,6 +2,9 @@
 import os
 
 exp_dir = os.path.dirname(__file__)
+mgra_path = os.environ.get('MGRA_PATH', None)
+if mgra_path is None:
+    mgra_path = "indel_mgra"
 
 configuration = {
     "experiment_name": "Chimp 2000",
@@ -25,7 +28,7 @@ configuration = {
         }
     },
     "mgra": {
-            "executable_path": "/Users/aganezov/test_mgra_gos_asm/mgra/build/src/mgra/indel_mgra",
+            "executable_path": mgra_path,
         },
     "algorithm": {
         "executable_containers": [

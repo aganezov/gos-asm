@@ -1,0 +1,47 @@
+language: python
+python:
+  - 2.7
+  - 3.5
+  - 3.6
+
+os:
+  - linux
+sudo: required
+
+matrix:
+  include:
+    - python: 3.7
+      dist: xenial
+      sudo: true
+
+    - os: osx
+      osx_image: xcode9.4
+      language: generic
+      env:
+        - PYTHON=2.7
+    - os: osx
+      osx_image: xcode9.4
+      language: generic
+      env:
+        - PYTHON=3.5
+    - os: osx
+      osx_image: xcode9.4
+      language: generic
+      env:
+        - PYTHON=3.6
+    - os: osx
+      osx_image: xcode9.4
+      language: generic
+      env:
+        - PYTHON=3.7
+
+before_install:
+  - sudo chmod +x .travis/install.sh && sudo chown $USER .travis/install.sh && /bin/bash .travis/install.sh
+
+install:
+  - echo $MGRA_PATH
+  - python setup.py develop
+
+script:
+  - echo $MGRA_PATH
+  - gos-asm.py gos_asm/examples/w_repeats/chimp/2000/config.py
