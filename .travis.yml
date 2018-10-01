@@ -38,7 +38,7 @@ matrix:
 before_install:
   - sudo chmod +x .travis/install.sh && sudo chown $USER .travis/install.sh && /bin/bash .travis/install.sh
 
-install
+install:
   - export MGRA_PATH="$HOME/mgra/build/src/mgra/indel_mgra"
   - echo $MGRA_PATH
   - python setup.py develop
