@@ -2,17 +2,18 @@
 import itertools
 
 import networkx as nx
-from gos_asm.algo.shared.logging import log_bg_stats
-from gos_asm.algo.tasks.asm.shared import suitable_for_assembly_fragment_ends_vertex, get_irregular_edge_by_vertex_color, get_repeat_guidance, \
-    assembly_is_allowed, get_repeat_entry
 from bg.multicolor import Multicolor
 from bg.utils import get_from_dict_with_path
 from gos.tasks import BaseTask
+from networkx import Graph
+
 from gos_asm.algo.data_structures.assemblies import AssemblyPoint, AssemblyPointInfo
 from gos_asm.algo.shared.assembly_point import non_conflicting_evolutionary_scenarios, get_assembly_score
-from gos_asm.algo.shared.bg import create_k_break_from_assembly_point, get_full_irregular_multicolor, get_balance_graph
-from gos_asm.algo.shared.bg import get_repeat_info
-from networkx import Graph
+from gos_asm.algo.shared.gos_asm_bg import create_k_break_from_assembly_point, get_full_irregular_multicolor, get_balance_graph
+from gos_asm.algo.shared.gos_asm_bg import get_repeat_info
+from gos_asm.algo.shared.gos_asm_logging import log_bg_stats
+from gos_asm.algo.tasks.asm.shared import suitable_for_assembly_fragment_ends_vertex, get_irregular_edge_by_vertex_color, get_repeat_guidance, \
+    assembly_is_allowed, get_repeat_entry
 
 
 class ConnectedComponentAssemblyTask(BaseTask):

@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
-from gos_asm.algo.data_structures.assemblies import AssemblyPointInfo
-from bg.multicolor import Multicolor
-from gos_asm.algo.data_structures.evolutionary_scenarios import EvolutionaryScenario
-from gos_asm.algo.shared.bg import has_edge_between_two_vertices, get_irregular_vertex, get_repeat_info, get_full_support_edge, \
-    get_regular_vertex, get_full_irregular_multicolor
 from copy import deepcopy
+
+from bg.multicolor import Multicolor
+
+from gos_asm.algo.data_structures.evolutionary_scenarios import EvolutionaryScenario
 
 non_conflicting_evolutionary_scenarios = [
     ("000",

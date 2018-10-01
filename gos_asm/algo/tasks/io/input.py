@@ -1,19 +1,17 @@
 # -*- coding: utf-8 -*-
-import itertools
 
 import os
+from copy import deepcopy
 
-from gos_asm.algo.shared.bg import iter_over_all_repeats
-from gos_asm.algo.shared.logging import log_bg_stats
 from bg.breakpoint_graph import BreakpointGraph
-from bg.multicolor import Multicolor
 from bg.genome import BGGenome
 from bg.grimm import GRIMMReader
+from bg.multicolor import Multicolor
 from bg.tree import BGTree
-
-from copy import deepcopy
 from gos.tasks import BaseTask
-from networkx import Graph, DiGraph
+from networkx import DiGraph
+
+from gos_asm.algo.shared.gos_asm_bg import iter_over_all_repeats
 
 
 def get_repeats_bridges_guidance(file_name, data):

@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-from gos_asm.algo.shared.bg import iter_over_all_repeats
-from bg.multicolor import Multicolor
 from gos.executable_containers import ExecutableContainer
-from networkx import DiGraph
 
 
 def string_representation_of_multicolor(multicolor):
@@ -22,7 +19,7 @@ class TargetMulticolorSwitcher(ExecutableContainer):
             manager.logger.info("="*80)
             manager.logger.info("Current multicolor for assembling is: {color}".format(color=", ".join(color.name for color in tmc.colors)))
             manager.data["gos-asm"]["target_multicolor"] = tmc
-            super().run(manager=manager)
+            super(TargetMulticolorSwitcher, self).run(manager=manager)
 
 
 class TargetMulticolorSwitcherCCA(TargetMulticolorSwitcher):
@@ -74,7 +71,7 @@ class CyclicIdentification(ExecutableContainer):
         if "assembly_points" not in manager.data["gos-asm"]:
             manager.data["gos-asm"]["assembly_points"] = []
         before = len(manager.data["gos-asm"]["assembly_points"])
-        super().run(manager=manager)
+        super(CyclicIdentification, self).run(manager=manager)
         self.do_self_loop = len(manager.data["gos-asm"]["assembly_points"]) - before > 0
 
 
@@ -82,7 +79,7 @@ class CyclicMGRACCA(CyclicIdentification):
     name = "cyclic_wrapper_MGRA_CCA"
 
     def setup(self):
-        super().setup()
+        super(CyclicMGRACCA, self).setup()
         self.entries_names = ['task_GG_MGRA', 'tmc_wrapper_MGRA_CCA']
 
 
@@ -90,5 +87,5 @@ class CyclicMGRACCABalanced(CyclicIdentification):
     name = 'cyclic_wrapper_MGRA_CCA_balanced'
 
     def setup(self):
-        super().setup()
+        super(CyclicMGRACCABalanced, self).setup()
         self.entries_names = ['task_GG_MGRA', 'tmc_wrapper_MGRA_CCA_balanced']

@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 import json
-
 import os
+
 from bg.breakpoint_graph import BreakpointGraph
 from bg.grimm import GRIMMWriter, GRIMMReader
 from bg.utils import get_from_dict_with_path
-
 from gos.tasks import BaseTask
 
 

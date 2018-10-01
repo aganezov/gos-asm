@@ -2,11 +2,13 @@
 # -*- coding: utf-8 -*-
 
 import argparse
-import sys
 import importlib
 import os
-from gos_asm.algo import default_configuration
+import sys
+
 from bg.utils import recursive_dict_update
+
+from gos_asm.algo import default_configuration
 from gos_asm.manager_assembler import AssemblyManager
 
 current_dir = os.path.dirname(__file__)

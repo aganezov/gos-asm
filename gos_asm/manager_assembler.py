@@ -8,7 +8,7 @@ from gos.manager import Manager
 class AssemblyManager(Manager):
     def __init__(self, config):
 
-        super().__init__(config=config)
+        super(AssemblyManager, self).__init__(config=config)
         self.logger = logging.getLogger("GOS-ASM")
         self.logger.setLevel(logging.DEBUG)
 
@@ -66,4 +66,4 @@ class AssemblyManager(Manager):
             if gos_asm_predefined_task not in paths_list:
                 paths_list.append(gos_asm_predefined_task)
         self.configuration["algorithm"]["executable_containers"].append({"paths": gos_asm_predefined_ec})
-        super().initiate_tasks()
+        super(AssemblyManager, self).initiate_tasks()
