@@ -35,7 +35,7 @@ if [ "$TRAVIS_OS_NAME" = 'linux' ]; then
 fi
 
 source activate test-environment
-conda install gcc
+conda install clang
 conda install make
 conda install cmake
 conda install git
