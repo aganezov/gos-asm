@@ -8,7 +8,7 @@ except ImportError:
 setup(name='gos-asm',
       version='0.0.0-a',
       description='Multi-genome gene order based assembler',
-      install_requires=list(map(lambda entry: entry.strip(), open("requirements.txt", "rt").readlines())),
+      install_requires=["gos"],
       author='Sergey Aganezov',
       author_email='aganezov@gwu.edu',
       license="LGPLv3",
