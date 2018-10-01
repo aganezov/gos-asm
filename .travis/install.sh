@@ -46,4 +46,3 @@ mkdir build
 cd build
 cmake ../
 make
-export MGRA_PATH="$HOME/mgra/build/src/mgra/indel_mgra"
