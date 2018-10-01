@@ -56,7 +56,11 @@ before_install:
   - sudo chmod +x .travis/install.sh && sudo chown $USER .travis/install.sh && /bin/bash .travis/install.sh
 
 install:
-  - export MGRA_PATH="/home/travis/build/aganezov/gos-asm/mgra/build/src/mgra/indel_mgra"
+  - if [ "$TRAVIS_OS_NAME" = 'osx' ]; then
+      export MGRA_PATH="/Users/travis/build/aganezov/gos-asm/mgra/build/src/mgra/indel_mgra";
+    else
+      export MGRA_PATH="/home/travis/build/aganezov/gos-asm/mgra/build/src/mgra/indel_mgra";
+    fi
   - echo $MGRA_PATH
   - python setup.py develop
 
