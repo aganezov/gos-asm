@@ -16,6 +16,8 @@ if [ "$TRAVIS_OS_NAME" = 'osx' ]; then
     # Useful for debugging any issues with conda
     conda info -a
     conda create -n test-environment python=$PYTHON
+    source activate test-environment
+    conda install clang
 fi
 
 if [ "$TRAVIS_OS_NAME" = 'linux' ]; then
@@ -32,10 +34,10 @@ if [ "$TRAVIS_OS_NAME" = 'linux' ]; then
     # Useful for debugging any issues with conda
     conda info -a
     conda create -n test-environment python=$TRAVIS_PYTHON_VERSION
+    source activate test-environment
+    conda install gcc
 fi
 
-source activate test-environment
-conda install gcc
 conda install libgcc
 conda install make
 conda install cmake
