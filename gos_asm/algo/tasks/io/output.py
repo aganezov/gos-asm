@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
-from algo.data_structures.assemblies import AssemblyPoint
+from gos_asm.algo.data_structures.assemblies import AssemblyPoint
 
 from gos.tasks import BaseTask
 

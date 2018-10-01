@@ -7,8 +7,8 @@ except ImportError:
 
 setup(name='gos-asm',
       version='0.0.0-a',
-      description='Multi-genome gene order based assembler',
-      install_requires=["gos"],
+      description='Multi-genome gene order based scaffold assembler',
+      install_requires=["gos", "bg", "enum-compat", "networkx"],
       author='Sergey Aganezov',
       author_email='aganezov@gwu.edu',
       license="LGPLv3",

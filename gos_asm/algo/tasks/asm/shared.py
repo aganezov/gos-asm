@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import networkx as nx
 import networkx.exception
-from algo.shared.bg import get_full_irregular_multicolor, get_repeat_info
+from gos_asm.algo.shared.bg import get_full_irregular_multicolor, get_repeat_info
 
 
 def suitable_for_assembly_fragment_ends_vertex(graph, reg_vertex, target_multicolor):

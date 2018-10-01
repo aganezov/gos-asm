@@ -2,8 +2,8 @@
 import itertools
 
 import networkx as nx
-from algo.shared.logging import log_bg_stats
-from algo.tasks.asm.shared import suitable_for_assembly_fragment_ends_vertex, get_irregular_edge_by_vertex_color, get_repeat_guidance, \
+from gos_asm.algo.shared.logging import log_bg_stats
+from gos_asm.algo.tasks.asm.shared import suitable_for_assembly_fragment_ends_vertex, get_irregular_edge_by_vertex_color, get_repeat_guidance, \
     assembly_is_allowed, get_repeat_entry
 from bg.multicolor import Multicolor
 from bg.utils import get_from_dict_with_path

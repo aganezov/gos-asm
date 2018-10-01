@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import logging
-from teamcity import is_running_under_teamcity
 
 configuration = {
     "gos-asm": {

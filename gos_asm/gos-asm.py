@@ -5,7 +5,7 @@ import argparse
 import sys
 import importlib
 import os
-from algo import default_configuration
+from gos_asm.algo import default_configuration
 from bg.utils import recursive_dict_update
 from gos_asm.manager_assembler import AssemblyManager
 

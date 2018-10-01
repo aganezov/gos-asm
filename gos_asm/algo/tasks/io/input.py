@@ -3,8 +3,8 @@ import itertools
 
 import os
 
-from algo.shared.bg import iter_over_all_repeats
-from algo.shared.logging import log_bg_stats
+from gos_asm.algo.shared.bg import iter_over_all_repeats
+from gos_asm.algo.shared.logging import log_bg_stats
 from bg.breakpoint_graph import BreakpointGraph
 from bg.multicolor import Multicolor
 from bg.genome import BGGenome

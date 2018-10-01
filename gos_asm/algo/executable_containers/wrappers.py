@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from algo.shared.bg import iter_over_all_repeats
+from gos_asm.algo.shared.bg import iter_over_all_repeats
 from bg.multicolor import Multicolor
 from gos.executable_containers import ExecutableContainer
 from networkx import DiGraph
