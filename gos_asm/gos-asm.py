@@ -7,11 +7,11 @@ import importlib
 import os
 from algo import default_configuration
 from bg.utils import recursive_dict_update
+from gos_asm.manager_assembler import AssemblyManager
 
 current_dir = os.path.dirname(__file__)
 sys.path.insert(0, os.path.join(current_dir, ".."))
 
-from gos_asm.manager_assembler import AssemblyManager
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Gene order based scaffolder")

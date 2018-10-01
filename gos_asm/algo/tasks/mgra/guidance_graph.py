@@ -2,8 +2,8 @@
 import json
 
 import os
-from bg import BreakpointGraph
-from bg.bg_io import GRIMMWriter, GRIMMReader
+from bg.breakpoint_graph import BreakpointGraph
+from bg.grimm import GRIMMWriter, GRIMMReader
 from bg.utils import get_from_dict_with_path
 
 from gos.tasks import BaseTask
@@ -19,7 +19,6 @@ class ObtainGuidanceGraph(BaseTask):
         for bggenome in overall_set_of_colors:
             genomes.append({
                 "priority_name": bggenome.name
-                # "aliases": [bggenome.name]
             })
         result["genomes"] = genomes
         result["format_of_blocks"] = "grimm"

@@ -24,29 +24,18 @@ configuration = {
             "dir": os.path.join(exp_dir, "output")
         }
     },
+    "mgra": {
+            "executable_path": "/Users/aganezov/test_mgra_gos_asm/mgra/build/src/mgra/indel_mgra",
+        },
     "algorithm": {
         "executable_containers": [
-            {
-                "reference": "ec"
-            }
         ],
-        "ec": [
-            {
-                "name": "ec_assembling",
-                "entries_names": [
-                    "task_CCA",
-                ]
-            },
-            # {
-            #     "name": "stage_MGRA",
-            #     "entries_names": [
-            #         "task_GG_MGRA",
-            #     ]
-            # }
-        ],
-
         "pipeline": {
-            "entries_names": ["task_input", "wrapper_tMC_iterator", "task_output"]
+            "entries_names": ["task_input",                         # reading data
+                              "tmc_wrapper_CCA_balanced",           #   ###
+                              "cyclic_wrapper_MGRA_CCA_balanced",   #   Assembly points detection
+                              "tmc_wrapper_phylo",                  #   ###
+                              "task_output"]                        # outputting data
         }
     }
 }

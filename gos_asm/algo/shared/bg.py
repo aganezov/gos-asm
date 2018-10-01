@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
-from bg import Multicolor, BGEdge, KBreak
+from bg.multicolor import Multicolor
+from bg.edge import BGEdge
+from bg.kbreak import KBreak
+from bg.breakpoint_graph import BreakpointGraph
 
 
 def has_edge_between_two_vertices(vertex1, vertex2, data):
@@ -68,3 +71,30 @@ def iter_over_all_repeats(bg, multicolor):
     for edge in bg.edges():
         if edge.is_repeat_edge and multicolor <= edge.multicolor:
             yield get_repeat_info(edge)
+
+
+def get_overall_incident_from_vertex(bg, vertex):
+    result = Multicolor()
+    for edge in bg.get_edges_by_vertex(vertex):
+        result += edge.multicolor
+    return result
+
+
+def get_balance_graph(breakpoint_graph):
+    result = BreakpointGraph()
+    result.update(breakpoint_graph, merge_edges=False)
+    overall_multicolor = Multicolor(*breakpoint_graph.get_overall_set_of_colors())
+    balanced = set()
+    for vertex in (v for v in breakpoint_graph.nodes() if v.is_regular_vertex):
+        vertex_multicolor = get_overall_incident_from_vertex(bg=breakpoint_graph, vertex=vertex)
+        missing_multicolor = overall_multicolor - vertex_multicolor
+        if len(missing_multicolor.colors) > 0:
+            if vertex in balanced:
+                continue
+            for color in missing_multicolor.colors:
+                mc = Multicolor(color)
+                result.add_edge(vertex1=vertex, vertex2=vertex.mate_vertex, multicolor=mc,
+                                merge=False)
+            balanced.add(vertex)
+            balanced.add(vertex.mate_vertex)
+    return result

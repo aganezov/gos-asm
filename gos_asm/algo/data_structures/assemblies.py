@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-from bg import BGGenome, Multicolor
+from bg.genome import BGGenome
+from bg.multicolor import Multicolor
 from bg.utils import get_from_dict_with_path
 
 

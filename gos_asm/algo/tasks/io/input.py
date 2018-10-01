@@ -5,9 +5,12 @@ import os
 
 from algo.shared.bg import iter_over_all_repeats
 from algo.shared.logging import log_bg_stats
-from bg import BreakpointGraph, Multicolor, BGGenome
-from bg.bg_io import GRIMMReader
-from bg.tree import NewickReader
+from bg.breakpoint_graph import BreakpointGraph
+from bg.multicolor import Multicolor
+from bg.genome import BGGenome
+from bg.grimm import GRIMMReader
+from bg.tree import BGTree
+
 from copy import deepcopy
 from gos.tasks import BaseTask
 from networkx import Graph, DiGraph
@@ -71,38 +74,38 @@ class Input(BaseTask):
         manager.data["gos-asm"]["bg"] = bg
 
         manager.logger.info("Reading phylogenetic tree information")
-        tree = NewickReader.from_string(data_string=manager.configuration["gos-asm"]["input"]["phylogenetic_tree"])
+        tree = BGTree(newick=manager.configuration["gos-asm"]["input"]["phylogenetic_tree"])
         manager.data["gos-asm"]["phylogenetic_tree"] = tree
 
         full_tmc = Multicolor(*[BGGenome(genome_name) for genome_name in manager.configuration["gos-asm"]["input"]["target_organisms"]])
         manager.data["gos-asm"]["target_multicolor"] = full_tmc
-        tree_consistent_target_multicolors = Multicolor.split_colors(full_tmc,
-                                                                     guidance=tree.consistent_multicolors,
-                                                                     account_for_color_multiplicity_in_guidance=False)
+        vtree_consistent_target_multicolors = Multicolor.split_colors(full_tmc,
+                                                                      guidance=tree.vtree_consistent_multicolors,
+                                                                      account_for_color_multiplicity_in_guidance=False)
 
-        for target_multicolor in tree_consistent_target_multicolors[:]:
-            for tree_c_multicolor in deepcopy(tree.consistent_multicolors):
-                if tree_c_multicolor <= target_multicolor \
-                        and tree_c_multicolor not in tree_consistent_target_multicolors \
-                        and len(tree_c_multicolor.colors) > 0:
-                    tree_consistent_target_multicolors.append(tree_c_multicolor)
+        for target_multicolor in vtree_consistent_target_multicolors[:]:
+            for vtree_c_multicolor in deepcopy(tree.vtree_consistent_multicolors):
+                if vtree_c_multicolor <= target_multicolor \
+                        and vtree_c_multicolor not in vtree_consistent_target_multicolors \
+                        and len(vtree_c_multicolor.colors) > 0:
+                    vtree_consistent_target_multicolors.append(vtree_c_multicolor)
 
-        tree_consistent_target_multicolors = sorted(tree_consistent_target_multicolors,
-                                                    key=lambda mc: len(mc.hashable_representation),
-                                                    reverse=True)
+        vtree_consistent_target_multicolors = sorted(vtree_consistent_target_multicolors,
+                                                     key=lambda mc: len(mc.hashable_representation),
+                                                     reverse=True)
 
-        all_target_multicolors = tree_consistent_target_multicolors[:]
-        for i in range(2, len(tree_consistent_target_multicolors) + 1):
-            for comb in itertools.combinations(tree_consistent_target_multicolors[:], i):
-                comb = list(comb)
-                for mc1, mc2 in itertools.combinations(comb, 2):
-                    if len(mc1.intersect(mc2).colors) > 0:
-                        break
-                else:
-                    new_mc = Multicolor()
-                    for mc in comb:
-                        new_mc += mc
-                    all_target_multicolors.append(new_mc)
+        all_target_multicolors = vtree_consistent_target_multicolors[:]
+        # for i in range(2, len(vtree_consistent_target_multicolors) + 1):
+        #     for comb in itertools.combinations(vtree_consistent_target_multicolors[:], i):
+        #         comb = list(comb)
+        #         for mc1, mc2 in itertools.combinations(comb, 2):
+        #             if len(mc1.intersect(mc2).colors) > 0:
+        #                 break
+        #         else:
+        #             new_mc = Multicolor()
+        #             for mc in comb:
+        #                 new_mc += mc
+        #             all_target_multicolors.append(new_mc)
         hashed_vertex_tree_consistent_multicolors = {mc.hashable_representation for mc in all_target_multicolors}
         all_target_multicolors = [Multicolor(*hashed_multicolor) for hashed_multicolor in
                                   hashed_vertex_tree_consistent_multicolors]
