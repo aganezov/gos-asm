@@ -42,6 +42,7 @@ conda install git
 git clone --single-branch -b gos-asm https://github.com/compbiol/mgra.git
 cd mgra
 mkdir build
+cd build
 cmake ../
 make
 export MGRA_PATH="$HOME/mgra/build/src/mgra/indel_mgra"
