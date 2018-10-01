@@ -46,3 +46,5 @@ mkdir build
 cd build
 cmake ../
 make
+pwd
+ls -lh
