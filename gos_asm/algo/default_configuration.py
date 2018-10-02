@@ -1,5 +1,11 @@
 # -*- coding: utf-8 -*-
 import logging
+import os
+
+exp_dir = os.path.dirname(__file__)
+mgra_path = os.environ.get('MGRA_PATH', None)
+if mgra_path is None:
+    mgra_path = "indel_mgra"
 
 configuration = {
     "gos-asm": {
@@ -21,6 +27,9 @@ configuration = {
             "filtered_chains_file": "filtered_chains.txt"
         },
     },
+    "mgra": {
+        "executable_path": mgra_path,
+    },
     "algorithm": {
         "tasks": {
             "paths": []
@@ -38,8 +47,11 @@ configuration = {
         # ],
 
         "pipeline": {
-            "entries_names": ["stage1"],
-            "self_loop": True
+            "entries_names": ["task_input",  # reading data
+                              "tmc_wrapper_CCA_balanced",  # ###
+                              "cyclic_wrapper_MGRA_CCA_balanced",  # Assembly points detection
+                              "tmc_wrapper_phylo",  # ###
+                              "task_output"]  # outputting data
         }
     }
 }
