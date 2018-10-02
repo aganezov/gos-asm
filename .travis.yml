@@ -66,5 +66,5 @@ install:
 
 script:
   - echo $MGRA_PATH
-  - gos-asm.py gos_asm/examples/w_repeats/chimp/2000/config.py
-  - gos-asm.py gos_asm/examples/n_repeats/chimp/2000/config.py
+  - travis_wait 30 gos-asm.py gos_asm/examples/w_repeats/chimp/2000/config.py
+  - travis_wait 30 gos-asm.py gos_asm/examples/n_repeats/chimp/2000/config.py
