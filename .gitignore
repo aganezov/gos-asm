@@ -61,6 +61,7 @@ gos-asm-env/
 
 # PyBuilder
 target/
+conda_gos-asm/
 
 .idea/
 tmp_utils/
