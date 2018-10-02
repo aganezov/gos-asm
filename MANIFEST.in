@@ -1,2 +1,3 @@
 include LICENSE MANIFEST.in README.md
 recursive-include gos_asm/examples/w_repeats/chimp/2000 *
+recursive-include gos_asm/examples/n_repeats/chimp/2000 *
