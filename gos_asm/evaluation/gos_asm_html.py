@@ -5,10 +5,12 @@ from collections import defaultdict
 import os
 import sys
 
-from algo import default_configuration
-from algo.data_structures.assemblies import AssemblyPoint
+from gos_asm.algo import default_configuration
+from gos_asm.algo.data_structures.assemblies import AssemblyPoint
 
-from bg import BreakpointGraph, GRIMMReader, BGGenome
+from bg.breakpoint_graph import BreakpointGraph
+from bg.grimm import GRIMMReader
+from bg.genome import BGGenome
 from bg.distances import single_cut_and_join_distance
 from bg.utils import recursive_dict_update
 from networkx import Graph

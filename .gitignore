@@ -8,6 +8,11 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
+gos_asm/examples/
+gos_asm/evaluation/
+gos_asm/examples/w_repeats/chimp/2000/evaluation/
+gos_asm/examples/w_repeats/chimp/2000/output/
+!gos_asm/examples/w_repeats/chimp/2000/
 build/
 develop-eggs/
 dist/
