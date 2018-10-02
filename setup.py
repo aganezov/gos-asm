@@ -6,7 +6,7 @@ except ImportError:
     from distutils.core import setup
 
 setup(name='gos-asm',
-      version='0.9',
+      version='0.10',
       description='Multi-genome gene order based scaffold assembler',
       install_requires=["gos", "bg", "enum-compat", "networkx"],
       author='Sergey Aganezov',
